@@ -1,0 +1,19 @@
+save_as: reports/session-62/index.html
+url: reports/session-62
+title: گزارش جلسه ۶۲‌م
+layout: page
+author: mahdi
+date: 2010-12-16 21:38:00
+meta: date by mahdi on Thu, 12/16/2010 - 21:38
+category: reports
+
+جلسه ۶۲‌م مشهدلاگ در پنجشنبه ۲۵‌م آذر ۱۳۸۹ با حضور ۱۰ نفر از اعضا تشکیل شد...
+
+
+<!--more-->
+
+
+
+مهم‌ترین موضوعاتی که در این جلسه به آن‌ها پرداخته شد:  
+نکته خط فرمان  
+اخبار لینوکس

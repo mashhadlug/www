@@ -1,0 +1,15 @@
+<ul class="top-navbar col-md-12 list-unstyled">
+  {% for page in pages|sort(attribute='navbar_order') %}
+    {% if page.title %}
+    <li class="col-md-2 col-sm-3 col-xs-6 {{ 'active' if page_name == page.slug }}">
+      <a href="{{ SITEURL }}/{{ page.url }}" title="{{ page.title }}">
+        <img src="{{ page.navbar_icon }}" alt="{{ page.title }}" />
+        <h4>
+          {{ page.navbar_title|default(page.title) }}
+        </h4>
+        <p>{{ page.navbar_description|default(page.description) }}</p>
+      </a>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>

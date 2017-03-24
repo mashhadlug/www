@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{%endblock%}
+{% block content %}
+<div class="reports">
+  {% for report in articles | selectattr('category', 'equalto', 'reports') %}
+  <div class="report col-md-12 col-sm-12 col-xs-12">
+    <h2 class="text-center">
+      <a class href="{{ SITEURL }}/{{ report.url }}">{{ report.title }}</a>
+    </h2>
+    {% if report.printable_date %}
+    <p class="text-center text-muted">{{ report.printable_date }}</p>
+    {% endif %}
+    <p>
+      {{ report.summary }}
+    </p>
+    <hr/>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

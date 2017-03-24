@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="reports">
+  {% block content_title %}{% endblock %}
+  {% for article in articles_page.object_list %}
+  <div class="report col-md-12 col-sm-12 col-xs-12 {{ 'hidden' if loop.index > 10 }}">
+    <h2 class="text-center">
+      <a class href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+    </h2>
+    {% if article.printable_date %}
+    <p class="text-center text-muted">{{ article.printable_date }}</p>
+    {% endif %}
+    <p>
+      {{ article.summary }}
+    </p>
+    <hr/>
+  </div>
+  {% endfor %}
+  {% if articles_page.has_other_pages() %}
+    {% include 'pagination.html' %}
+  {% endif %}
+</div>
+{% endblock content %}

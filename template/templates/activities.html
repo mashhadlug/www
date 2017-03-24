@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}{{ page.title }}{%endblock%}
+{% block content %}
+  <div class="activities">
+    {% for entry in articles | selectattr("category", "equalto", "activities") %}
+    <div class="activity col-md-6 col-sm-6 col-xs-12">
+      <a href="{{ entry.url }}">
+        <h4>{{ entry.title }}</h4>
+      </a>
+      {% if entry.thumb %}
+      <img class="img-responsive img-rounded text-center" src="{{ SITEURL }}/{{ entry.thumb }}" alt="{{ entry.title }}">
+      {% else %}
+      <img class="img-responsive text-center" src="{{ SITEURL }}/theme/images/activity_image_picture.png" alt="{{ entry.title }}">
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+{% endblock %}

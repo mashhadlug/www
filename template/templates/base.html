@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- RSS -->
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
+        <!-- FAVICON -->
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <title>{{ SITENAME }} | {% block title %}{% endblock %}</title>
+        <!-- Stylesheets -->
+        <link href="{{ SITEURL }}/theme/css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{ SITEURL }}/theme/css/bootstrap-rtl.min.css" rel="stylesheet">
+        <link href="{{ SITEURL }}/theme/css/font-awesome.css" rel="stylesheet">
+        <link href="{{ SITEURL }}/theme/css/style.css" rel="stylesheet">
+
+        <!-- Javascript -->
+        <script src="{{ SITEURL }}/theme/js/jquery.min.js"></script>
+        <script src="{{ SITEURL }}/theme/js/jquery.plugin.js"></script>
+        <script src="{{ SITEURL }}/theme/js/bootstrap.min.js"></script>
+        <script src="{{ SITEURL }}/theme/js/jquery.countdown.min.js"></script>
+        <script src="{{ SITEURL }}/theme/js/jquery.countdown-fa.js"></script>
+        <script src="{{ SITEURL }}/theme/js/jquery.timeago.js"></script>
+        <script src="{{ SITEURL }}/theme/js/jquery.timeago.fa.js"></script>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        {% endblock head %}
+    </head>
+    <body>
+      <div class="cover {{ 'mini' if page_name != 'index' }}">
+        <div class="container">
+          <div class="row">
+            <div class="logo">
+              <a href="{{ SITEURL }}"><img src="{{ SITEURL }}/theme/images/MashhadLUGtop.png" alt="{{ SITENAME }}/" /></a>
+            </div>
+            <div class="slogan">
+              <h1>{{ SITENAME }}</h1>
+              <h2 class="hidden-xs">{{ SITESUBTITLE }}</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% block navbar %}{% endblock %}
+      <div class="">
+        <div class="container">
+          <div class="row">
+            {% include 'navbar.html' %}
+          </div>
+          <div class="row">
+            {% block content %}{% endblock %}
+          </div>
+        </div>
+      </div>
+      {% include 'footer.html' %}
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('.timer').timeago()
+          $('.event-timer').each(function(){
+            var due_date_attr = $(this).attr('data-time')
+            var due_date_timestamp = Date.parse(due_date_attr)
+            var due_date = new Date(due_date_timestamp)
+            console.log(due_date_attr, due_date_timestamp, due_date)
+            $(this).countdown({
+              until: due_date,
+              layout: $(this).html()
+            });
+          })
+        })
+      </script>
+    </body>
+<noscript>
+    <body id="index" class="archive">
+        <div class="container">
+            <div class="header">
+                <ul class="nav nav-pills pull-right">
+                    <li class="{% block navclass %}{{ NAVCLASS }}{% endblock navclass %}"><a href="{{ SITEURL }}">Home</a></li>
+                {% for p in pages %}
+                    <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                {% endfor %}
+                    <li{% if author or tag %} class="active"{% endif %}{% block archclass %}{{ ARCHCLASS }}{% endblock archclass %}><a href="{{ SITEURL }}/archives.html">Archives</a></li>
+                </ul>
+                <h3 class="text-muted"><a href="{{ SITEURL }}">{{ SITENAME }}</a></h3>
+				<h2 class="text-muted">{{ SITESUBTITLE }}</h2>
+             </div>
+            {# block content #}
+            {# endblock #}
+            <footer id="contentinfo" class="footer">
+                    <nav class="pull-right bottom-nav">
+                        <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}">RSS</a>
+                    </nav>
+                    <address id="about" class="vcard body">
+                    &copy; <a href="{{SITEURL}}">{{SITENAME}}</a> Proudly powered by <a href="http://getpelican.com/">Pelican</a>
+                    </address>
+            </footer>
+        </div>
+		{% include 'analytics.html' %}
+                {% include 'piwik.html' %}
+    </body>
+
+</noscript>
+</html>

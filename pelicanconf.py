@@ -5,6 +5,8 @@ from __future__ import unicode_literals
 AUTHOR = 'admin'
 SITENAME = 'گروه کاربران لینوکس مشهد'
 SITEURL = ''
+SITETITLE = 'گروه کاربران لینوکس مشهد'
+SITESUBTITLE = 'آزادی نرم‌افزار از اعتقادات ماست'
 
 PATH = 'content'
 
@@ -19,17 +21,33 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+# Disable
+AUTHOR_SAVE_AS = False
+CATEGORY_SAVE_AS = "{slug}/index.html"
+TAG_SAVE_AS = False
+CATEGORIES_SAVE_AS = False
+TAGS_SAVE_AS = False
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# Quotes
+QUOTES = ({'text': """گروه کاربران لینوکس یا لاگ یک سازمان خصوصی، اغلب غیرانتفاعی
+یا بدون هدف انتفاع است که برای اهداف پشتیبانی و یا آموزش
+کاربران لینوکس بخصوص کاربران تازه‌کار لینوکس تشکیل می‌شود.
+این عبارت اغلب به گروهی محلی گفته می‌شود که به صورت فیزیکی
+دور هم جمع می‌شوند هر چند گاهی به گروه کاربرانی که در محدوده
+جغرافیایی وسیع پراکنده شده‌اند و به صورت برخط با هم تعامل
+دارند نیز گفته می‌شود.""" , 'author': 'ویکی پدیای فارسی', 'avatar': '/theme/images/icons/wikipedia.png'},
+          {'text': """مشهدلاگ اجتماع آزادی از دوست‌داران گنو/لینوکس است که بیشتر در
+شهر مشهد زندگی می‌کنند. ما به گرمی به کسانی که تمایل دارند
+به اجتماع ما بپیوند، خوش‌آمد می‌گوییم. ما معمولاً یک هفته در
+میان هر چهارشنبه دیدار داریم و دربارهٔ گنو/لینوکس و فن‌آوری‌های
+روز دنیای لینوکس صحبت می‌کنیم. فضای مشهدلاگ دوستانه است و شرکت
+در آن برای همه آزاد و رایگان می‌باشد.""", 'author': 'گروه کاربران لینوکس مشهد'})
 
-DEFAULT_PAGINATION = 20
+DEFAULT_PAGINATION = 10
+#PAGINATION_PATTERNS = (
+#    (1, '{base_name}/', '{base_name}/index.html'),
+#    (2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
+#)
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
