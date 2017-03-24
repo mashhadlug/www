@@ -10,6 +10,12 @@ $ make devserver
 ```
 
 You can open [localhost:8000](http://localhost:8000/).
+Also To publish changes to github's branch simply run:
+
+```
+# .. make changes
+$ make github
+```
 
 # Demo
 
