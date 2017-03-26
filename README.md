@@ -10,7 +10,14 @@ $ make devserver
 ```
 
 You can open [localhost:8000](http://localhost:8000/).
-Also To publish changes to github's branch simply run:
+To manually update your changes to be shown in
+webserver running on your localhost:
+
+```
+$ pelican content -s pelicanconf.py -t template
+```
+
+Also To publish changes to github's `gh-pages` branch simply run:
 
 ```
 # .. make changes
