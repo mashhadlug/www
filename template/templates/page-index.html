@@ -73,13 +73,15 @@
     </div>
     <div class="col-md-4 left_content">
       {% if page.map_thumb %}
-  <img class="img-responsive" src="{{ page.map_thumb }}" alt="" />
+      <img class="img-responsive" src="{{ page.map_thumb }}" alt="" />
+      {% elif page.map_osm %}
+      <iframe frameborder="0" height="300" marginheight="0" marginwidth="0" scrolling="no" src="{{ page.map_osm }}" width="300"></iframe>
+      {% endif %}
   <p class="text-mute">
     برای نمایی بزرگتر
     <a target="_new" href="{{ page.map_url  }}">اینجا</a>
     را کلیک کنید.
   </p>
-      {% endif %}
       {% if page.location_address %}
   <p>{{ page.location_address }}</p>
   {% if page.location_routes %}
