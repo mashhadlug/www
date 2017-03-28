@@ -1,4 +1,10 @@
 {% extends "base.html" %}
+{% block og %}
+<meta property="og:title" content="{{ SITETITLE }}" />
+<meta property="og:description" content="{{ page.title }}, {{ page.timer_printable_date }}, {{ page.location_address }}" />
+<meta property="og:url" content="{{ SITEURL }}/" />
+<meta property="og:image" content="{{ SITEURL }}/theme/images/MashhadLUGtop.png" />
+{% endblock %}
 {% block navbar %}
 <div class="welcome">
   <div class="container">
@@ -75,7 +81,7 @@
       {% if page.map_thumb %}
       <img class="img-responsive" src="{{ page.map_thumb }}" alt="" />
       {% elif page.map_osm %}
-      <iframe frameborder="0" height="300" marginheight="0" marginwidth="0" scrolling="no" src="{{ page.map_osm }}" width="300"></iframe>
+      <iframe frameborder="0" height="300" marginheight="0" marginwidth="0" scrolling="no" src="{{ page.map_osm }}" width="100%"></iframe>
       {% endif %}
   <p class="text-mute">
     برای نمایی بزرگتر

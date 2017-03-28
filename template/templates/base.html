@@ -5,6 +5,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Open Graph -->
+        {% block og %}{% endblock %}
         <!-- RSS -->
         <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
         <!-- FAVICON -->
@@ -34,7 +36,7 @@
         <![endif]-->
         {% endblock head %}
     </head>
-    <body>
+    <body>*
       <div class="cover {{ 'mini' if page_name != 'index' }}">
         <div class="container">
           <div class="row">
