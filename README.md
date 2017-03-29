@@ -5,7 +5,7 @@ $ git clone git@github.com:mashhadlug/next.git
 $ cd next
 $ virtualenv3 .env
 $ source .env/bin/activate
-$ pip install pelican
+$ pip install pelican markdown
 $ make devserver
 ```
 
