@@ -7,7 +7,7 @@ navbar_title: خانه
 navbar_order: 1
 navbar_description: رویدادهای بعدی گروه
 navbar_icon: /theme/images/icons/internet-and-web-4/internt_web_technology-01.png
-timer_due_date: 3 April 2017 18:00 GMT+0430
+timer_due_date: 4 April 2017 18:00 GMT+0430
 timer_printable_date: سه‌شنبه ۱۵ فروردین‌ماه ۱۳۹۶، ساعت ۱۸ الی ۱۹:۳۰
 map_osm: http://www.openstreetmap.org/export/embed.html?bbox=59.519451856613166%2C36.309254974613616%2C59.53140377998353%2C36.3142952235051&layer=mapnik&marker=36.3117708171057%2C59.52542781829834
 map_url: http://www.openstreetmap.org/?mlat=36.31177&mlon=59.52543#map=17/36.31178/59.52543
