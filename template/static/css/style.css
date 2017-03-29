@@ -158,7 +158,7 @@ ul.top-navbar li p {
   display: inline-block;
 }
 .footer .sponsers li {
-  margin: 10px;
+  /* margin: 10px; */
   display: block;
 }
 .footer .dark {
