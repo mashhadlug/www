@@ -140,7 +140,7 @@ ul.top-navbar li p {
   border-bottom: 1px dashed;
 }
 .footer p{
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
 }
 .footer a{
   color: #767676;
@@ -148,7 +148,7 @@ ul.top-navbar li p {
 }
 .footer a:hover {
   text-decoration: none;
-  color: #FF7500;
+  /*color: #FF7500;*/
 }
 .footer ul {
   text-align: center;
@@ -176,6 +176,22 @@ ul.top-navbar li p {
 }
 .footer .copyright ul li i{
   font-size: 2.5em;
+}
+
+.footer .fa-telegram:hover {
+  color: #36ACE9;
+}
+
+.footer .fa-github:hover {
+  color: #FFF;
+}
+
+.footer .fa-rss:hover {
+  color: #f26522;
+}
+
+.footer .fa-twitter:hover {
+  color: #1da1f2;
 }
 
 .timer {
@@ -331,7 +347,7 @@ pre code {
 
 
 /* carousel */
-#quote-carousel 
+#quote-carousel
 {
   padding: 0 10px 30px 10px;
   margin-top: 30px 0px 0px;
@@ -347,17 +363,17 @@ pre code {
   margin-top: 30px;
 }
 /* Previous button  */
-#quote-carousel .carousel-control.left 
+#quote-carousel .carousel-control.left
 {
   left: -12px;
 }
 /* Next button  */
-#quote-carousel .carousel-control.right 
+#quote-carousel .carousel-control.right
 {
   right: -12px !important;
 }
 /* Changes the position of the indicators */
-#quote-carousel .carousel-indicators 
+#quote-carousel .carousel-indicators
 {
   /* right: 50%; */
   top: auto;
@@ -365,12 +381,12 @@ pre code {
   margin-right: -19px;
 }
 /* Changes the color of the indicators */
-#quote-carousel .carousel-indicators li 
+#quote-carousel .carousel-indicators li
 {
   background: #969696;
   border: none;
 }
-#quote-carousel .carousel-indicators .active 
+#quote-carousel .carousel-indicators .active
 {
   background: white;
 }
@@ -384,7 +400,7 @@ pre code {
 /* End carousel */
 
 .item blockquote {
-    border: none; 
+    border: none;
     margin: 0;
     color: white;
     text-align: justify;
@@ -414,23 +430,23 @@ pre code {
 */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    #quote-carousel 
+@media (min-width: 768px) {
+    #quote-carousel
     {
       margin-bottom: 0;
       padding: 0 40px 30px 40px;
       margin-top: 30px;
     }
-    
+
 }
 
 /* Small devices (tablets, up to 768px) */
-@media (max-width: 768px) { 
-    
+@media (max-width: 768px) {
+
     /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
-    
+
     #quote-carousel .carousel-indicators {
-        bottom: -20px !important;  
+        bottom: -20px !important;
     }
     #quote-carousel .carousel-indicators li {
         display: inline-block;
