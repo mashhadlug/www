@@ -4,7 +4,7 @@
   font-weight: 400;
   src: url('/theme/fonts/DroidNaskh-Regular.eot');
   src: url('/theme/fonts/DroidNaskh-Regular.eot?#iefix') format('embedded-opentype'),
-       url('/theme/fonts/DroidNaskh-Regular.woff2') format('woff2'),
+       /*url('/theme/fonts/DroidNaskh-Regular.woff2') format('woff2'),*/
        url('/theme/fonts/DroidNaskh-Regular.woff') format('woff'),
        url('/theme/fonts/DroidNaskh-Regular.ttf') format('truetype');
 }
@@ -14,7 +14,7 @@
   font-weight: 700;
   src: url('/theme/fonts/DroidNaskh-Bold.eot');
   src: url('/theme/fonts/DroidNaskh-Bold.eot?#iefix') format('embedded-opentype'),
-       url('/theme/fonts/DroidNaskh-Bold.woff2') format('woff2'),
+       /*url('/theme/fonts/DroidNaskh-Bold.woff2') format('woff2'),*/
        url('/theme/fonts/DroidNaskh-Bold.woff') format('woff'),
        url('/theme/fonts/DroidNaskh-Bold.ttf') format('truetype');
 }

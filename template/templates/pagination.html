@@ -26,14 +26,14 @@
 <script type="text/javascript">
     $(document).ready(function(){
       $(document).on('click', '.reports .viewmore',function(e){
-        e.preventDefault()
-        var data_href = $(this).attr('data-href')
-        var that = this
-        $(that).button('loading')
-        var response = '';
+        e.preventDefault();
+        var data_href = $(this).attr('data-href');
+        var that = this;
+        $(that).button('loading');
         $.ajax({ type: "GET", url: data_href, async: false,
                  success : function(text){
-                   $('.pager').replaceWith($(text).find('.reports').html())
+                   text = $.parseHTML(text); // remove the script tag.
+                   $('.pager').replaceWith($(text).find('.reports').html());
                  }});
       })
     })
