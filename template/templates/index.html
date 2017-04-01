@@ -7,8 +7,8 @@
     <h2 class="text-center">
       <a class href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
     </h2>
-    {% if article.printable_date %}
-    <p class="text-center text-muted">{{ article.printable_date }}</p>
+    {% if article.date %}
+    <p class="timer text-muted text-center" title="{{ article.date }}">{{ article.date }}</p>
     {% endif %}
     <p>
       {{ article.content | mlug_summary }}
