@@ -56,19 +56,19 @@
       <li>
         {snn}
         <span>ثانیه</span>
-      </li> 
+      </li>
       <li>
         {mnn}
         <span>دقیقه</span>
-      </li> 
+      </li>
       <li>
         {hn}
         <span>ساعت</span>
-      </li> 
+      </li>
       <li>
         {dn}
         <span>روز</span>
-      </li> 
+      </li>
     </ul>
     <p class="text-center">{{ page.timer_printable_date }}</p>
     {% endif %}
@@ -111,8 +111,11 @@
           <small class="timer text-muted" title="{{ article.date}}">{{ article.date }}</small>
         </h4>
         <p>
-          {{ article.summary }}
+          {{ article.content | mlug_summary }}
         </p>
+        <div class="text-left">
+          <a href="{{ article.url }}" class="viewfull">مشاهده گزارش کامل جلسه</a>
+        </div>
       </li>
       {% endfor %}
     </ul>

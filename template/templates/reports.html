@@ -11,8 +11,11 @@
     <p class="text-center text-muted">{{ report.printable_date }}</p>
     {% endif %}
     <p>
-      {{ report.summary }}
+      {{ report.content | mlug_summary }}
     </p>
+    <div class="text-right">
+      <a href="{{ report.url }}" class="viewfull">مشاهده گزارش کامل جلسه</a>
+    </div>
     <hr/>
   </div>
   {% endfor %}

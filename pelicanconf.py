@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+# import required filters
+import sys
+sys.path.append('./jinja-filters')
+import mlug_summary
 
 AUTHOR = 'admin'
 SITENAME = 'گروه کاربران لینوکس مشهد'
@@ -55,3 +59,6 @@ DEFAULT_PAGINATION = 10
 # Github Custom Domain
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+
+# Custom jinja filters
+JINJA_FILTERS = {'mlug_summary':mlug_summary.filter_summary}
