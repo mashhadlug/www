@@ -1,4 +1,4 @@
-title: گزارش جلسه ۱۶۹ام گروه کاربران لینوکس مشهد
+title: اطلاعیه عدم همکاری گروه با همایش مشهدکانکت
 save_as: reports/news-2015-10-11-mashhad-connect-disclaimer/index.html
 url: reports/news-2015-10-11-mashhad-connect-disclaimer
 category: reports
