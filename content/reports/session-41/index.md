@@ -17,11 +17,14 @@ category: reports
 <!--more-->
 
 
-
+## نکته خط فرمانی *مجید رمضانپور*
 پس از آن[ یک نکته‌ی خط فرمان](http://mashhadlug.org/node/81) توسط [مجید
 رمضانپور](http://mashhadlug.org/user/29) توضیح داده شد.
+
+## آشنایی با توزیع‌های OpenSUSE و RedhatEnterprise *محمد مظفری*
 [محمدمظفری](http://mashhadlug.org/user/8) نیز توضیحاتی در رابطه با دو توزیع
 OpenSuse و RedhatEnterprise Linux داد.
 
+## بحث آزاد
 پس از آن و تا ساعت ۱۹ حاضران در جلسه که به ۱۵نفر می رسیدند بحثهایی در رابطه با
 دنیای نرم افزار آزاد مطرح نمودند.
