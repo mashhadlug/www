@@ -15,13 +15,18 @@ category: reports
 
 
 موضوعاتی که در این جلسه به آن‌ها پرداخته شد عبارتند از:  
-۱. مروری بر جدیدترین اخبار دنیای گنو/لینوکس توسط آقای آرش موسوی  
-۲. معرفی برنامه خط فرمان ([zenity](http://en.wikipedia.org/wiki/Zenity)) توسط
+## مروری بر جدیدترین اخبار دنیای گنو/لینوکس *آرش موسوی*
+## معرفی ابزار zenity *مهدی عطائیان*
+معرفی برنامه خط فرمان ([zenity](http://en.wikipedia.org/wiki/Zenity)) توسط
 آقای عطائیان  
-۳. آشنایی با متغیر‌های پوسته بش ([شخصی سازی رشته
+
+## آشنایی با متغیرهای پوسته bash *بیژن ابراهیمی*
+آشنایی با متغیر‌های پوسته بش ([شخصی سازی رشته
 پرامپ](http://www.cyberciti.biz/tips/howtolinuxunixbashshellsetupprompt.html))
 توسط آقای ابراهیمی  
-۴. معرفی [کلیدهای میانبر پوسته](http://www.howtogeek.com/howto/ubuntu/keyboard
+
+## معرفی کلیدهای میانبر پوسته *بیژن ابراهیمی*
+معرفی [کلیدهای میانبر پوسته](http://www.howtogeek.com/howto/ubuntu/keyboard
 shortcutsforbashcommandshellforubuntudebiansuseredhatlinuxetc/)
 
 این جلسه در ساعت ۱۹ خاتمه یافت.
