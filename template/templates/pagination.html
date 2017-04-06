@@ -28,12 +28,11 @@
       $(document).on('click', '.reports .viewmore',function(e){
         e.preventDefault();
         var data_href = $(this).attr('data-href');
-        var that = this;
-        $(that).button('loading');
         $.ajax({ type: "GET", url: data_href, async: false,
                  success : function(text){
                    text = $.parseHTML(text); // remove the script tag.
                    $('.pager').replaceWith($(text).find('.reports').html());
+                   $('.timer').timeago();    // show relative timestamps
                  }});
       })
     })

@@ -69,7 +69,6 @@
             var due_date_attr = $(this).attr('data-time')
             var due_date_timestamp = Date.parse(due_date_attr)
             var due_date = new Date(due_date_timestamp)
-            console.log(due_date_attr, due_date_timestamp, due_date)
             $(this).countdown({
               until: due_date,
               layout: $(this).html()
@@ -104,7 +103,7 @@
             </footer>
         </div>
 		{% include 'analytics.html' %}
-                {% include 'piwik.html' %}
+    {% include 'piwik.html' %}
     </body>
 
 </noscript>
