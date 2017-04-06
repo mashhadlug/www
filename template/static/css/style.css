@@ -414,6 +414,7 @@ pre code {
 
 .item blockquote img {
     margin-bottom: 10px;
+    width: 128px;
 }
 
 /*.item blockquote p:before {
