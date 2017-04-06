@@ -10,7 +10,7 @@ AUTHOR = 'admin'
 SITENAME = 'گروه کاربران لینوکس مشهد'
 SITEURL = ''
 SITETITLE = 'گروه کاربران لینوکس مشهد'
-SITESUBTITLE = 'آزادی نرم‌افزار از اعتقادات ماست'
+SITESUBTITLE = 'آزادی، انتخاب، امنیت'
 
 PATH = 'content'
 
