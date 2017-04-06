@@ -1,10 +1,10 @@
 ----------
-title: فعالیت‌ها
+title: لیست فعالیت‌های گروه کاربران لینوکس مشهد
 layout: page
 author: Unknown
 date: 2017-03-24 10:45:00
 category: wiki
-tags: فعالیت‌ها
+tags: عمومی
 save_as: wiki/activities-list/index.html
 url: wiki/activities-list/
 ----------

@@ -3,7 +3,7 @@ title: قوانین عمومی فعالیت در لیست‌پستی و گروه
 layout: page
 date: 2017-03-24 10:45:00
 category: wiki
-tags: لیست‌پستی
+tags: عمومی
 save_as: wiki/mailinglist-rules/index.html
 url: wiki/mailinglist-rules/
 

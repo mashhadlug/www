@@ -5,7 +5,7 @@ author: falatooni
 date: 2009-04-24 09:20:00
 meta: published by falatooni on Fri, 04/24/2009 - 09:20
 category: wiki
-tags: مسئولین
+tags: جلسات
 save_as: wiki/reporting-howto/index.html
 url: wiki/reporting-howto/
 ----------
