@@ -9,7 +9,7 @@ meta: published by MehrdadMomeny on Sun, 10/19/2008 - 23:20
 category: activities
 thumb: theme/images/activities/activity-2008-10-installfest/activity-2008-10-installfest-thumb.jpg
 ----------
-  
+
 جشن نصب لینوکس طبق برنامه‌ی از پیش تعیین شده در ساعت ۱۴ روز جمعه ۱۹ مهرماه
 آغاز شد.
 
@@ -57,15 +57,11 @@ Mono و محیطهای توسعه‌ی مجتمع(IDE) پرکاربردتر در
 جشن طبق برنامه‌ی اولیه در ساعت ۲۰ به پایان رسید.
 
 نمایی از سالن نصب:  
-![سالن نصب](/activities/activity-2008-10-installfest/activity-2008-10-installfest-01.jpg)  
+![سالن نصب](/theme/images/activities/activity-2008-10-installfest/activity-2008-10-installfest-01.jpg)  
 
 
 نمایی از سالن سمینار:  
- ![سمینار اوپن‌آفیس](/activities/activity-2008-10-installfest/activity-2008-10-installfest-02.jpg)
-
-عکس پایانی با حضور تعدادی از اعضای گروه کاربران لینوکس مشهد:  
-![](http://lh3.ggpht.com/amidemoon/SPBd9ED_qI/AAAAAAAAAMw/ZNm_knuRzFQ/s512/lug01.jpg)  
-
+ ![سمینار اوپن‌آفیس](/theme/images/activities/activity-2008-10-installfest/activity-2008-10-installfest-02.jpg)
 
 بازتاب برگزاری جشن در خبرگزاری‌ها و وبلاگها:
 
@@ -130,4 +126,3 @@ http://picasaweb.google.com/mehrdad.webmaster/MashhadLUGLinuxInstallFest08)
 
 [ http://picasaweb.google.com/amidemoon/Mashhadlug](http://picasaweb.google.co
 m/amidemoon/Mashhadlug)
-

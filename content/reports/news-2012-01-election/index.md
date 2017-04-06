@@ -21,8 +21,7 @@ category: reports
 علی موسوی
 
 برای شرکت در رای‌گیری اسامی ۵ کاندیدای مورد نظر خود را تا دوشنبه ۱۹ دی‌ماه
-ساعت ۱۲ ظهر به آدرس ایمیل آقای محمد مظفری ![](http://services.nexodyne.com/ema
-il/icon/NjJ8C4aMJ8pZdID8jumkkw%3D%3D/PYhj6fg%3D/R01haWw%3D/0/image.png) ارسال
+ساعت ۱۲ ظهر به آدرس ایمیل آقای محمد مظفری ![](/theme/images/reports/news-2012-01-election/mail.png) ارسال
 کنید.
 
 موضوع ایمیل باید  «رای گیری راهبران لاگ مشهد» باشد.
@@ -32,11 +31,3 @@ il/icon/NjJ8C4aMJ8pZdID8jumkkw%3D%3D/PYhj6fg%3D/R01haWw%3D/0/image.png) ارسا
 
 _چنانچه سئوالی و یا اشکالی در روند رای‌گیری وجود دارد لطفا با استفاده از فرم
 تماس با ما تماس بگیرید._
-
-AttachmentSize
-
-![](http://www.mashhadlug.org/modules/file/icons/imagexgeneric.png)
-[mail.png](../system/files/mail.png)
-
-1.85 KB
-
