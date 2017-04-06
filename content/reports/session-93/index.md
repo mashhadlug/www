@@ -16,10 +16,12 @@ category: reports
 
 
 موضوعاتی که در این جلسه به آن‌ها پرداخته شد عبارتند از:  
-۱. اخبار دنیای متن‌باز توسط اقای آرش موسوی  
-۲. بررسی کامل و عملی برنامه plop Boot Manager توسط بیژن ابراهیمی (دانلود [فایل
+## اخبار دنیای متن‌باز *آرش موسوی*
+## معرفی plop Boot Manager *بیژن ابراهیمی*
+بررسی کامل و عملی برنامه plop Boot Manager توسط بیژن ابراهیمی (دانلود [فایل
 ارائه](http://s000.tinyupload.com/index.php?file_id=07717832669169359488))  
-۳. پخش فیلم (TED Talks): [عکاسی
+## پخش فیلم (TED Talks)
+پخش فیلم [عکاسی
 ناممکن](http://www.ted.com/talks/erik_johansson_impossible_photography.html)
 (دانلود [زیرنویس](http://s000.tinyupload.com/index.php?file_id=761497080931864
 92636&amp;gk=laptop) از بیژن ابراهیمی)  

@@ -16,7 +16,9 @@ category: reports
 
 
 موضوعاتی که در این جلسه به آن‌ها پرداخته شد عبارتند از:  
-۱ بررسی و آشنایی با IDE (محیط یکپارچه توسعه نرم‌افزار) VI بوسیله علی موسوی
+
+## بررسی و آشنایی با IDE (محیط یکپارچه توسعه نرم‌افزار) VI *علی موسوی*
 ([آشنایی با ادیتور vi](http://en.wikipedia.org/wiki/Vim_%28text_editor%29))  
-۴ قسمت اول از مجموعه آموزش IPtables بوسیله بیژن ابراهیمی ([آشنایی با دیواره
-آتش iptables](http://en.wikipedia.org/wiki/Iptables))
+
+## قسمت اول از مجموعه آموزش IPtables *بیژن ابراهیمی*
+([آشنایی با دیواره آتش iptables](http://en.wikipedia.org/wiki/Iptables))

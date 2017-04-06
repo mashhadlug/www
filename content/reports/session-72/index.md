@@ -18,18 +18,22 @@ category: reports
 
 مهم‌ترین موضوعات این جلسه:
 
+## آشنایی با دستور diff
 آشنایی با دستور diff و برنامه [Meld](http://meld.sourceforge.net/index.html)
 برای مقایسه دو فایل متنی
 
+## آشنایی با نکات امنیتی پروتکل‌های SSL و TLS
 [آشنایی با نکات امنیتی ssl و tls و روش مقابله با آسیب‌پذیری
 ](http://en.wikipedia.org/wiki/Block_cipher_modes_of_operation)
 
-آشنایی با دستور ffmpeg و روش برش دادن یک فیلم در خط فرمان لینوکس
-
+## آشنایی با دستور ffmpeg
+آشنایی با دستور ffmpeg و روش برش دادن یک فیلم در خط فرمان لینوکس. 
 برای آشنایی با چگونگی کار [این راهنما](http://ffmpeg.org/ffmpegdoc.html#SEC74)
 را مطالعه کنید یا از نمونه دستور زیر کمک بگیرید.
 
-**ffmpeg i in.mp4  vf crop=150:150:10:10 outputfile.avi**
+```
+ffmpeg i in.mp4  vf crop=150:150:10:10 outputfile.avi
+```
 
 در این جلسه تصمیم بر این شد تا دو هفته آینده جشن نصب و تا یک ماه اینده سمیناری
 بوسیله لاگ مشهد برگزار شود.
