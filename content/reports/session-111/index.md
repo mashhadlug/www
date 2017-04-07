@@ -47,11 +47,7 @@ D. Update Grub
 
 ## بررسی فعالیت هفته‌ی یازدهم پروژه‌ی ویکی‌پدیای فارسی *حامد رمضانیان*
 بررسی فعالیت هفته‌ی یازدهم پروژه‌ی ویکی‌پدیای فارسی شامل موضوعات مدیر پنجره
-[فلاکس‌باکس](http://fa.wikipedia.org/wiki/%D9%81%D9%84%D8%A7%DA%A9%D8%B3%E2%80
-%8C%D8%A8%D8%A7%DA%A9%D8%B3)، نرم‌افزار [وایرشارک](http://fa.wikipedia.org/wik
-i/%D9%88%D8%A7%DB%8C%D8%B1%D8%B4%D8%A7%D8%B1%DA%A9) و مستندات [صفحه راهنما](ht
-tp://fa.wikipedia.org/wiki/%D8%B5%D9%81%D8%AD%D9%87_%D8%B1%D8%A7%D9%87%D9%86%D
-9%85%D8%A7)
+[فلاکس‌باکس](http://fa.wikipedia.org/wiki/%D9%81%D9%84%D8%A7%DA%A9%D8%B3%E2%80%8C%D8%A8%D8%A7%DA%A9%D8%B3)، نرم‌افزار [وایرشارک](http://fa.wikipedia.org/wiki/%D9%88%D8%A7%DB%8C%D8%B1%D8%B4%D8%A7%D8%B1%DA%A9) و مستندات [صفحه راهنما](http://fa.wikipedia.org/wiki/%D8%B5%D9%81%D8%AD%D9%87_%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7)
 ## بحث آزاد
 
 

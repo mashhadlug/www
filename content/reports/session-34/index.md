@@ -31,12 +31,10 @@ category: reports
 
 Reprepro and Local Repositories:
 
-[mirrorer.alioth.debian.org/reprepro.1.html](http://mirrorer.alioth.debian.org
-/reprepro.1.html)
+[mirrorer.alioth.debian.org/reprepro.1.html](http://mirrorer.alioth.debian.org/reprepro.1.html)
 
 [www.jejik.com/articles/2006/09/setting_up_and_managing_an_apt_repository_with
-_reprepro/](http://www.jejik.com/articles/2006/09/setting_up_and_managing_an_a
-pt_repository_with_reprepro/)
+_reprepro/](http://www.jejik.com/articles/2006/09/setting_up_and_managing_an_apt_repository_with_reprepro/)
 
 [wiki.ubuntu.ir/LocalRepository](http://wiki.ubuntu.ir/LocalRepository)
 
@@ -44,5 +42,4 @@ Tor:
 
 [www.torproject.org/](http://www.torproject.org/)
 
-[wiki.ubuntuir.org/BrowsingWebAnonymously](http://wiki.ubuntuir.org/BrowsingWe
-bAnonymously)
+[wiki.ubuntuir.org/BrowsingWebAnonymously](http://wiki.ubuntuir.org/BrowsingWebAnonymously)

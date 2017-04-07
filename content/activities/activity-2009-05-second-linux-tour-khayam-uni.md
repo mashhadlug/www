@@ -38,6 +38,5 @@ thumb: theme/images/activities/activity-2009-05-second-linux-tour-khayam-uni/act
 جلسه آغاز شد.  
 پاسخ به سؤالات حاضرین تا ساعت ۱۴:۴۵ به طول انجامید و در انتها دیسک‌های لینوکس
 به علاقه‌مندان اهدا شد.  
-تصاویری از این تور را می‌توانید از [این‌جا](http://picasaweb.google.com/mehrda
-d.webmaster/MashhadLUGLinuxTourAtTheUniversityOfKhayyam) مشاهده کنید.
+تصاویری از این تور را می‌توانید از [این‌جا](http://picasaweb.google.com/mehrdad.webmaster/MashhadLUGLinuxTourAtTheUniversityOfKhayyam) مشاهده کنید.
 

@@ -22,9 +22,7 @@ category: reports
 
 ## هفته دوم پروژه ویکی‌پدیای فارسی *حامد رمضانیان*
  بررسی نتیجه دومین هفته فعالیت «پروژه ویکی‌پدیای فارسی» گروه (با موضوعات:
-[سیستم‌عامل NetBSD](http://fa.wikipedia.org/wiki/%D9%86%D8%AA_%D8%A8%DB%8C%E2%
-80%8C%D8%A7%D8%B3%E2%80%8C%D8%AF%DB%8C)، [فرمت فایل ogg](http://fa.wikipedia.o
-rg/wiki/%D8%A7%D9%88%D8%AC%DB%8C%E2%80%8C%D8%AC%DB%8C) و [نرم‌افزار مدیریت
+[سیستم‌عامل NetBSD](http://fa.wikipedia.org/wiki/%D9%86%D8%AA_%D8%A8%DB%8C%E2%80%8C%D8%A7%D8%B3%E2%80%8C%D8%AF%DB%8C)، [فرمت فایل ogg](http://fa.wikipedia.org/wiki/%D8%A7%D9%88%D8%AC%DB%8C%E2%80%8C%D8%AC%DB%8C) و [نرم‌افزار مدیریت
 کلاس مودل](http://fa.wikipedia.org/wiki/%D9%85%D9%88%D8%AF%D9%84))  
 
 ## نکته خط‌فرمانی *بیژن ابراهیمی*

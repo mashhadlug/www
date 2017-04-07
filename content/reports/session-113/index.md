@@ -26,9 +26,7 @@ category: reports
 
 
 ## هفته سیزدهم پروژه ویکی‌پدیای فارسی
-بررسی هفته سیزدهم پروژه ویکی‌پدیای فارسی با موضوعات ابزار [ایمیج مجیک](http
-://fa.wikipedia.org/wiki/%D8%A7%DB%8C%D9%85%D8%AC%E2%80%8C%D9%85%D8%AC%DB%8C%D
-A%A9)، [دیف](http://fa.wikipedia.org/wiki/%D8%AF%DB%8C%D9%81) (diff) و مدیر
+بررسی هفته سیزدهم پروژه ویکی‌پدیای فارسی با موضوعات ابزار [ایمیج مجیک](http://fa.wikipedia.org/wiki/%D8%A7%DB%8C%D9%85%D8%AC%E2%80%8C%D9%85%D8%AC%DB%8C%DA%A9)، [دیف](http://fa.wikipedia.org/wiki/%D8%AF%DB%8C%D9%81) (diff) و مدیر
 بسته [پورتج](http://fa.wikipedia.org/wiki/%D9%BE%D9%88%D8%B1%D8%AA%D8%AC)  
 
 ## معرفی ابزار traceroute *مهدی عطائیان*

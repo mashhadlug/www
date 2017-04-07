@@ -25,8 +25,7 @@ category: reports
 پخش فیلم (TED): [چرا «سوپا» ایده‌ای مخرب است](http://www.ted.com/talks/defend
 _our_freedom_to_share_or_why_sopa_is_a_bad_idea.html) (دانلود
 [زیرنویس](http://s000.tinyupload.com/index.php?file_id=25856182827079194329))
-و[ تجزیه ویروس «استاکس‌نت»، اسلحه سایبری قرن ۲۱](http://www.ted.com/talks/ralp
-h_langner_cracking_stuxnet_a_21st_century_cyberweapon.html) (دانلود
+و[ تجزیه ویروس «استاکس‌نت»، اسلحه سایبری قرن ۲۱](http://www.ted.com/talks/ralph_langner_cracking_stuxnet_a_21st_century_cyberweapon.html) (دانلود
 [زیرنویس](http://s000.tinyupload.com/index.php?file_id=79417746894112542721))،
 زیرنویس‌ها از بیژن ابراهیمی  
 

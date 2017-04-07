@@ -23,8 +23,7 @@ category: reports
 
 ## معرفی برنامه Kiwix *مهدی عطائیان*
 معرفی برنامه [Kiwix](http://www.kiwix.org/wiki/Main_Page) جهت استفاده آفلاین
-از [ویکی‌پدیا](http://fa.wikipedia.org/wiki/%D8%B5%D9%81%D8%AD%D9%87%D9%94_%D8
-%A7%D8%B5%D9%84%DB%8C) و نحوه ساخت فایل‌های zen برای این برنامه توسط [مهدی
+از [ویکی‌پدیا](http://fa.wikipedia.org/wiki/%D8%B5%D9%81%D8%AD%D9%87%D9%94_%D8%A7%D8%B5%D9%84%DB%8C) و نحوه ساخت فایل‌های zen برای این برنامه توسط [مهدی
 عطائیان](https://twitter.com/kalpase)
 
 ## معرفی برنامه websocketd *آرش موسوی*

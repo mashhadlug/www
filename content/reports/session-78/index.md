@@ -26,7 +26,6 @@ category: reports
 توسط آقای ابراهیمی  
 
 ## معرفی کلیدهای میانبر پوسته *بیژن ابراهیمی*
-معرفی [کلیدهای میانبر پوسته](http://www.howtogeek.com/howto/ubuntu/keyboard
-shortcutsforbashcommandshellforubuntudebiansuseredhatlinuxetc/)
+معرفی [کلیدهای میانبر پوسته](http://www.howtogeek.com/howto/ubuntu/keyboardshortcutsforbashcommandshellforubuntudebiansuseredhatlinuxetc/)
 
 این جلسه در ساعت ۱۹ خاتمه یافت.

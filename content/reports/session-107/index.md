@@ -19,8 +19,7 @@ category: reports
 ## بررسی اخبار دنیای متن باز *بیژن ابراهیمی*
 
 ## معرفی ویژگی‌های UEFI و و بررسی نقدهای وارد بر ویژگی Secure Boot *بیژن ابراهیمی*
-[لینک مقاله در ویکی‌پدیا](http://fa.wikipedia.org/wiki/%DB%8C%D9%88%D
-8%A6%DB%8C%E2%80%8C%D8%A7%D9%81%E2%80%8C%D8%A2%DB%8C)
+[لینک مقاله در ویکی‌پدیا](http://fa.wikipedia.org/wiki/%DB%8C%D9%88%D8%A6%DB%8C%E2%80%8C%D8%A7%D9%81%E2%80%8C%D8%A2%DB%8C)
 
 ## آشنایی با نرم‌افزار GPG *مهدی عطائیان*
 [دانلود اسلاید
@@ -30,8 +29,7 @@ category: reports
 با موضوعات
 [یو‌ئی‌اف‌آی](http://fa.wikipedia.org/wiki/یوئی‌اف‌آی)،
 [اکس‌چت](http://fa.wikipedia.org/wiki/%D8%A7%DA%A9%D8%B3%E2%80%8C%DA%86%D8%AA)
-و [سیناپتیک](http://fa.wikipedia.org/wiki/%D8%B3%DB%8C%D9%86%D8%A7%D9%BE%D8%AA
-%DB%8C%DA%A9) توسط حامد رمضانیان
+و [سیناپتیک](http://fa.wikipedia.org/wiki/%D8%B3%DB%8C%D9%86%D8%A7%D9%BE%D8%AA%DB%8C%DA%A9) توسط حامد رمضانیان
 
 ## بررسی توزیع مگیا *امیرحسین آل‌شیخ*
 

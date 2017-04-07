@@ -71,8 +71,7 @@ Mono و محیطهای توسعه‌ی مجتمع(IDE) پرکاربردتر در
 رمضانپور](http://mtux.wordpress.com/2008/10/11/mashhadluginstallfestreport/)
 
 برای ملاحظه‌ی عکسهای بیشتری از جشن به
-[اینجا](http://picasaweb.google.com/amidemoon/Mashhadlug) یا [اینجا](http://pi
-casaweb.google.com/mehrdad.webmaster/MashhadLUGLinuxInstallFest08) مراجعه
+[اینجا](http://picasaweb.google.com/amidemoon/Mashhadlug) یا [اینجا](http://picasaweb.google.com/mehrdad.webmaster/MashhadLUGLinuxInstallFest08) مراجعه
 کنید.  
 
 
@@ -124,5 +123,4 @@ You may find some pictues here:
 [ http://picasaweb.google.com/mehrdad.webmaster/MashhadLUGLinuxInstallFest08](
 http://picasaweb.google.com/mehrdad.webmaster/MashhadLUGLinuxInstallFest08)
 
-[ http://picasaweb.google.com/amidemoon/Mashhadlug](http://picasaweb.google.co
-m/amidemoon/Mashhadlug)
+[ http://picasaweb.google.com/amidemoon/Mashhadlug](http://picasaweb.google.com/amidemoon/Mashhadlug)

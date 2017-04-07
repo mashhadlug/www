@@ -70,11 +70,7 @@ $ cat /boot/config-$(uname -r) | grep CONFIG_NO_HZ
 
 ## بررسی فعالیت هفته‌ی پنجم «پروژه‌ی ویکی‌پدیا فارسی»
 بررسی فعالیت هفته‌ی پنجم «پروژه‌ی ویکی‌پدیا فارسی» با موضوعات [سیستم‌عامل
-اُپن سولاریس](http://fa.wikipedia.org/wiki/%D8%A7%D9%BE%D9%86%E2%80%8C%D8%B3%D
-9%88%D9%84%D8%A7%D8%B1%DB%8C%D8%B3)، [گنو گراب](http://fa.wikipedia.org/wiki/%
-DA%AF%D9%86%D9%88_%DA%AF%D8%B1%D8%A7%D8%A8) و [پروتکل اشتراک فایل سامبا](http:
-//fa.wikipedia.org/wiki/%D8%B3%D8%A7%D9%85%D8%A8%D8%A7_%28%D9%86%D8%B1%D9%85%E
-2%80%8C%D8%A7%D9%81%D8%B2%D8%A7%D8%B1%29)  
+اُپن سولاریس](http://fa.wikipedia.org/wiki/%D8%A7%D9%BE%D9%86%E2%80%8C%D8%B3%D9%88%D9%84%D8%A7%D8%B1%DB%8C%D8%B3)، [گنو گراب](http://fa.wikipedia.org/wiki/%DA%AF%D9%86%D9%88_%DA%AF%D8%B1%D8%A7%D8%A8) و [پروتکل اشتراک فایل سامبا](http://fa.wikipedia.org/wiki/%D8%B3%D8%A7%D9%85%D8%A8%D8%A7_%28%D9%86%D8%B1%D9%85%E2%80%8C%D8%A7%D9%81%D8%B2%D8%A7%D8%B1%29)  
 
 ## بحث آزاد
 

@@ -63,4 +63,4 @@ url: wiki/irc/
 
 ## منابع مطالعه بیشتر
 
-* [«چگونه هوشمندانه سوال بپرسیم»](http://catb.org/~esr/faqs/smart-questions.html)، مقاله‌ای از اریک ریموند، [برگردان فارسی](http://wiki.ubuntu-ir.org/SmartQuestions) از سعید رسولی و امیرمهری
+* [«چگونه هوشمندانه سوال بپرسیم»](http://catb.org/~esr/faqs/smart-questions.html)، مقاله‌ای از اریک ریموند، [برگردان فارسی](https://wiki.ubuntu.ir/wiki/Smart_Questions) از سعید رسولی و امیرمهری

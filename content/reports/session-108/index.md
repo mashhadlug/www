@@ -18,9 +18,7 @@ category: reports
 
 ## بررسی اخبار دنیای متن باز *آرش موسوی*
 ## معرفی مدیرپنجره‌ی آسام *علی موسوی*
-[مشاهده در ویکی‌پدیا](http://fa.wikip
-edia.org/wiki/%D8%A2%D8%B3%D8%A7%D9%85_%28%D9%85%D8%AF%DB%8C%D8%B1_%D9%BE%D9%8
-6%D8%AC%D8%B1%D9%87%29)  
+[مشاهده در ویکی‌پدیا](http://fa.wikipedia.org/wiki/%D8%A2%D8%B3%D8%A7%D9%85_%28%D9%85%D8%AF%DB%8C%D8%B1_%D9%BE%D9%86%D8%AC%D8%B1%D9%87%29)
 ## «اصول طراحی وب، فونت‌ها» *بیژن ابراهیمی*
 
 ```
@@ -110,13 +108,8 @@ edia.org/wiki/%D8%A2%D8%B3%D8%A7%D9%85_%28%D9%85%D8%AF%DB%8C%D8%B1_%D9%BE%D9%8
 ## بررسی فعالیت هفته‌ی نهم پروژه‌ی ویکی‌پدیای فارسی *حامد رمضانیان*
 
 بررسی فعالیت هفته‌ی نهم پروژه‌ی ویکی‌پدیای فارسی با موضوعات [گواهینامه
-مؤسسه تخصصی لینوکس](http://fa.wikipedia.org/wiki/%DA%AF%D9%88%D8%A7%D9%87%DB%8
-C%D9%86%D8%A7%D9%85%D9%87_%D9%85%D9%88%D8%B3%D8%B3%D9%87_%D8%AA%D8%AE%D8%B5%D8
-%B5%DB%8C_%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3)، [زول](http://fa.wikipedia.org
-/w/index.php?title=%D8%B2%D9%88%D9%84_%28%D8%B2%D8%A8%D8%A7%D9%86_%D8%A8%D8%B1
-%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C%29&action=edit
-&redlink=1)، [کامپیز](http://fa.wikipedia.org/w/index.php?title=%DA%A9%D8%A7%D
-9%85%D9%BE%DB%8C%D8%B2&action=edit&redlink=1)  
+مؤسسه تخصصی لینوکس](http://fa.wikipedia.org/wiki/%DA%AF%D9%88%D8%A7%D9%87%DB%8C%D9%86%D8%A7%D9%85%D9%87_%D9%85%D9%88%D8%B3%D8%B3%D9%87_%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C_%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3)، [زول](http://fa.wikipedia.org/w/index.php?title=%D8%B2%D9%88%D9%84_%28%D8%B2%D8%A8%D8%A7%D9%86_%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C%29&action=edit
+&redlink=1)، [کامپیز](http://fa.wikipedia.org/w/index.php?title=%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D8%B2&action=edit&redlink=1)
 ## بحث آزاد
 
 
