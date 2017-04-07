@@ -3,7 +3,7 @@ title: چک‌لیست برگذاری همایش‌های گروه
 layout: page
 date: 2012-09-26 10:00:00
 category: wiki
-tags: همایش‌ها
+tags: رویدادها
 save_as: wiki/events-checklist/index.html
 url: wiki/events-checklist/
 ----------
