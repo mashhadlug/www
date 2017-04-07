@@ -1,13 +1,30 @@
 @font-face {
-  font-family: 'Droid Arabic Naskh';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/theme/fonts/DroidNaskh-Regular.eot');
-  src: url('/theme/fonts/DroidNaskh-Regular.eot?#iefix') format('embedded-opentype'),
-       /*url('/theme/fonts/DroidNaskh-Regular.woff2') format('woff2'),*/
-       url('/theme/fonts/DroidNaskh-Regular.woff') format('woff'),
-       url('/theme/fonts/DroidNaskh-Regular.ttf') format('truetype');
+  font-family: Vazir;
+  src: url('Vazir.eot');
+  src: url('Vazir.eot?#iefix') format('embedded-opentype'),
+       url('Vazir.woff') format('woff'),
+       url('Vazir.ttf') format('truetype');
+  font-weight: normal;
 }
+
+@font-face {
+  font-family: Vazir;
+  src: url('Vazir-Bold.eot');
+  src: url('Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Vazir-Bold.woff') format('woff'),
+       url('Vazir-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('Vazir-Light.eot');
+  src: url('Vazir-Light.eot?#iefix') format('embedded-opentype'),
+       url('Vazir-Light.woff') format('woff'),
+       url('Vazir-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
 @font-face {
   font-family: 'Droid Arabic Naskh Bold';
   font-style: normal;
@@ -21,7 +38,7 @@
 
 body {
   color: #333;
-  font-family: 'Droid Arabic Naskh', 'nasim regular', serif;
+  font-family: 'Vazir', 'nasim regular', serif;
   font-size: 18px;
   line-height: 1.7em;
 }
