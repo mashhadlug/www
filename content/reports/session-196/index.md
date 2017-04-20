@@ -8,7 +8,7 @@ date: 2017/04/20 16:08
 <!--more-->
 
 ## آشنایی با IPv6 *سینا حامدحیدری*
-![](/theme/uploads/reports/session-196/session196-ipv6.jpg){.pull-left .img-thumbnail .img-medium}
+![ارایه آقا سینا حامدحیدری در مورد آی‌پی ورژن ۶](/theme/uploads/reports/session-196/session196-ipv6.jpg){.pull-left .img-thumbnail .img-medium}
 در این ارایه جناب آقای سینا حامدحیدری به توضیح برخی مزیت‌های پروتکل IPv6 نسبت بهIPv4 پرداخته و برخی از دستورات و کاربردهای این دو پروتکل را با یکدیگر مقایسه کردند.
 
 شما می‌توانید اسلایدهای این ارایه را از طریق لینک زیر دانلود کنید:
