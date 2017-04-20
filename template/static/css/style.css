@@ -296,6 +296,10 @@ pre code {
   color: #52E020;
 }
 
+.img-medium {
+    max-width: 500px;
+}
+
 .reports {
 }
 .reports .report {
