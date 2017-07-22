@@ -1,5 +1,5 @@
 title: رویداد بعدی گروه
-date: 18 July 2017 18:00 GMT+0430
+date: 1 August 2017 18:00 GMT+0430
 save_as: index.html
 url: index.html
 template: page-index
@@ -7,8 +7,8 @@ navbar_title: خانه
 navbar_order: 1
 navbar_description: رویدادهای بعدی گروه
 navbar_icon: /theme/images/icons/internet-and-web-4/internt_web_technology-01.png
-timer_due_date: 18 July 2017 18:00 GMT+0430
-timer_printable_date: سه‌شنبه ۲۷ تیرماه ۱۳۹۶، ساعت ۱۸ الی ۱۹:۳۰
+timer_due_date: 1 August 2017 18:00 GMT+0430
+timer_printable_date: سه‌شنبه ۱۰ مردادماه ۱۳۹۶، ساعت ۱۸ الی ۱۹:۳۰
 map_osm: http://www.openstreetmap.org/export/embed.html?bbox=59.519451856613166%2C36.309254974613616%2C59.53140377998353%2C36.3142952235051&layer=mapnik&marker=36.3117708171057%2C59.52542781829834
 map_url: http://www.openstreetmap.org/?mlat=36.31177&mlon=59.52543#map=17/36.31178/59.52543
 location_address: دانشگاه فردوسی - جنب دانشکده فنی مهندسی - ساختمان رشد شماره یک شتاب دهنده TrigUp فناپ
@@ -17,7 +17,7 @@ location_routes:    اتوبوس، خطوط پایانه پارک ملت
     مترو، ایستگاه میدان پارک ملت
 
 
-جلسه ۲۰۲ گروه، سه‌شنبه ۲۷ تیرماه ۱۳۹۶ در محل برگزاری جلسات
+جلسه ۲۰۳ گروه، سه‌شنبه ۱۰ مردادماه ۱۳۹۶ در محل برگزاری جلسات
 گروه در ساختمان رشد شماره یک دانشگاه فردوسی (شتاب‌دهنده فناپ)
 برگزار می‌شود. موضوعاتی که در این جلسه به آنها خواهیم پرداخت
 را در زیر مشاهده خواهید نمود:
