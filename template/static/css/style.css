@@ -343,9 +343,11 @@ pre code {
   font-size: 14px;
   padding-top: 20px;
 }
+.latest_reports h2,
 .latest_reports h4,
 .latest_reports a{
-  line-height: 1.5em;
+  line-height: 1.2em;
+  font-size: 16px;
 }
 .latest_reports p{
   text-align: justify;
