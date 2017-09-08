@@ -99,4 +99,4 @@ date: 2017/8/21 00:45
 [9]: http://distrowatch.com/9927
 [10]: https://www.howtoforge.com/tutorial/how-to-install-sonarqube-on-ubuntu-1604
 [11]: https://www.meetup.com/Mashhad-OpenDaylight-Meetup
-[12]: https://www.bsdfrog.org/pub/events/my_bsd_sucks_less_than_yours-AsiaBSDCon2017-paper.pdf
+[12]: https://www.slideshare.net/MohammadZebardast/sdn-nfv-78918731
