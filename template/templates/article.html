@@ -4,5 +4,11 @@
 <div class="page">
   <h1>{{ article.title }}</h1>    
   {{ article.content }}
+  <h2>حاضرین در جلسه</h2>
+  <ul>
+    {% for tag in article.tags if tag.name.startswith('@') %}
+    <li class="col-md-3 col-sm-6 col-xs-6" >{{ tag.name }}</li>
+    {% endfor %}
+  </ul>
 </div>
 {% endblock %}

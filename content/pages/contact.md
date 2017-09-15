@@ -2,7 +2,7 @@ title: روش‌های ارتباطی
 save_as: contact.html
 url: contact.html
 navbar_title: تماس با ما
-navbar_order: 6
+navbar_order: 8
 navbar_description: ارتباط با اعضای گروه
 navbar_icon: /theme/images/icons/internet-and-web-4/internt_web_technology-14.png
 

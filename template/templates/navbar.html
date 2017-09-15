@@ -1,7 +1,7 @@
 <ul class="top-navbar col-md-12 list-unstyled">
   {% for page in pages | selectattr('navbar_order') | sort(attribute='navbar_order') %}
     {% if page.title %}
-    <li class="col-md-2 col-sm-2 col-xs-4 {{ 'active' if page_name == page.slug }}">
+    <li class="{{ 'active' if page_name == page.slug }}">
       <a href="{{ SITEURL }}/{{ page.url }}" title="{{ page.title }}">
         <img src="{{ page.navbar_icon }}" alt="{{ page.title }}" />
         <h4>

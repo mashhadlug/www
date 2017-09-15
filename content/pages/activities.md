@@ -3,7 +3,7 @@ template: activities
 navbar_title: فعالیت‌ها
 navbar_order: 5
 navbar_description: جشن‌ها و سمینارها
-navbar_icon: /theme/images/icons/internet-and-web-4/internt_web_technology-13.png
+navbar_icon: /theme/images/icons/internet-and-web-4/internt_web_technology-16.png
 save_as: activities.html
 url: activities.html
 

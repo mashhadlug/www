@@ -461,7 +461,9 @@ pre code {
       padding: 0 40px 30px 40px;
       margin-top: 30px;
     }
-
+    .top-navbar li {
+      width: 12%;
+    }
 }
 
 /* Small devices (tablets, up to 768px) */
@@ -483,3 +485,7 @@ pre code {
         width: 20px;
         height: 20px;
     }
+    .top-navbar li {
+      width: 25%;
+    }
+}
