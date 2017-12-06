@@ -11,7 +11,7 @@ category: reports
 
 
 
-![](http://f.imagehost.org/0949/lug_white.png)
+![LUG](http://f.imagehost.org/0949/lug_white.png)
 
 
 
