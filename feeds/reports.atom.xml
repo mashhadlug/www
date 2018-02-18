@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>گروه کاربران لینوکس مشهد - reports</title><link href="http://www.mashhadlug.org/" rel="alternate"></link><link href="http://www.mashhadlug.org/feeds/reports.atom.xml" rel="self"></link><id>http://www.mashhadlug.org/</id><updated>2017-12-24T22:24:00+03:30</updated><entry><title>گزارش جلسه ۲۰۹م گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/reports/session-209" rel="alternate"></link><published>2017-12-24T22:24:00+03:30</published><updated>2017-12-24T22:24:00+03:30</updated><author><name>admin</name></author><id>tag:www.mashhadlug.org,2017-12-24:/reports/session-209</id><summary type="html">&lt;p&gt;این جلسه در روز شنبه ۲ دی‌ماه ۱۳۹۶ با حضور اعضای گروه در فرهنگسرای ترافیک شد. مباحثی که در این
+<feed xmlns="http://www.w3.org/2005/Atom"><title>گروه کاربران لینوکس مشهد - reports</title><link href="http://www.mashhadlug.org/" rel="alternate"></link><link href="http://www.mashhadlug.org/feeds/reports.atom.xml" rel="self"></link><id>http://www.mashhadlug.org/</id><updated>2018-02-18T21:37:00+03:30</updated><entry><title>گزارش جلسه ۲۱۰م گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/reports/session-210" rel="alternate"></link><published>2018-02-18T21:37:00+03:30</published><updated>2018-02-18T21:37:00+03:30</updated><author><name>admin</name></author><id>tag:www.mashhadlug.org,2018-02-18:/reports/session-210</id><summary type="html">&lt;p&gt;این جلسه در روز شنبه ۲۸ بهمن‌ماه ۱۳۹۶ با حضور اعضای گروه در فرهنگسرای ترافیک شد. مباحثی که در این
+جلسه به آنها پرداخته شد را در زیر مشاهده خواهید نمود:
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h2&gt;بحث آزاد&lt;/h2&gt;
+&lt;p&gt;دویست و دهمین جلسه گروه کاربران لینوکس مشهد با معرفی گروه و
+همچنین آشنایی با حاضرین …&lt;/p&gt;</summary><content type="html">&lt;p&gt;این جلسه در روز شنبه ۲۸ بهمن‌ماه ۱۳۹۶ با حضور اعضای گروه در فرهنگسرای ترافیک شد. مباحثی که در این
+جلسه به آنها پرداخته شد را در زیر مشاهده خواهید نمود:
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h2&gt;بحث آزاد&lt;/h2&gt;
+&lt;p&gt;دویست و دهمین جلسه گروه کاربران لینوکس مشهد با معرفی گروه و
+همچنین آشنایی با حاضرین در جلسه آغاز شد.&lt;/p&gt;
+&lt;h2&gt;اخبار دنیای گنو/لینوکس و متن‌باز&lt;/h2&gt;
+&lt;p&gt;بدلیل طولانی بودن ارائه این جلسه، اخبار این هفته علیرغم برنامه‌ریزی قبلی
+برگزار نشد. با تشکر از آقای ستاری جهت هماهنگی‌های مربوطه.&lt;/p&gt;
+&lt;h2&gt;آشنایی با سیستم‌عامل OpenBSD (قسمت دوم) &lt;em&gt;بیژن ابراهیمی&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;در ارائه این جلسه، همراه بودیم با دومین جلسه از آشنایی با سیستم‌عامل OpenBSD.
+در این ارائه با موارد زیر آشنا خواهیم شد:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تاریخچه سیستم‌عامل‌های شبه‌یونیکس&lt;/li&gt;
+&lt;li&gt;تفاوت یونیکس با شبه‌یونیکس&lt;/li&gt;
+&lt;li&gt;سیستم‌عامل‌های مبتنی بر BSD&lt;/li&gt;
+&lt;li&gt;تاریخچه شکل‌گیری OpenBSD، دلایل و اهمیت آن&lt;/li&gt;
+&lt;li&gt;فلسفه وجود این سیستم‌عامل&lt;/li&gt;
+&lt;li&gt;بررسی ویژگی‌های منحصربفرد آن&lt;/li&gt;
+&lt;li&gt;مروری بر سایر پروژه‌های OpenBSD&lt;/li&gt;
+&lt;li&gt;و در نهایت نحوه انتشار و نسخه‌های این سیستم‌عامل&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;در صورت تمایل، متن ارائه این جلسه را می‌توانید از
+&lt;a href="https://gitlab.com/snippets/1674869"&gt;این آدرس&lt;/a&gt; دریافت نمائید.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;همچنین اگر موفق به حضور در این جلسه نشدید، میتوانید با حضور در جلسات بعدی،
+پاسخ سوالات خود را درباره سیستم‌عامل‌های مبتنی بر BSD و مخصوصا OpenBSD دریافت
+کنید.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;بحث آزاد&lt;/h2&gt;
+&lt;p&gt;در انتهای جلسه طبق معمول جلسات گذشته، اعضا به بیان نظرات و دیدگاه‌های خود
+و همچنین شبکه‌سازی پرداختند. مباحثی که در این بخش به آنها پرداختیم را در زیر
+مشاهده می‌نمائید:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;طرح سوال در رابطه با قدرت و کاربرد سیستم‌عامل‌های مبتنی بر BSD در کاربردهای امروزی&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;این جلسه در ساعت ۱۹:۳۰ خاتمه یافت.
+با  تشکر از همه دوستانی که در این جلسه حضور یافتند،
+گروه آماده دریافت نظرات و انتقادات اعضای گروه می‌باشد.&lt;/p&gt;</content><category term="@مسعود بنی‌اسدی"></category><category term="@سوسن ترحمی"></category><category term="@فهیمه احمدی"></category><category term="@حسن امامیه"></category><category term="@سورنا معروفی"></category><category term="@طاها جهانگیر"></category><category term="@مصطفی ستاری"></category><category term="@محمد زبردست"></category><category term="@بیژن ابراهیمی"></category><category term="@علی رضائی"></category></entry><entry><title>گزارش جلسه ۲۰۹م گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/reports/session-209" rel="alternate"></link><published>2017-12-24T22:24:00+03:30</published><updated>2017-12-24T22:24:00+03:30</updated><author><name>admin</name></author><id>tag:www.mashhadlug.org,2017-12-24:/reports/session-209</id><summary type="html">&lt;p&gt;این جلسه در روز شنبه ۲ دی‌ماه ۱۳۹۶ با حضور اعضای گروه در فرهنگسرای ترافیک شد. مباحثی که در این
 جلسه به آنها پرداخته شد را در زیر مشاهده خواهید نمود:
 &lt;!--more--&gt;&lt;/p&gt;
 &lt;h2&gt;بحث آزاد&lt;/h2&gt;
