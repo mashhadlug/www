@@ -141,7 +141,7 @@
 <p>‫inode ساختمان داده‌ای است که در فایل‌سیستم لینوکس اطلاعاتی مانند فایل‌ها، دایرکتوری‌ها و سایر خصوصیات فایل‌سیستم را دخیره می‌کند. هر فایل‌سیستم تعداد محدودی inode و در نتیجه میزان مشخصی از فایل‌ها را می‌تواند نگه‌داری کند. چنانچه تعداد فایل‌های یک فایل‌سیستم از میزان مشخصی بیشتر شود، تعداد inodeهای مجاز آن فایل‌سیستم به اتمام می‌رسد و امکان ذخیره و ایجاد تعداد بیشتری فایل وجود ندارد. برای یافتن تعداد inode‌های مجاز از دستور زیر استفاده می‌کنیم.</p>
 <div class="highlight"><pre><span></span>$ df -i
 Filesystem       Inodes IUsed    IFree IUse% Mounted on
-rootfs         <span class="m">60506112</span> <span class="m">32619</span> <span class="m">60473493</span>    1% /
+rootfs         <span class="m">60506112</span> <span class="m">32619</span> <span class="m">60473493</span>    <span class="m">1</span>% /
 </pre></div>
 
 
@@ -169,7 +169,7 @@ Journal backup:           inode blocks
 
 <p>نکته: برای ایجاد این تعداد فایل در یک دایرکتوری، و تست دستورات این بخش می‌توانید از دستور زیر استفاده کنید.</p>
 <div class="highlight"><pre><span></span>$ <span class="nb">cd</span> /path/to/temporary/directory/
-$ <span class="k">for</span> i in <span class="k">$(</span>seq <span class="m">1</span> 510000<span class="k">)</span><span class="p">;</span> <span class="k">do</span> <span class="nb">echo</span> <span class="s2">&quot;&quot;</span> &gt;&gt; <span class="nv">$i</span>.txt<span class="p">;</span> <span class="k">done</span>
+$ <span class="k">for</span> i in <span class="k">$(</span>seq <span class="m">1</span> <span class="m">510000</span><span class="k">)</span><span class="p">;</span> <span class="k">do</span> <span class="nb">echo</span> <span class="s2">&quot;&quot;</span> &gt;&gt; <span class="nv">$i</span>.txt<span class="p">;</span> <span class="k">done</span>
 </pre></div>
 
 
@@ -192,7 +192,7 @@ $ <span class="k">for</span> i in <span class="k">$(</span>seq <span class="m">1
 
 <p>در لینوکس تعداد آرگومان‌هایی که می‌توان به عنوان پارامتر به هر دستور ارسال کرد محدود است. برای مشاهده این محدودیت در سیستم خود از دستور ریز استفاده می‌کنیم.</p>
 <div class="highlight"><pre><span></span>$ getconf ARG_MAX
-2097152
+<span class="m">2097152</span>
 </pre></div>
 
 
@@ -250,9 +250,6 @@ $ xargs rm &lt; file.txt
 </li>
 </ul>
 <p>این جلسه در ساعت ۱۹:۴۰ دقیقه خاتمه یافت. با تشکر از شما، گروه آماده دریافت هرگونه نظر، پیشنهاد و انتقاد شما دوستان و اعضای گروه می‌باشد.</p>
-  <h2>حاضرین در جلسه</h2>
-  <ul>
-  </ul>
 </div>
           </div>
         </div>
@@ -320,7 +317,7 @@ $ xargs rm &lt; file.txt
           <li>
             <ul class="list-unstyled">
               <li>
-                <a target="_new" href="https://github.com/mashhadlug/next">
+                <a target="_new" href="https://github.com/mashhadlug/www">
                   <i class="fa fa-github"></i>
                 </a>
               </li>
