@@ -63,4 +63,6 @@ EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # Custom jinja filters
 JINJA_FILTERS = {'mlug_summary':mlug_summary.filter_summary}
-JINJA_EXTENSIONS =['jinja2.ext.do']
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.do']
+}
