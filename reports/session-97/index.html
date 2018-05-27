@@ -135,13 +135,13 @@
 <h2>خط فرمان <em>آقای بیژن ابراهیمی</em></h2>
 <p>آموزش نحوه «یافتن زمان روشن سیستم در روز جاری» یا معادل آن «چه ساعتی در محل کار حضور یافتید؟». اسکریپتی برای تشخیص زمان روشن شدن سیستم:</p>
 <div class="highlight"><pre><span></span>$ <span class="nb">echo</span> -n <span class="s2">&quot;You were at wotk at &quot;</span> <span class="o">&amp;&amp;</span> cat /var/log/syslog <span class="p">|</span> grep -i --color <span class="s2">&quot;</span><span class="k">$(</span>date <span class="s2">&quot;+%b %d&quot;</span><span class="k">)</span><span class="s2">&quot;</span> <span class="p">|</span> head -n <span class="m">1</span> <span class="p">|</span> grep -o --color <span class="s2">&quot;</span><span class="k">$(</span>date <span class="s2">&quot;+%b %d&quot;</span><span class="k">)</span><span class="s2"> [0-9:]\+&quot;</span>
-You were at wotk at Apr <span class="m">24</span> <span class="m">09</span>:45:44
+You were at wotk at Apr <span class="m">24</span> 09:45:44
 </pre></div>
 
 
 <p><strong>معایب دستور فوق</strong>: دستور فوق صرفا زمان روشن شدن سیستم را مشخص میکند! برای مشخص شدن زمان ورود کاربری از دستور last میتوان استفاده کرد. این دستور زمان ورود کاربری تمام کاربران سیستم را نشان میدهد:</p>
 <div class="highlight"><pre><span></span>$ <span class="nb">echo</span> -n <span class="s2">&quot;You loged on today at &quot;</span> <span class="o">&amp;&amp;</span> last <span class="nv">$USER</span> <span class="p">|</span> grep --color <span class="s2">&quot;</span><span class="k">$(</span>date <span class="s2">&quot;+%a %b %d&quot;</span><span class="k">)</span><span class="s2">&quot;</span> <span class="p">|</span> tail -n <span class="m">1</span> <span class="p">|</span> grep --color -o <span class="s2">&quot;</span><span class="k">$(</span>date <span class="s2">&quot;+%a %b %d&quot;</span><span class="k">)</span><span class="s2"> [0-9:]\+&quot;</span>
-You loged on today at Tue Apr <span class="m">24</span> <span class="m">09</span>:48
+You loged on today at Tue Apr <span class="m">24</span> 09:48
 </pre></div>
 
 
