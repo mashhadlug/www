@@ -8,7 +8,7 @@ navbar_order: 1
 navbar_description: رویدادهای بعدی گروه
 navbar_icon: /theme/images/icons/internet-and-web-4/internt_web_technology-01.png
 timer_due_date: 29 May 2018 18:00 GMT+0430
-timer_printable_date: دوشنبه ۸ خردادماه ۱۳۹۶، ساعت ۱۸ الی ۱۹:۳۰
+timer_printable_date: سه‌شنبه ۸ خردادماه ۱۳۹۶، ساعت ۱۸ الی ۱۹:۳۰
 map_osm: https://www.openstreetmap.org/export/embed.html?bbox=59.4899207353592%2C36.312509992511046%2C59.49589669704438%2C36.315233209848024&amp;layer=mapnik&amp;marker=36.313871613070226%2C59.49290871620178
 map_url: https://www.openstreetmap.org/?mlat=36.31387&mlon=59.49291#map=18/36.31387/59.49291&layers=N
 location_address: فرهنگسرای فناوری و رسانه، بلوار هفت‌تیر، میدان هشت شهریور، انتهای پارک لاله 
@@ -18,7 +18,7 @@ location_routes:  خط ۹۴: پایانه آزادی/کوی آب و برق
     خط ۸۹: پایانه الهیه/پایانه فلسطین
 
 
-جلسه ۲۱۲ گروه، دوشنبه ۸ خردادماه ۱۳۹۶، در فرهنگسرای فناوری و رسانه
+جلسه ۲۱۲ گروه، سه‌شنبه ۸ خردادماه ۱۳۹۶، در فرهنگسرای فناوری و رسانه
 برگزار می‌شود.
 
 ## اخبار دنیای گنو/لینوکس و متن‌باز
