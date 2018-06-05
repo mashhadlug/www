@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/" rel="alternate"></link><link href="http://www.mashhadlug.org/feeds/all.atom.xml" rel="self"></link><id>http://www.mashhadlug.org/</id><updated>2018-04-07T23:46:00+04:30</updated><entry><title>جلسات دوره‌ای گروه</title><link href="http://www.mashhadlug.org/wiki/next-session/" rel="alternate"></link><published>2018-04-07T23:46:00+04:30</published><updated>2018-04-07T23:46:00+04:30</updated><author><name>ebrahimi_b</name></author><id>tag:www.mashhadlug.org,2018-04-07:/wiki/next-session/</id><summary type="html">&lt;p&gt;جلسات دوره‌ای گروه هر دو هفته یکبار، بصورت منظم برگزار می‌شود که شرکت در آن
+<feed xmlns="http://www.w3.org/2005/Atom"><title>گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/" rel="alternate"></link><link href="http://www.mashhadlug.org/feeds/all.atom.xml" rel="self"></link><id>http://www.mashhadlug.org/</id><updated>2018-06-05T21:11:00+04:30</updated><entry><title>گزارش جلسه ۲۱۲م گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/reports/session-212" rel="alternate"></link><published>2018-06-05T21:11:00+04:30</published><updated>2018-06-05T21:11:00+04:30</updated><author><name>admin</name></author><id>tag:www.mashhadlug.org,2018-06-05:/reports/session-212</id><summary type="html">&lt;p&gt;جلسه ۲۱۲م گروه در روز سه‌شنبه ۸ خردادماه ۱۳۹۷ با حضور اعضای
+گروه برگزار شد در مکان جدید برگزاری جلسات واقع در اتاق جلسات
+فرهنگسرای فناوری و رسانه برگزار شد. مباحثی که در این جلسه به
+آنها پرداخته شد را در زیر مشاهده خواهید نمود:
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h2&gt;حامی برگزاری جلسات گروه …&lt;/h2&gt;</summary><content type="html">&lt;p&gt;جلسه ۲۱۲م گروه در روز سه‌شنبه ۸ خردادماه ۱۳۹۷ با حضور اعضای
+گروه برگزار شد در مکان جدید برگزاری جلسات واقع در اتاق جلسات
+فرهنگسرای فناوری و رسانه برگزار شد. مباحثی که در این جلسه به
+آنها پرداخته شد را در زیر مشاهده خواهید نمود:
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h2&gt;حامی برگزاری جلسات گروه &lt;em&gt;شرکت پردازش اطلاعات مالی پارت&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;اولین جلسه گروه در سال ۱۳۹۷ با شیوه‌ای جدید برگزاری شد. در ابتدای این جلسه
+از زحمات شرکت «پردازش اطلاعات مالی پارت» بعوان حامی مالی برگزاری جلسات گروه و
+همچنین آقای «علیرضا حکم‌آبادی» بعنوان هماهنگ‌کننده این جلسه تشکر بعمل آمد. امید
+است که در سایه تلاش این عزیزان و همچنین سایر اعضا، گروه سالی توام با موفقیت
+پیش‌رو داشته باشد.&lt;/p&gt;
+&lt;h2&gt;بحث آزاد&lt;/h2&gt;
+&lt;p&gt;مطابق جلسات گذشته گروه، در بخش بحث آزاد افراد شرکت کننده در جلسه به بیان
+نظرات و پیشنهادات خود پرداختند.
+مواردی بحث شده:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;معرفی مکانی مناسب جهت برگزاری جلسات دوره‌ای گروه&lt;/li&gt;
+&lt;li&gt;آشنایی با شیوه جدید مدیریت جلسات&lt;/li&gt;
+&lt;li&gt;تشویق به جذب افراد مستعد جهت همکاری بیشتر با گروه&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;همچنین موارد زیر توسط حاضرین در این بخش به بحث گذاشته شد که در صورت تمایل
+هر یک از اعضا، موارد مفیدی برای ارائه در جلسات آینده گروه خواهد بود:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;معرفی و آشنایی با Ansible&lt;/li&gt;
+&lt;li&gt;معرفی مدیر بسته Flatpak&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;معرفی مدیر بسته Snappy &lt;em&gt;مهدی عطائیان&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;در ارائه این جلسه در خدمت آقای عطائیان از شرکت «پردازش اطلاعات مالی پارت»
+با معرفی [مدیر بسته snappy][1] بودیم. لینک اسلاید‌های این ارائه بزودی از
+طریق همین پست قابل دسترس خواهد بود.&lt;/p&gt;
+&lt;p&gt;با تشکر از همه دوستانی که در این جلسه حضور یافتند،
+گروه آماده دریافت نظرات و انتقادات اعضای گروه می‌باشد.&lt;/p&gt;
+&lt;p&gt;1: https://en.wikipedia.org/wiki/Snappy_(package_manager)&lt;/p&gt;</content></entry><entry><title>جلسات دوره‌ای گروه</title><link href="http://www.mashhadlug.org/wiki/next-session/" rel="alternate"></link><published>2018-04-07T23:46:00+04:30</published><updated>2018-04-07T23:46:00+04:30</updated><author><name>ebrahimi_b</name></author><id>tag:www.mashhadlug.org,2018-04-07:/wiki/next-session/</id><summary type="html">&lt;p&gt;جلسات دوره‌ای گروه هر دو هفته یکبار، بصورت منظم برگزار می‌شود که شرکت در آن
 &lt;strong&gt;برای عموم آزاد و رایگان&lt;/strong&gt; خواهد بود و شامل یک یا چند عنوان از عناوین زیر خواهد بود:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;شروع جلسه توسط مدیر جلسه&lt;/li&gt;
