@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>گروه کاربران لینوکس مشهد - reports</title><link href="http://www.mashhadlug.org/" rel="alternate"></link><link href="http://www.mashhadlug.org/feeds/reports.atom.xml" rel="self"></link><id>http://www.mashhadlug.org/</id><updated>2018-06-05T21:11:00+04:30</updated><entry><title>گزارش جلسه ۲۱۲م گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/reports/session-212" rel="alternate"></link><published>2018-06-05T21:11:00+04:30</published><updated>2018-06-05T21:11:00+04:30</updated><author><name>admin</name></author><id>tag:www.mashhadlug.org,2018-06-05:/reports/session-212</id><summary type="html">&lt;p&gt;جلسه ۲۱۲م گروه در روز سه‌شنبه ۸ خردادماه ۱۳۹۷ با حضور اعضای
+<feed xmlns="http://www.w3.org/2005/Atom"><title>گروه کاربران لینوکس مشهد - reports</title><link href="http://www.mashhadlug.org/" rel="alternate"></link><link href="http://www.mashhadlug.org/feeds/reports.atom.xml" rel="self"></link><id>http://www.mashhadlug.org/</id><updated>2018-07-13T11:51:00+04:30</updated><entry><title>گزارش جلسه ۲۱۳م گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/reports/session-213" rel="alternate"></link><published>2018-07-13T11:51:00+04:30</published><updated>2018-07-13T11:51:00+04:30</updated><author><name>admin</name></author><id>tag:www.mashhadlug.org,2018-07-13:/reports/session-213</id><summary type="html">&lt;p&gt;جلسه ۲۱۳م گروه در روز سه‌شنبه ۱۳ تیرماه ۱۳۹۷ با حضور اعضای
+گروه برگزار شد در ساختمان &lt;strong&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/strong&gt;
+واقع در خیابان کوهسنگی ۱۷ برگزار شد. مباحثی که در این جلسه به
+آنها پرداخته شد را در زیر مشاهده خواهید نمود:
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h2&gt;حامی برگزاری جلسه &lt;em&gt;شرکت …&lt;/em&gt;&lt;/h2&gt;</summary><content type="html">&lt;p&gt;جلسه ۲۱۳م گروه در روز سه‌شنبه ۱۳ تیرماه ۱۳۹۷ با حضور اعضای
+گروه برگزار شد در ساختمان &lt;strong&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/strong&gt;
+واقع در خیابان کوهسنگی ۱۷ برگزار شد. مباحثی که در این جلسه به
+آنها پرداخته شد را در زیر مشاهده خواهید نمود:
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h2&gt;حامی برگزاری جلسه &lt;em&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;دومین جلسه گروه در سال ۱۳۹۷ با تشکر از &lt;strong&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/strong&gt;
+و مسئولان مربوطه بعنوان حامی گروه در تامین و برگزاری جلسات گروه برگزار شد. 
+امید است که در سایه تلاش و حمایت تمامی عزیزانی که در برگزاری هر چه بهتر جلسات
+تلاش دارند، گروه سالی توام با موفقیت پیش‌رو داشته باشد.&lt;/p&gt;
+&lt;h2&gt;آشنایی با ابزار اتوماسیون Ansible &lt;em&gt;علی بوستانی&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;‫Ansible ابزاری ساده و در عین حال قدرتمند برای اتوماسیون امور مختلف در
+دنیای ‫تکنولوژی اطلاعات، از مدیریت و اجرای پیکره‌بندی (configuration) و
+گسترش برنامه‌ها (application deployment) تا نظارت سیستم‌ها و روندها، با
+کمترین و ساده‌ترین پیشنیازهای ارتباطی همچون ssh می‌باشد.&lt;/p&gt;
+&lt;p&gt;در این جلسه همراه با آقای بوستانی بودیم با معرفی و آشنایی با این ابزار
+کاربردی. اسلایدهای این ارائه را می‌توانید از &lt;a href="http://slideshare.net/AliBoustani1/ansible-105714631"&gt;اینجا&lt;/a&gt; دریافت نمائید.&lt;/p&gt;
+&lt;h2&gt;اخبار دنیای نرم‌افزارهای متن‌باز &lt;em&gt;طه جهانگیر&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;در این بخش، چند دقیقه به مرور اخبار چند هفتهٔ گذشته در دنیای تکنولوژی
+اطلاعات پرداختیم و درباره تاثیر این رویدادها در جمعی خودمانی تبادل نظر
+کردیم.&lt;/p&gt;
+&lt;h2&gt;بحث آزاد&lt;/h2&gt;
+&lt;p&gt;در انتهای جلسه و در &lt;strong&gt;بحث آزاد&lt;/strong&gt; افراد شرکت کننده
+در جلسه به بیان نظرات، پیشنهادات و سوالات خود پرداختند.
+مواردی بحث شده:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;بحث درباره مدارک مرتبط با مدیریت سیستم‌های لینوکسی و گزینه‌های موجود&lt;/li&gt;
+&lt;li&gt;پیشنهاد به دنباله‌دار کردن ارائه‌های کاربردی مانند Ansible و … در جلسات گروه&lt;/li&gt;
+&lt;li&gt;تشویق به جذب افراد مستعد جهت همکاری بیشتر با گروه&lt;/li&gt;
+&lt;li&gt;و همچنین پیشنهاد به برگزاری یکی از جلسات گروه به معرفی میزهای کاری و ابزارهای
+کاربردی و روزمر‌ای که اعضای گروه با آنها سر و کار دارند.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;همچنین موارد زیر توسط حاضرین در این بخش به بحث گذاشته شد که در صورت تمایل
+هر یک از اعضا، موارد مفید و جذابی برای ارائه در جلسات آینده گروه خواهد بود:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;معرفی و آشنایی با ابزار OpenStack&lt;/li&gt;
+&lt;li&gt;معرفی و آشنایی با ابزار نظارت بر سیستم‌های شبکه مانند Nagios، Zabbix، Cacti و …&lt;/li&gt;
+&lt;li&gt;معرفی و آشنایی با دستیارهای شخصی هوشمند متن‌باز مانند Mycroft&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;با تشکر از همه دوستانی که در این جلسه حضور یافتند،
+گروه آماده دریافت نظرات و انتقادات اعضای گروه می‌باشد.&lt;/p&gt;</content><category term="@سجاد جعفری"></category><category term="@عارفه پهلوان"></category><category term="@پوریا بنیادگزار"></category><category term="@امین رضائیان"></category><category term="@علی رضائی"></category><category term="@محمد عرفان آراسته"></category><category term="@علی امیری‌نژاد"></category><category term="@حسین بوستانی"></category><category term="@علی بوستانی"></category><category term="@سینا مقدس"></category><category term="@سعیده آهنگری"></category><category term="@مجید اتحادی"></category><category term="@طه جهانگیر"></category><category term="@عماد فتحی"></category><category term="@کوشا"></category><category term="@علی رمضانیان"></category><category term="@مجتبی ملکی"></category><category term="@بهزاد بیارجمندی"></category><category term="@مهدی عطائیان"></category><category term="@بیژن ابراهیمی"></category><category term="@احمد قمصریان"></category></entry><entry><title>گزارش جلسه ۲۱۲م گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/reports/session-212" rel="alternate"></link><published>2018-06-05T21:11:00+04:30</published><updated>2018-06-05T21:11:00+04:30</updated><author><name>admin</name></author><id>tag:www.mashhadlug.org,2018-06-05:/reports/session-212</id><summary type="html">&lt;p&gt;جلسه ۲۱۲م گروه در روز سه‌شنبه ۸ خردادماه ۱۳۹۷ با حضور اعضای
 گروه برگزار شد در مکان جدید برگزاری جلسات واقع در اتاق جلسات
 فرهنگسرای فناوری و رسانه برگزار شد. مباحثی که در این جلسه به
 آنها پرداخته شد را در زیر مشاهده خواهید نمود:
