@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>گروه کاربران لینوکس مشهد - reports</title><link href="http://www.mashhadlug.org/" rel="alternate"></link><link href="http://www.mashhadlug.org/feeds/reports.atom.xml" rel="self"></link><id>http://www.mashhadlug.org/</id><updated>2018-07-13T11:51:00+04:30</updated><entry><title>گزارش جلسه ۲۱۳م گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/reports/session-213" rel="alternate"></link><published>2018-07-13T11:51:00+04:30</published><updated>2018-07-13T11:51:00+04:30</updated><author><name>admin</name></author><id>tag:www.mashhadlug.org,2018-07-13:/reports/session-213</id><summary type="html">&lt;p&gt;جلسه ۲۱۳م گروه در روز سه‌شنبه ۱۳ تیرماه ۱۳۹۷ با حضور اعضای
+<feed xmlns="http://www.w3.org/2005/Atom"><title>گروه کاربران لینوکس مشهد - reports</title><link href="http://www.mashhadlug.org/" rel="alternate"></link><link href="http://www.mashhadlug.org/feeds/reports.atom.xml" rel="self"></link><id>http://www.mashhadlug.org/</id><updated>2018-07-18T13:23:00+04:30</updated><entry><title>گزارش جلسه ۲۱۴م گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/reports/session-214" rel="alternate"></link><published>2018-07-18T13:23:00+04:30</published><updated>2018-07-18T13:23:00+04:30</updated><author><name>admin</name></author><id>tag:www.mashhadlug.org,2018-07-18:/reports/session-214</id><summary type="html">&lt;p&gt;جلسه ۲۱۴م گروه در روز سه‌شنبه ۲۷ تیرماه ۱۳۹۷ با حضور اعضای
+گروه برگزار شد در ساختمان &lt;strong&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/strong&gt;
+واقع در خیابان کوهسنگی ۱۷ برگزار شد. مباحثی که در این جلسه به
+آنها پرداخته شد را در زیر مشاهده خواهید نمود:
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h2&gt;حامی برگزاری جلسه &lt;em&gt;شرکت …&lt;/em&gt;&lt;/h2&gt;</summary><content type="html">&lt;p&gt;جلسه ۲۱۴م گروه در روز سه‌شنبه ۲۷ تیرماه ۱۳۹۷ با حضور اعضای
+گروه برگزار شد در ساختمان &lt;strong&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/strong&gt;
+واقع در خیابان کوهسنگی ۱۷ برگزار شد. مباحثی که در این جلسه به
+آنها پرداخته شد را در زیر مشاهده خواهید نمود:
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h2&gt;حامی برگزاری جلسه &lt;em&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;دومین جلسه گروه در سال ۱۳۹۷ با تشکر از &lt;strong&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/strong&gt;
+و مسئولان مربوطه بعنوان حامی گروه در تامین و برگزاری جلسات گروه برگزار شد. 
+امید است که در سایه تلاش و حمایت تمامی عزیزانی که در برگزاری هر چه بهتر جلسات
+تلاش دارند، گروه سالی توام با موفقیت پیش‌رو داشته باشد.&lt;/p&gt;
+&lt;h2&gt;آشنایی با مجازی سازی &lt;em&gt;مهدی عطائیان&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;در این جلسه همراه با آقای عطائیان بودیم با معرفی «مجازی‌سازی»، انواع
+و کاربردهای آن. همچنین درباره نحوه عملکرد مجازی‌ساز در سطح پردازنده، شبکه و
+حافظه‌های اصلی و جانبی اطلاعات مفیدی توسط حاضرین رد و بدل شد.&lt;/p&gt;
+&lt;h2&gt;اخبار دنیای نرم‌افزارهای متن‌باز &lt;em&gt;طه جهانگیر&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;در این بخش، چند دقیقه به مرور اخبار چند هفتهٔ گذشته در دنیای تکنولوژی
+اطلاعات پرداختیم و درباره تاثیر این رویدادها در جمعی خودمانی تبادل نظر
+کردیم. لیست عناوین خبری مرور شده در این جلسه را در زیر مشاهده می‌کنید:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;خداحافظی «گوئیدو ون روسوم» از سمت خود در پروژه پایتون &lt;a href="https://mail.python.org/pipermail/python-committers/2018-July/005664.html"&gt;پیوند&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;رکورد نشست ترمینال بصورت فایل svg &lt;a href="https://github.com/nbedos/termtosvg"&gt;پیوند&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;حذف extension محبوب stylish به دلیل سرقت اطلاعات حریم شخصی &lt;a href="https://github.com/nbedos/termtosvg"&gt;پیوند&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;معرفی پروژه cheat.sh با هدف دسترسی به منابع جامعه محور cheat-sheet ها &lt;a href="https://github.com/nbedos/termtosvg"&gt;پیوند&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;اعتراض ویکی‌پدیا ایتالیا به تصویب قانون جدید کپی‌رایت در اروپا &lt;a href="https://www.bbc.com/news/world-europe-44696302"&gt;پیوند&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;بررسی ماجرای حذف extension مرورگر کروم از سوی گوگل &lt;a href="https://palant.de/2018/07/03/google-to-developers-we-take-down-your-extension-because-we-can"&gt;پیوند&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;برنامه چین برای تولید پردازنده‌های سازگار با معماری X86 &lt;a href="https://www.tomshardware.com/news/china-zen-x86-processor-dryhana,37417.html"&gt;پیوند&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;تولد ۲۵ سالگی قدیمی‌ترین توزیع لینوکسی، Slackware &lt;a href="https://opensource.com/article/18/7/stackware-turns-25"&gt;پیوند&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;فونت مایکروسافت و برکناری نخست وزیر پاکستان &lt;a href="https://www.theglobeandmail.com/news/world/how-a-microsoft-font-brought-down-pakistani-prime-minister-nawaz-sharif/article35828938/"&gt;پیوند&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;انتشار نسخه ۱۹ توزیع Mint با دسکتاپ Cinnamon&lt;/li&gt;
+&lt;li&gt;معرفی پروژه متن‌باز ماشین CNC &lt;a href="ttp://www.maslowcnc.com/"&gt;پیوند&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;معرفی پروژه متن‌باز ‌BitWarden جهت مدیریت پسورد &lt;a href="https://bitwarden.com/"&gt;پیوند&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;برای مشاهده لیست کامل اخبار این جلسه به &lt;a href="https://pastelink.net/fkjr"&gt;اینجا&lt;/a&gt; مراجعه نمائید.&lt;/p&gt;
+&lt;h2&gt;بحث آزاد&lt;/h2&gt;
+&lt;p&gt;در انتهای جلسه و در &lt;strong&gt;بحث آزاد&lt;/strong&gt; افراد شرکت کننده
+در جلسه به بیان نظرات، پیشنهادات و سوالات خود پرداختند.&lt;/p&gt;
+&lt;p&gt;با تشکر از همه دوستانی که در این جلسه حضور یافتند،
+گروه آماده دریافت نظرات و انتقادات اعضای گروه می‌باشد.&lt;/p&gt;</content><category term="@مهدی عطائیان"></category><category term="@علیرضا حکم‌آبادی"></category><category term="@طه جهانگیر"></category><category term="@بیژن ابراهیمی"></category><category term="@افشین فلاطونی"></category></entry><entry><title>گزارش جلسه ۲۱۳م گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/reports/session-213" rel="alternate"></link><published>2018-07-13T11:51:00+04:30</published><updated>2018-07-13T11:51:00+04:30</updated><author><name>admin</name></author><id>tag:www.mashhadlug.org,2018-07-13:/reports/session-213</id><summary type="html">&lt;p&gt;جلسه ۲۱۳م گروه در روز سه‌شنبه ۱۳ تیرماه ۱۳۹۷ با حضور اعضای
 گروه برگزار شد در ساختمان &lt;strong&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/strong&gt;
 واقع در خیابان کوهسنگی ۱۷ برگزار شد. مباحثی که در این جلسه به
 آنها پرداخته شد را در زیر مشاهده خواهید نمود:
