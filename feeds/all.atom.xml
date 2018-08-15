@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/" rel="alternate"></link><link href="http://www.mashhadlug.org/feeds/all.atom.xml" rel="self"></link><id>http://www.mashhadlug.org/</id><updated>2018-08-15T23:13:00+04:30</updated><entry><title>گزارش جلسه ۲۱۶م گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/reports/session-216" rel="alternate"></link><published>2018-08-15T23:13:00+04:30</published><updated>2018-08-15T23:13:00+04:30</updated><author><name>admin</name></author><id>tag:www.mashhadlug.org,2018-08-15:/reports/session-216</id><summary type="html">&lt;p&gt;جلسه ۲۱۶م گروه در روز سه‌شنبه ۲۴ تیرماه ۱۳۹۷ با حضور اعضای
+<feed xmlns="http://www.w3.org/2005/Atom"><title>گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/" rel="alternate"></link><link href="http://www.mashhadlug.org/feeds/all.atom.xml" rel="self"></link><id>http://www.mashhadlug.org/</id><updated>2018-08-15T23:13:00+04:30</updated><entry><title>گزارش جلسه ۲۱۶م گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/reports/session-216" rel="alternate"></link><published>2018-08-15T23:13:00+04:30</published><updated>2018-08-15T23:13:00+04:30</updated><author><name>admin</name></author><id>tag:www.mashhadlug.org,2018-08-15:/reports/session-216</id><summary type="html">&lt;p&gt;جلسه ۲۱۶م گروه در روز چهارشنبه ۲۴ مردادماه ۱۳۹۷ با حضور اعضای
 گروه برگزار شد در ساختمان &lt;strong&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/strong&gt;
 واقع در خیابان کوهسنگی ۱۷ برگزار شد. مباحثی که در این جلسه به
 آنها پرداخته شد را در زیر مشاهده خواهید نمود:
 &lt;!--more--&gt;&lt;/p&gt;
-&lt;h2&gt;حامی برگزاری جلسه &lt;em&gt;شرکت …&lt;/em&gt;&lt;/h2&gt;</summary><content type="html">&lt;p&gt;جلسه ۲۱۶م گروه در روز سه‌شنبه ۲۴ تیرماه ۱۳۹۷ با حضور اعضای
+&lt;h2&gt;حامی برگزاری جلسه &lt;em&gt;شرکت فناوری …&lt;/em&gt;&lt;/h2&gt;</summary><content type="html">&lt;p&gt;جلسه ۲۱۶م گروه در روز چهارشنبه ۲۴ مردادماه ۱۳۹۷ با حضور اعضای
 گروه برگزار شد در ساختمان &lt;strong&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/strong&gt;
 واقع در خیابان کوهسنگی ۱۷ برگزار شد. مباحثی که در این جلسه به
 آنها پرداخته شد را در زیر مشاهده خواهید نمود:
@@ -47,7 +47,7 @@
 &lt;h2&gt;آشنایی با Zabbix &lt;em&gt;مجید اتحادی&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;این هفته در خدمت آقای «اتحادی» بودیم با بررسی چالش‌های موجود در نظارت شبکه‌ها،
 مقایسه ابزارهای متن‌باز این حوزه و در نهایت معرفی و آشنایی با پروژه &lt;code&gt;Zabbix&lt;/code&gt;. 
-اسلاید‌های ارائه این جلسه رو می‌توانید از [این آدرس][2] دریافت نمائید.&lt;/p&gt;
+اسلاید‌های ارائه این جلسه رو می‌توانید از &lt;a href="https://www.slideshare.net/SeyedmajidEtehadi/zabbix-monitoring-platform"&gt;این آدرس&lt;/a&gt; دریافت نمائید.&lt;/p&gt;
 &lt;h2&gt;بحث آزاد&lt;/h2&gt;
 &lt;p&gt;در انتهای جلسه و در &lt;strong&gt;بحث آزاد&lt;/strong&gt; افراد شرکت کننده
 در جلسه به بیان نظرات، پیشنهادات و سوالات خود پرداختند.&lt;/p&gt;
