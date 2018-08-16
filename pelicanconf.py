@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 import sys
 sys.path.append('./jinja-filters')
 import mlug_summary
+from functools import partial
 
 AUTHOR = 'admin'
 SITENAME = 'گروه کاربران لینوکس مشهد'
@@ -62,7 +63,11 @@ STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # Custom jinja filters
-JINJA_FILTERS = {'mlug_summary':mlug_summary.filter_summary}
+JINJA_FILTERS = {
+		'mlug_summary': mlug_summary.filter_summary,
+		'sort_by_article_count': partial(sorted, key=lambda tags: len(tags[1])),
+		'sort_by_tag_name': partial(sorted, key=lambda tag: tag.name)
+}
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.do']
 }
