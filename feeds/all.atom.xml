@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/" rel="alternate"></link><link href="http://www.mashhadlug.org/feeds/all.atom.xml" rel="self"></link><id>http://www.mashhadlug.org/</id><updated>2018-08-29T23:13:00+04:30</updated><entry><title>گزارش جلسه ۲۱۷م گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/reports/session-217" rel="alternate"></link><published>2018-08-29T23:13:00+04:30</published><updated>2018-08-29T23:13:00+04:30</updated><author><name>admin</name></author><id>tag:www.mashhadlug.org,2018-08-29:/reports/session-217</id><summary type="html">&lt;p&gt;جلسه ۲۱۷م گروه در روز چهارشنبه ۷ شهریورماه ۱۳۹۷ با حضور اعضای
+<feed xmlns="http://www.w3.org/2005/Atom"><title>گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/" rel="alternate"></link><link href="http://www.mashhadlug.org/feeds/all.atom.xml" rel="self"></link><id>http://www.mashhadlug.org/</id><updated>2018-09-14T10:53:00+04:30</updated><entry><title>گزارش جلسه ۲۱۸م گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/reports/session-218" rel="alternate"></link><published>2018-09-14T10:53:00+04:30</published><updated>2018-09-14T10:53:00+04:30</updated><author><name>admin</name></author><id>tag:www.mashhadlug.org,2018-09-14:/reports/session-218</id><summary type="html">&lt;p&gt;جلسه ۲۱۸م گروه در روز چهارشنبه ۲۱ شهریورماه ۱۳۹۷ با حضور اعضای
+گروه برگزار شد در ساختمان &lt;strong&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/strong&gt;
+واقع در خیابان کوهسنگی ۱۷ برگزار شد. مباحثی که در این جلسه به
+آنها پرداخته شد را در زیر مشاهده خواهید نمود:
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h2&gt;حامی برگزاری جلسه &lt;em&gt;شرکت فناوری …&lt;/em&gt;&lt;/h2&gt;</summary><content type="html">&lt;p&gt;جلسه ۲۱۸م گروه در روز چهارشنبه ۲۱ شهریورماه ۱۳۹۷ با حضور اعضای
+گروه برگزار شد در ساختمان &lt;strong&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/strong&gt;
+واقع در خیابان کوهسنگی ۱۷ برگزار شد. مباحثی که در این جلسه به
+آنها پرداخته شد را در زیر مشاهده خواهید نمود:
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h2&gt;حامی برگزاری جلسه &lt;em&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;هفتمین جلسه گروه در سال ۱۳۹۷ با تشکر از &lt;strong&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/strong&gt;
+و مسئولان مربوطه بعنوان حامی گروه در تامین و برگزاری جلسات گروه برگزار شد. 
+امید است که در سایه تلاش و حمایت تمامی عزیزانی که در برگزاری هر چه بهتر جلسات
+تلاش دارند، گروه سالی توام با موفقیت پیش‌رو داشته باشد.&lt;/p&gt;
+&lt;h2&gt;اجرای ابزارهای اندرویدی بر روی گنو/لینوکس&lt;/h2&gt;
+&lt;p&gt;در این جلسه همراه بودیم با معرفی چندین روش برای اجرای ابزارهای اندرویدی
+بر روی توزیع‌های گنو/لینوکسی. پس از معرفی ابزاری همچون [shashlik][1] و بررسی معایب
+آنها، با ابزار &lt;a href="http://www.shashlik.io/"&gt;Anbox&lt;/a&gt;، مزایا و نحوه کار آن آشنا شدیم. اسلایدهای این ارائه را
+می‌توانید &lt;a href="https://anbox.io/"&gt;از اینجا&lt;/a&gt; دریافت نمائید.+6&lt;/p&gt;
+&lt;h2&gt;اخبار دنیای نرم‌افزارهای آزاد و متن‌باز &lt;em&gt;کوشا&lt;/em&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;تولد کرنل لینوکس به روایات مختلف&lt;/li&gt;
+&lt;li&gt;بحث و تبادل نظر درباره صحبت‌های اخیر Elon Musk&lt;/li&gt;
+&lt;li&gt;انتشار نسخه جدید توزیع گنو/لینوکسی Tails نسخه ۳.۹&lt;/li&gt;
+&lt;li&gt;ارتقا زبان python بعنوان سومین زبان برنامه‌نویسی پرطرفدار&lt;/li&gt;
+&lt;li&gt;تولد Dennis Ritchie خالق زبان C و سیستم‌عامل Unix&lt;/li&gt;
+&lt;li&gt;روز آزادی نرم‌افزار&lt;/li&gt;
+&lt;li&gt;روز برنامه‌نویس&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;بحث آزاد&lt;/h2&gt;
+&lt;p&gt;در انتهای جلسه و در &lt;strong&gt;بحث آزاد&lt;/strong&gt; افراد شرکت کننده
+در جلسه به بیان نظرات، پیشنهادات و سوالات خود پرداختند. مباحثی که در این بخش مورد
+بحث و تبادل نظر قرار گرفتند عبارت بودند از:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;طرح مشکل در نصب bootloader بر روی دیسک gpt&lt;/li&gt;
+&lt;li&gt;انتخاب زبانی مناسب برای شروع یادگیری برنامه‌نویسی&lt;/li&gt;
+&lt;li&gt;بررسی snapshot ها بعنوان جایگزینی برای پشتیبان گیری&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;با تشکر از همه دوستانی که در این جلسه حضور یافتند،
+گروه آماده دریافت نظرات و انتقادات اعضای گروه می‌باشد.&lt;/p&gt;</content><category term="@افشین فلاطونی"></category><category term="@علی بوستانی"></category><category term="@بیژن ابراهیمی"></category><category term="@علیرضا حکم‌آبادی"></category><category term="@کوشا"></category><category term="@مهدی عطائیان"></category><category term="@محمد ترابی"></category><category term="@علی جاویدی"></category><category term="@فرزانه صادقی"></category><category term="@فاطمه ترجمان"></category><category term="@جمشید ثابت"></category><category term="@امیررضا غفوریان"></category><category term="@مهرداد عسلیان"></category><category term="@محمد قاضی"></category><category term="@محمد علوی‌زاده"></category></entry><entry><title>گزارش جلسه ۲۱۷م گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/reports/session-217" rel="alternate"></link><published>2018-08-29T23:13:00+04:30</published><updated>2018-08-29T23:13:00+04:30</updated><author><name>admin</name></author><id>tag:www.mashhadlug.org,2018-08-29:/reports/session-217</id><summary type="html">&lt;p&gt;جلسه ۲۱۷م گروه در روز چهارشنبه ۷ شهریورماه ۱۳۹۷ با حضور اعضای
 گروه برگزار شد در ساختمان &lt;strong&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/strong&gt;
 واقع در خیابان کوهسنگی ۱۷ برگزار شد. مباحثی که در این جلسه به
 آنها پرداخته شد را در زیر مشاهده خواهید نمود:
