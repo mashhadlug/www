@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/" rel="alternate"></link><link href="http://www.mashhadlug.org/feeds/all.atom.xml" rel="self"></link><id>http://www.mashhadlug.org/</id><updated>2018-09-14T10:53:00+04:30</updated><entry><title>گزارش جلسه ۲۱۸م گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/reports/session-218" rel="alternate"></link><published>2018-09-14T10:53:00+04:30</published><updated>2018-09-14T10:53:00+04:30</updated><author><name>admin</name></author><id>tag:www.mashhadlug.org,2018-09-14:/reports/session-218</id><summary type="html">&lt;p&gt;جلسه ۲۱۸م گروه در روز چهارشنبه ۲۱ شهریورماه ۱۳۹۷ با حضور اعضای
+<feed xmlns="http://www.w3.org/2005/Atom"><title>گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/" rel="alternate"></link><link href="http://www.mashhadlug.org/feeds/all.atom.xml" rel="self"></link><id>http://www.mashhadlug.org/</id><updated>2018-09-26T10:53:00+03:30</updated><entry><title>گزارش جلسه ۲۱۹م گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/reports/session-219" rel="alternate"></link><published>2018-09-26T10:53:00+03:30</published><updated>2018-09-26T10:53:00+03:30</updated><author><name>admin</name></author><id>tag:www.mashhadlug.org,2018-09-26:/reports/session-219</id><summary type="html">&lt;p&gt;جلسه ۲۱۹م گروه در روز چهارشنبه ۴ مهرماه ۱۳۹۷ با حضور اعضای
+گروه برگزار شد در ساختمان &lt;strong&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/strong&gt;
+واقع در خیابان کوهسنگی ۱۷ برگزار شد. مباحثی که در این جلسه به
+آنها پرداخته شد را در زیر مشاهده خواهید نمود:
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h2&gt;حامی برگزاری جلسه &lt;em&gt;شرکت فناوری …&lt;/em&gt;&lt;/h2&gt;</summary><content type="html">&lt;p&gt;جلسه ۲۱۹م گروه در روز چهارشنبه ۴ مهرماه ۱۳۹۷ با حضور اعضای
+گروه برگزار شد در ساختمان &lt;strong&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/strong&gt;
+واقع در خیابان کوهسنگی ۱۷ برگزار شد. مباحثی که در این جلسه به
+آنها پرداخته شد را در زیر مشاهده خواهید نمود:
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h2&gt;حامی برگزاری جلسه &lt;em&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;هشتمین جلسه گروه در سال ۱۳۹۷ با تشکر از &lt;strong&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/strong&gt;
+و مسئولان مربوطه بعنوان حامی گروه در تامین و برگزاری جلسات گروه برگزار شد. 
+امید است که در سایه تلاش و حمایت تمامی عزیزانی که در برگزاری هر چه بهتر جلسات
+تلاش دارند، گروه سالی توام با موفقیت پیش‌رو داشته باشد.&lt;/p&gt;
+&lt;h2&gt;اخبار دنیای نرم‌افزارهای آزاد و متن‌باز &lt;em&gt;کوشا&lt;/em&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;آشنایی با تئوری نظریه اعداد ریمان و اهمیت آن&lt;/li&gt;
+&lt;li&gt;پشتیبانی Hyper-V مایکروسافت ویندوز از اوبونتو ۱۸.۰۴&lt;/li&gt;
+&lt;li&gt;نیاز صنعت جهانی به برنامه‌نویس‌های زبان Cobol&lt;/li&gt;
+&lt;li&gt;معرفی پروژه Firefox Monitor؛ پایگاه‌داده‌ای از اطلاعات مسروقه&lt;/li&gt;
+&lt;li&gt;انتشار نسخه بتا توزیع گنو/لینوکسی فدورا ۲۹&lt;/li&gt;
+&lt;li&gt;عذرخواهی لینوس توروالدز از جامعه توسعه‌دهنده کرنل لینوکس&lt;/li&gt;
+&lt;li&gt;آغاز مسابقات ACM دانشگاه فردوسی مشهد&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;آشنایی با ابزار audacity &lt;em&gt;امیرحسین بقایی&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;در این جلسه همراه بودیم با آقای «بقایی» با معرفی و آموزش مقدماتی کار با
+نرم‌افزار ویرایش صدای دیجیتال audacity که در قالب ساخت پادکستی فرضی برای گروه
+کاربران لینوکس مشهد همراه بود. مباحثی که در این ارائه به صورت عملی با آنها آشنا شدیم
+عبارتند از:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;نحوه وارد کردن صدای از پیش ضبط شده به پروژه&lt;/li&gt;
+&lt;li&gt;ضبط صدا توسط میکروفن و تنظیمات مربوط به سخت‌افزار&lt;/li&gt;
+&lt;li&gt;آشنایی با مفاهیمی مانند نویز، صدای مونو و استریو، biterate و …&lt;/li&gt;
+&lt;li&gt;آشنایی با جعبه ابزارهای audacity مانند&lt;ul&gt;
+&lt;li&gt;ابزار Selection&lt;/li&gt;
+&lt;li&gt;ابزار Envelope&lt;/li&gt;
+&lt;li&gt;ابزار Time Shift&lt;/li&gt;
+&lt;li&gt;ابزار Draw&lt;/li&gt;
+&lt;li&gt;ابزار Multi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;همچنین با عملیاتی مانند حذف صدای پس زمینه، حذف بخش‌هایی از صدای ضبط شده، جداسازی و 
+الحاق track های صوتی و همچنین محو کردن صدای موسیقی در پس زمینه آشنا شدیم.&lt;/p&gt;
+&lt;h2&gt;بحث آزاد&lt;/h2&gt;
+&lt;p&gt;در انتهای جلسه و در &lt;strong&gt;بحث آزاد&lt;/strong&gt; افراد شرکت کننده
+در جلسه به بیان نظرات، پیشنهادات و سوالات خود پرداختند. مباحثی که در این بخش مورد
+بحث و تبادل نظر قرار گرفتند عبارت بودند از:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;اهدای کمک مالی به پروژه GIMP&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;با تشکر از همه دوستانی که در این جلسه حضور یافتند،
+گروه آماده دریافت نظرات و انتقادات اعضای گروه می‌باشد.&lt;/p&gt;</content></entry><entry><title>گزارش جلسه ۲۱۸م گروه کاربران لینوکس مشهد</title><link href="http://www.mashhadlug.org/reports/session-218" rel="alternate"></link><published>2018-09-14T10:53:00+04:30</published><updated>2018-09-14T10:53:00+04:30</updated><author><name>admin</name></author><id>tag:www.mashhadlug.org,2018-09-14:/reports/session-218</id><summary type="html">&lt;p&gt;جلسه ۲۱۸م گروه در روز چهارشنبه ۲۱ شهریورماه ۱۳۹۷ با حضور اعضای
 گروه برگزار شد در ساختمان &lt;strong&gt;شرکت فناوری اطلاعات و ارتباطات رضوی&lt;/strong&gt;
 واقع در خیابان کوهسنگی ۱۷ برگزار شد. مباحثی که در این جلسه به
 آنها پرداخته شد را در زیر مشاهده خواهید نمود:
