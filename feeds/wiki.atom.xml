@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>گروه کاربران لینوکس مشهد - wiki</title><link href="http://www.mashhadlug.org/" rel="alternate"></link><link href="http://www.mashhadlug.org/feeds/wiki.atom.xml" rel="self"></link><id>http://www.mashhadlug.org/</id><updated>2018-04-07T23:46:00+04:30</updated><entry><title>جلسات دوره‌ای گروه</title><link href="http://www.mashhadlug.org/wiki/next-session/" rel="alternate"></link><published>2018-04-07T23:46:00+04:30</published><updated>2018-04-07T23:46:00+04:30</updated><author><name>ebrahimi_b</name></author><id>tag:www.mashhadlug.org,2018-04-07:/wiki/next-session/</id><summary type="html">&lt;p&gt;جلسات دوره‌ای گروه هر دو هفته یکبار، بصورت منظم برگزار می‌شود که شرکت در آن
+<feed xmlns="http://www.w3.org/2005/Atom"><title>گروه کاربران لینوکس مشهد - wiki</title><link href="http://www.mashhadlug.org/" rel="alternate"></link><link href="http://www.mashhadlug.org/feeds/wiki.atom.xml" rel="self"></link><id>http://www.mashhadlug.org/</id><updated>2018-04-07T23:46:00+04:30</updated><subtitle>آزادی، انتخاب، امنیت</subtitle><entry><title>جلسات دوره‌ای گروه</title><link href="http://www.mashhadlug.org/wiki/next-session/" rel="alternate"></link><published>2018-04-07T23:46:00+04:30</published><updated>2018-04-07T23:46:00+04:30</updated><author><name>ebrahimi_b</name></author><id>tag:www.mashhadlug.org,2018-04-07:/wiki/next-session/</id><summary type="html">&lt;p&gt;جلسات دوره‌ای گروه هر دو هفته یکبار، بصورت منظم برگزار می‌شود که شرکت در آن
 &lt;strong&gt;برای عموم آزاد و رایگان&lt;/strong&gt; خواهد بود و شامل یک یا چند عنوان از عناوین زیر خواهد بود:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;شروع جلسه توسط مدیر جلسه&lt;/li&gt;
@@ -180,7 +180,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align="right"&gt;۷ اردیبهشت‌ ۱۳۸۸&lt;/td&gt;
-&lt;td align="right"&gt;تور آشنایی با لینوکس در مراکز علمی تخصصی دانشگاه سجاد&lt;/td&gt;
+&lt;td align="right"&gt; تور آشنایی با لینوکس در مراکز علمی تخصصی دانشگاه سجاد&lt;/td&gt;
 &lt;td align="left"&gt;&lt;a href="/activities/activity-2009-04-first-linux-tour-sajad-uni/"&gt;گزارش&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -565,12 +565,12 @@
 
 
 &lt;p&gt;راه دوم استفاده و مقدار دهی دستی به پارامتر های مختصات و طول و عرض فضای مستطیلی واری است که از صفحه قرار است ضبط شود:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;‭$ recordmydesktop -x &lt;span class="m"&gt;0&lt;/span&gt; -y &lt;span class="m"&gt;0&lt;/span&gt; –width &lt;span class="m"&gt;1024&lt;/span&gt; –height 768
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;‭$ recordmydesktop -x &lt;span class="m"&gt;0&lt;/span&gt; -y &lt;span class="m"&gt;0&lt;/span&gt; –width &lt;span class="m"&gt;1024&lt;/span&gt; –height &lt;span class="m"&gt;768&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;توجه داشته باشید که این فضا ثابت بوده و در صورتی که مطمئن هستید تنها از این بخش از تصویر دسکتاپ خود برای ارائه نیاز دارید استفاده کنید. برای موارد خاص توصیه می‌کنیم از پارامتر follow-mouse استفاده کنید. با استفاده از این پاراکتر، فضایی به ابعداد مشخص شده توسط پارامتر‌های width و height اطراف موس همیشه در کادر ضبط تصویر، خواهند بود.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;‭$ recordmydesktop –follow-mouse –width &lt;span class="m"&gt;1024&lt;/span&gt; –height 768
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;‭$ recordmydesktop –follow-mouse –width &lt;span class="m"&gt;1024&lt;/span&gt; –height &lt;span class="m"&gt;768&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
