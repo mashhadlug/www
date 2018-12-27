@@ -41,15 +41,15 @@ $ source .env/bin/activate
 
 To change the content of the website you need to edit the markdown files located inside different folders in  `contents` folder.
 
-#### Editing the index
+### Editing the index
 
 edit the `contents/pages/index.md` file to change the index of the website.
 
-#### Making a new session report
+### Making a new session report
 
 Session reports are placed inside the `contents/reports` directory. you need to create a folder for each new session. **Note that any files related to the session should be placed inside that session's directory**.
 
-#### Preview the changes in the web server.
+### Preview the changes in the web server.
 
 To manually update your changes to be shown in web server running on your localhost run
 
@@ -62,6 +62,8 @@ $ pelican content -s pelicanconf.py
 to update the master branch run
 
 ```bash
+$ git add #{any file you changed}
+$ git commit
 $ git push origin master
 ```
 
