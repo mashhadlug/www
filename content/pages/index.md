@@ -1,5 +1,5 @@
 title: رویداد بعدی گروه
-date: 9 Dec 2018 17:30 GMT+0430
+date: 9 Jan 2019 17:30 GMT+0430
 save_as: index.html
 url: index.html
 template: page-index
@@ -8,7 +8,7 @@ navbar_order: 1
 navbar_description: رویدادهای بعدی گروه
 navbar_icon: /theme/images/icons/internet-and-web-4/internt_web_technology-01.png
 timer_due_date: 9 Dec 2018 17:30 GMT+0430
-timer_printable_date: چهارشنبه ۲۳ آبان ماه ۱۳۹۷ - ساعت ۱۸ الی ۱۷:۳۰
+timer_printable_date: چهارشنبه ۱۹ دی ماه ۱۳۹۷ - ساعت ۱۷:۳۰ الی ۱۸:۳۰
 map_osm: https://www.openstreetmap.org/export/embed.html?bbox=59.53111410140992%2C36.29778135792468%2C59.54184293746949%2C36.304283569502765&amp
 location_address: مکان: مشهد- بزرگراه شهید کلانتری جنب پارک صدا و سیما - هتل پردیسان - سالن کنفرانس حافظ
 location_routes: 
