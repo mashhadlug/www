@@ -1,5 +1,5 @@
 title: رویداد بعدی گروه
-date: 9 Jan 2019 17:30 GMT+0430
+date: 7 Jan 2019 17:30 GMT+0430
 save_as: index.html
 url: index.html
 template: page-index
@@ -7,15 +7,15 @@ navbar_title: خانه
 navbar_order: 1
 navbar_description: رویدادهای بعدی گروه
 navbar_icon: /theme/images/icons/internet-and-web-4/internt_web_technology-01.png
-timer_due_date: 9 Dec 2018 17:30 GMT+0430
+timer_due_date: 9 Jan 2019 17:30 GMT+0430
 timer_printable_date: چهارشنبه ۱۹ دی ماه ۱۳۹۷ - ساعت ۱۷:۳۰ الی ۱۸:۳۰
 map_osm: https://www.openstreetmap.org/export/embed.html?bbox=59.53111410140992%2C36.29778135792468%2C59.54184293746949%2C36.304283569502765&amp
 location_address: مکان: مشهد- بزرگراه شهید کلانتری جنب پارک صدا و سیما - هتل پردیسان - سالن کنفرانس حافظ
 location_routes: 
     برای اطلاع از مسیرها می‌توانید به <a href="http://map.mashadtraffic.ir">نقشه ترافیک مشهد</a> مراجعه نمائید
 
-جلسه ۲۲۱ گروه،  چهارشنبه ۱۹ دی ۹۷  ۱۷:۳۰ الی ۱۹:۳۰ در مکان برگزاری جلسات
-واقع در **بزرگراه کلانتری حنب پارک صدا و سیما هتل پردیسان سالن کنفرانس حافظ** برگزار
+جلسه ۲۲۱ گروه،  چهارشنبه ۱۹ دی ماه ۱۳۹۷ در ساعت  ۱۷:۳۰ الی ۱۹:۳۰ در مکان برگزاری جلسات
+واقع در **بزرگراه کلانتری جنب پارک صدا و سیما هتل پردیسان سالن کنفرانس حافظ** برگزار
 می‌شود.
 
 
