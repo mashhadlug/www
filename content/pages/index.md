@@ -8,7 +8,7 @@ navbar_order: 1
 navbar_description: رویدادهای بعدی گروه
 navbar_icon: /theme/images/icons/internet-and-web-4/internt_web_technology-01.png
 timer_due_date: 24 Apr 2019 17:30 GMT+0430
-timer_printable_date: چهارشنبه ۴ اردیبهشت‌ماه ۱۳۹۸ - ساعت ۱۷:۳۰ الی ۱۸:۳۰
+timer_printable_date: چهارشنبه ۴ اردیبهشت‌ماه ۱۳۹۸ - ساعت ۱۷:۰۰ الی ۱۸:۳۰
 map_osm: 
 location_address: بلوار خیام، روبروی «مشهد مال»، ساختمان «پیست بانک»، شرکت «گرین وب»
 location_routes: 
