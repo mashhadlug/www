@@ -88,9 +88,9 @@ serve-global:
 
 devserver:
 .ifdef PORT
-	$(BASEDIR)/develop_server.sh restart $(PORT)
+	bash $(BASEDIR)/develop_server.sh restart $(PORT)
 .else
-	$(BASEDIR)/develop_server.sh restart
+	bash $(BASEDIR)/develop_server.sh restart
 .endif
 
 stopserver:
