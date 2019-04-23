@@ -10,7 +10,7 @@
         <!-- FAVICON -->
         <link rel="icon" type="image/x-icon" href="/theme/images/favicon.ico" />
         <link rel="icon" type="image/png" href="/theme/images/favicon.png" />
-        <title>گروه کاربران لینوکس مشهد | گزارش جلسه ۹۷م - گروه کاربران لینوکس مشهد</title>
+        <title>گروه کاربران لینوکس مشهد | گزارش جلسه ۲۲۰ام گروه کاربران لینوکس مشهد - گروه کاربران لینوکس مشهد</title>
         <!-- Stylesheets -->
         <link href="http://www.mashhadlug.org/theme/css/bootstrap.min.css" rel="stylesheet">
         <link href="http://www.mashhadlug.org/theme/css/bootstrap-rtl.min.css" rel="stylesheet">
@@ -126,38 +126,27 @@
 </ul>          </div>
           <div class="row">
 <div class="page">
-  <h1>گزارش جلسه ۹۷م</h1>    
-  <p>جلسه ۹۷م گروه کاربران در ساعت ۱۷ روز دوشنبه ۴ اردیبهشت‌ماه ۱۳۹۱ با حضور تعدادی
-از اعضای آن برگزار شد</p>
-<!--more-->
-
-<p>موضوعاتی که در این جلسه به آن‌ها پرداخته شد عبارتند از:</p>
-<h2>خط فرمان <em>آقای بیژن ابراهیمی</em></h2>
-<p>آموزش نحوه «یافتن زمان روشن سیستم در روز جاری» یا معادل آن «چه ساعتی در محل کار حضور یافتید؟». اسکریپتی برای تشخیص زمان روشن شدن سیستم:</p>
-<div class="highlight"><pre><span></span>$ <span class="nb">echo</span> -n <span class="s2">&quot;You were at wotk at &quot;</span> <span class="o">&amp;&amp;</span> cat /var/log/syslog <span class="p">|</span> grep -i --color <span class="s2">&quot;</span><span class="k">$(</span>date <span class="s2">&quot;+%b %d&quot;</span><span class="k">)</span><span class="s2">&quot;</span> <span class="p">|</span> head -n <span class="m">1</span> <span class="p">|</span> grep -o --color <span class="s2">&quot;</span><span class="k">$(</span>date <span class="s2">&quot;+%b %d&quot;</span><span class="k">)</span><span class="s2"> [0-9:]\+&quot;</span>
-You were at wotk at Apr <span class="m">24</span> 09:45:44
-</pre></div>
-
-
-<p><strong>معایب دستور فوق</strong>: دستور فوق صرفا زمان روشن شدن سیستم را مشخص میکند! برای مشخص شدن زمان ورود کاربری از دستور last میتوان استفاده کرد. این دستور زمان ورود کاربری تمام کاربران سیستم را نشان میدهد:</p>
-<div class="highlight"><pre><span></span>$ <span class="nb">echo</span> -n <span class="s2">&quot;You loged on today at &quot;</span> <span class="o">&amp;&amp;</span> last <span class="nv">$USER</span> <span class="p">|</span> grep --color <span class="s2">&quot;</span><span class="k">$(</span>date <span class="s2">&quot;+%a %b %d&quot;</span><span class="k">)</span><span class="s2">&quot;</span> <span class="p">|</span> tail -n <span class="m">1</span> <span class="p">|</span> grep --color -o <span class="s2">&quot;</span><span class="k">$(</span>date <span class="s2">&quot;+%a %b %d&quot;</span><span class="k">)</span><span class="s2"> [0-9:]\+&quot;</span>
-You loged on today at Tue Apr <span class="m">24</span> 09:48
-</pre></div>
-
-
-<ol>
-<li>
-<p>آشنایی با نرم‌افزارهای CAD در لینوکس و همچنین معرفی چند بازی با گرافیک سه بعدی توسط امیرحسین هنردوست. <a href="/theme/uploads/reports/session-97/cad.odt">دانلود</a> خلاصه‌ی ارایه</p>
-</li>
-<li>
-<p>نگاهی به زبان برنامه نویسی و نرم‌افزار <a href="http://gvr.sourceforge.net/index.php">GvR</a> برای یادگیری مفاهیم ابتدایی برنامه‌نویسی.</p>
-</li>
-<li>
-<p>معرفی اسکریپت آقای بیژن ابراهیمی به نام pwdgen برای ایجاد پسورد. <a href="https://gitorious.org/pwdgen/pwdgen-repo">لینک پروژه در گیتوریوس</a></p>
-</li>
-</ol>
-<p>این جلسه، برای اولین بار در محل شرکت معیار گستر توس، برگزار شد و قرار بر این شد که جلسات آینده، شنبه‌ی هر هفته در همین محل برگزار گردد. همچین صحبت‌هایی جهت برگزاری سمینار و جشن نصب در دانشگاه امام رضا صورت گرفت و قرار شد هماهنگی‌های این جشن در لیست پستی صورت پذیرد.</p>
-<p>این جلسه در ساعت ۱۹ خاتمه یافت.</p>
+  <h1>گزارش جلسه ۲۲۰ام گروه کاربران لینوکس مشهد</h1>    
+  <p>جلسه ۲۲۱ گروه،  چهارشنبه ۱۹ دی ماه ۱۳۹۷ در ساعت  ۱۷:۳۰ الی ۱۹:۳۰ در مکان برگزاری جلسات
+واقع در <strong>بزرگراه کلانتری جنب پارک صدا و سیما هتل پردیسان سالن کنفرانس حافظ</strong> برگزار
+شد.
+مباحثی که در این جلسه به
+آنها پرداخته شد را در زیر مشاهده خواهید نمود:
+<!--more--></p>
+<h2>حامی برگزاری جلسه <em>شرکت پردازش اطلاعات مالی پارت</em></h2>
+<h2>ارائه چارچوب توسعه‌ی وب ASP.NET Core <em>مهدی هوشمند</em></h2>
+<p>یک چارچوب توسعه وب رایگان و منبع باز است که عملکرد بسیار بهتری از ASP.NET دارد. این چارچوب توسط Microsoft و community مرتبط آن توسعه داده شده است. این چارچوب به صورت چندسکو (cross-platform) بر روی سیستم‌عامل‌های Windows، Linux و macOS قابل اجرا است و نسخه‌ی کاملا بازنویسی شده و منسجم شده‌ی ASP.NET MVC و ASP.NET Web API است.
+در این ارائه قصد داریم تا ضمن آشنایی با این چارچوب و مزایای کسب شده‌ی آن در منبع باز شدن، یک نمونه‌ی وب اپلیکیشن ساده توسعه دهیم و به اجرا در بیاوریم.</p>
+<h2>راه‌کارها و قابلیت‌های QT <em>محمد شرافت</em></h2>
+<p>گسترش استفاده از سیستم های کامپیوتری در حوزه های مختلف ازیکسو و نیاز به ارتباطات و اطلاعات برای مقاصد مختلف از سوی دیگر، ایجاب می کند به سراغ راهکارهایی پیش برویم تا امکان جمع آوری، پردازش، ذخیره سازی و ارائه اطلاعات رافراهم بکنند. از طرفی تنوع سیستم های اطلاعاتی، هزینه های طراحی و پیاده سازی و همچنین رقابت بازار، سازمان ها رابه سمت و سوی راهکارهایی سوق می دهد که در زمان، هزینه ها و منابع مورد نیاز بهینه تر عمل کنند. 
+یکی از راهکارهایی که در این زمینه موجود است فریم ورک Qt می‌باشد که با ارائه راهکارهای توسعه اپلیکیشن های نرم افزار برای پلتفرم های مختلف با یک کد، هزینه کم، سرعت توسعه، و کیفیت عالی نظر سازمان ها را به خود جلب کرده است. 
+هدف این ارائه معرفی برخی از این راهکارها و قابلیت ها است.</p>
+<h2>بحث آزاد</h2>
+<p>در پایان جلسه و طبق روال گذشته، زمانی از جلسه به بحث آزاد بین اعضای گروه
+اختصاص داده خواهد شد. با شرکت در این جلسه شما نیز می‌توانید سوالات و مشکلات
+فنی خود را در حضور اعضای گروه طرح کنید.</p>
+<p>با تشکر از همه دوستانی که در این جلسه حضور یافتند،
+گروه آماده دریافت نظرات و انتقادات اعضای گروه می‌باشد.</p>
 </div>
           </div>
         </div>

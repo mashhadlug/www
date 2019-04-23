@@ -133,7 +133,7 @@
 <h2>جلسه سوم از مرور سرفصل‌های دوره ال‌پیک ۱ (LPIC 1) <em>رامین نجارباشی</em></h2>
 <p>در این جلسه جناب آقای رامین نجار باشی سومین جلسه از سری جلسات مرور سرفصل‌های ال‌پیک را ارائه کردند. این ارائه به Magic Number‌ها اختصاص داشت. Magic Number‌ها و یا امضای فایل (file signature) به سری بیت‌هایی گفته می‌شود که در ابتدا، انتهای و در برخی از موارد در ابتدا و انتهای فایل‌ها قرار می‌گیرند تا ازین طریق نوع و کارایی آنها شناسایی شود. به عنوان مثلا دو bit اول یک فایل با فرمت jpg با عدد هگز ‪FFD8‬ شروع و با عدد هگز ‪FFD9‬ خاتمه می‌یابد. سیستم‌های مبتنی بر یونیکس ازین قابلیت (بر خلاف سیستم‌عامل ویندوز) برای شناسایی نوع فایل استفاده می‌کنند بنابراین متکی به پسوند فایل نیستند. از دیگر کارایی‌های Magic Numberها در ابزارهای بازیابی فایل می‌باشد که ازین اعداد برای شناسایی و بازیابی فایل‌های از میان رفته استفاده می‌کنند. برای مشاهده نوع فایل در لینوکس می‌توانید از دستور <code>file</code> استفاده کنید:</p>
 <div class="highlight"><pre><span></span>$ file /tmp/picture.jpg 
-/tmp/picture.jpg: JPEG image data, JFIF standard <span class="m">1</span>.01, comment: <span class="s2">&quot;CREATOR: gd-jpeg v1.0 (using IJG JPEG v62), quality = 85&quot;</span>
+/tmp/picture.jpg: JPEG image data, JFIF standard 1.01, comment: <span class="s2">&quot;CREATOR: gd-jpeg v1.0 (using IJG JPEG v62), quality = 85&quot;</span>
 </pre></div>
 
 
@@ -149,12 +149,12 @@
 
 <p><img alt="MBR Structure" src="/theme/uploads/reports/session-149/session-149-mbr-structure.png"></p>
 <p>همانطور که در عکس فوق مشاهده می‌کنید،۴۴۰ بایت اول رکورد بوت شامل محدوده کُد می‌باشد. چهار بایت بعدی معرف شناسه دیسک، ۲ بایت بعدی عموما با 0x0000 نشانه گذاری می‌شود. ۶۴ بایت بعدی شامل اطلاعات مربوط به جدول پارتیشن‌ها و دوبایت آخر امضای رکورد بوت (MBR Signature) می‌باشد که با 0x55AA خاتمه می‌باید. به عنوان مثال برای خواندن شناسه دیسک از سکتور بوت می‌توان از دستور زیر استفاده کرد:</p>
-<div class="highlight"><pre><span></span># dd if=/dev/sda bs=1 skip=440 count=4 2&amp;gt;/dev/null | od -t x1
+<div class="highlight"><pre><span></span># dd if=/dev/sda bs=1 skip=440 count=4 2&gt;/dev/null | od -t x1
 </pre></div>
 
 
 <p>جدول پارتیشن  شامل چهار رکورد ۱۶ بایتی برای ۴ پارتیشن اصلی (Primary Partitions) می‌باشد. برای مشاهده رکورد‌های مربوط به اولین پارتیشن دیسک سخت خود می‌توانید دستور زیر را اجرا نمایید.</p>
-<div class="highlight"><pre><span></span># dd if=/dev/sdb bs=1 skip=446 count=16 2&amp;gt;/dev/null | od -t x1
+<div class="highlight"><pre><span></span># dd if=/dev/sdb bs=1 skip=446 count=16 2&gt;/dev/null | od -t x1
 0000000 80 01 01 00 83 FE 3F 01 3F 00 00 00 43 7D 00 00
 </pre></div>
 

@@ -140,30 +140,30 @@
 
 
 <p>چنانچه در خروجی دستور تنها ۱ نود مشاهده شد به این معنی است که معماری پروسسور ما نمی‌تواند از numa پشتیبانی کند.</p>
-<div class="highlight"><pre><span></span>$numactl  --hardware 
-available: 1 nodes (0)
-node 0 cpus: 0 1 2 3
-node 0 size: 3735 MB
-node 0 free: 172 MB
-node distances:
-node   0 
-  0:  10
+<div class="highlight"><pre><span></span><span class="p">$</span><span class="nv">numactl</span><span class="x">  --hardware </span>
+<span class="x">available: 1 nodes (0)</span>
+<span class="x">node 0 cpus: 0 1 2 3</span>
+<span class="x">node 0 size: 3735 MB</span>
+<span class="x">node 0 free: 172 MB</span>
+<span class="x">node distances:</span>
+<span class="x">node   0 </span>
+<span class="x">  0:  10</span>
 </pre></div>
 
 
 <p>اگر در خروجی بیش از یک نود وجود داشت به این معنی است که پروسسور از numa پشتبیانی می‌کند. </p>
 <div class="highlight"><pre><span></span>$ numactl --hardware 
-available: <span class="m">2</span> nodes <span class="o">(</span><span class="m">0</span>-1<span class="o">)</span>
-node <span class="m">0</span> cpus: <span class="m">0</span> <span class="m">1</span> <span class="m">2</span> <span class="m">3</span> <span class="m">8</span> <span class="m">9</span> <span class="m">10</span> <span class="m">11</span>
+available: <span class="m">2</span> nodes <span class="o">(</span>0-1<span class="o">)</span>
+node <span class="m">0</span> cpus: <span class="m">0</span> <span class="m">1</span> <span class="m">2</span> <span class="m">3</span> <span class="m">8</span> <span class="m">9</span> <span class="m">10</span> 11
 node <span class="m">0</span> size: <span class="m">16374</span> MB
 node <span class="m">0</span> free: <span class="m">10935</span> MB
-node <span class="m">1</span> cpus: <span class="m">4</span> <span class="m">5</span> <span class="m">6</span> <span class="m">7</span> <span class="m">12</span> <span class="m">13</span> <span class="m">14</span> <span class="m">15</span>
+node <span class="m">1</span> cpus: <span class="m">4</span> <span class="m">5</span> <span class="m">6</span> <span class="m">7</span> <span class="m">12</span> <span class="m">13</span> <span class="m">14</span> 15
 node <span class="m">1</span> size: <span class="m">16384</span> MB
 node <span class="m">1</span> free: <span class="m">15298</span> MB
 node distances:
 node   <span class="m">0</span>   <span class="m">1</span> 
-  <span class="m">0</span>:  <span class="m">10</span>  <span class="m">20</span> 
-  <span class="m">1</span>:  <span class="m">20</span>  <span class="m">10</span>
+  0:  <span class="m">10</span>  <span class="m">20</span> 
+  1:  <span class="m">20</span>  10
 </pre></div>
 
 
@@ -197,7 +197,7 @@ policy: default
 preferred node: current
 physcpubind: <span class="m">0</span> <span class="m">1</span> <span class="m">2</span> <span class="m">3</span> 
 cpubind: <span class="m">0</span> 
-nodebind: <span class="m">0</span>
+nodebind: 0
 </pre></div>
 
 
@@ -234,8 +234,8 @@ Preferred
 
 <p><strong>مثال ۱</strong>:</p>
 <div class="highlight"><pre><span></span>$ numactl --interleave<span class="o">=</span>all program -opts args
-$ numactl --cpubind<span class="o">=</span><span class="m">0</span> --membind<span class="o">=</span><span class="m">0</span>,1 program -opts args
-$ numactl --preferred<span class="o">=</span><span class="m">1</span>
+$ numactl --cpubind<span class="o">=</span><span class="m">0</span> --membind<span class="o">=</span>0,1 program -opts args
+$ numactl --preferred<span class="o">=</span>1
 $ numactl --localalloc /dev/shm/file
 $ numactl --show
 </pre></div>
@@ -252,13 +252,13 @@ cpuset.cpus and cpuset.mems tunables
 <p><strong>مثال ۳</strong>:</p>
 <div class="highlight"><pre><span></span>$ sudo gcc -o program numac.c -lnuma    
 $ cat nano numa.c 
-<span class="c1">#include &amp;lt;numa.h&amp;gt;</span>
-<span class="c1">#include &amp;lt;stdio.h&amp;gt;</span>
+<span class="c1">#include &lt;numa.h&gt;</span>
+<span class="c1">#include &lt;stdio.h&gt;</span>
 
 int main<span class="o">(</span>int argc, char **argv<span class="o">)</span> <span class="o">{</span>
-   <span class="k">if</span> <span class="o">(</span>numa_available<span class="o">()</span> <span class="p">&amp;</span>lt<span class="p">;</span> <span class="m">0</span><span class="o">)</span> <span class="o">{</span>
+   <span class="k">if</span> <span class="o">(</span>numa_available<span class="o">()</span> &lt; 0<span class="o">)</span> <span class="o">{</span>
       printf<span class="o">(</span><span class="s2">&quot;numa_* functions unavailable\n&quot;</span><span class="o">)</span><span class="p">;</span>
-      <span class="k">return</span> <span class="m">1</span><span class="p">;</span>
+      <span class="k">return</span> 1<span class="p">;</span>
    <span class="o">}</span>
    printf<span class="o">(</span><span class="s2">&quot;numa_available: %d \n\r&quot;</span>, numa_available<span class="o">())</span><span class="p">;</span>
    printf<span class="o">(</span><span class="s2">&quot;numa_num_possible_nodes: %d \n\r&quot;</span>, numa_num_possible_nodes   <span class="o">())</span><span class="p">;</span>
@@ -267,7 +267,7 @@ int main<span class="o">(</span>int argc, char **argv<span class="o">)</span> <s
    printf<span class="o">(</span><span class="s2">&quot;numa_num_configured_cpus: %d \n\r&quot;</span>, numa_num_configured_cpus<span class="o">())</span><span class="p">;</span>
    //   int myInt<span class="p">;</span>
    //   printf<span class="o">(</span><span class="s2">&quot;numa num: &quot;</span><span class="o">)</span><span class="p">;</span>
-   //   scanf<span class="o">(</span><span class="s2">&quot;%d&quot;</span>, <span class="p">&amp;</span>amp<span class="p">;</span>myInt<span class="o">)</span><span class="p">;</span>
+   //   scanf<span class="o">(</span><span class="s2">&quot;%d&quot;</span>, <span class="p">&amp;</span>myInt<span class="o">)</span><span class="p">;</span>
    //   printf<span class="o">(</span><span class="s2">&quot;numa_node_size: %d \n\r&quot;</span>, numa_node_size<span class="o">(</span>myInt, *free<span class="o">)</span>
 <span class="o">}</span>
 </pre></div>

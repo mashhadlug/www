@@ -10,7 +10,7 @@
         <!-- FAVICON -->
         <link rel="icon" type="image/x-icon" href="/theme/images/favicon.ico" />
         <link rel="icon" type="image/png" href="/theme/images/favicon.png" />
-        <title>گروه کاربران لینوکس مشهد | گزارش جلسه ۹۷م - گروه کاربران لینوکس مشهد</title>
+        <title>گروه کاربران لینوکس مشهد | </title>
         <!-- Stylesheets -->
         <link href="http://www.mashhadlug.org/theme/css/bootstrap.min.css" rel="stylesheet">
         <link href="http://www.mashhadlug.org/theme/css/bootstrap-rtl.min.css" rel="stylesheet">
@@ -125,39 +125,45 @@
     </li>
 </ul>          </div>
           <div class="row">
-<div class="page">
-  <h1>گزارش جلسه ۹۷م</h1>    
-  <p>جلسه ۹۷م گروه کاربران در ساعت ۱۷ روز دوشنبه ۴ اردیبهشت‌ماه ۱۳۹۱ با حضور تعدادی
-از اعضای آن برگزار شد</p>
-<!--more-->
+<div class="reports">
+  <div class="report col-md-12 col-sm-12 col-xs-12 ">
+    <h2 class="text-center">
+      <a class href="http://www.mashhadlug.org/reports/session-9">گزارش جلسه دوشنبه ۲۹ بهمن۸۶ گروه کاربران گنو/لینوکس مشهد</a>
+    </h2>
+    <p class="timer text-muted text-center" title="2008-02-24 02:44:00+03:30">2008-02-24 02:44:00+03:30</p>
+    <p>
+      <p>جلسه روز دوشنبه مورخ ۲۹ بهمن ۸۶ گروه کاربران گنو/لینوکس مشهد‌(MashhadLUG)،‌با حضور ۱۴ نفر از اعضای رسمی گروه،‌از ساعت ۴ بعد از ظهر در محل هتل پارس برگزار گردید.‌ویژگی بارز اجتماع امروز،‌حضور یکی از کارشناسان سازمان جهاد کشاورزی خراسان،‌در جمع گروه کاربران لینوکس مشهد بود که به دعوت یکی از اعضای گروه،‌در جلسه حضور به هم رسانیده بودند. یک ساعت آغازین جلسه به بحث و گفتگو پیرامون موضوعاتی گذشت که عمدتا مهمان جلسه مطرح می‌کردند و در راستای اهداف پیشنهادی جلسه نبود.‌برای مثال نیازهای کامل یک سازمان برای مهاجرت به لینوکس و تغییر بستر سازمان بررسی شد.‌در این میان صحبتهای بنیادینی پیرامون نحوه‌ی شکل‌گیری لاگ‌ها و اصول پایه‌ای اداره آنان مطرح گردید که در نوبه خود از اهمیت بالایی برخوردار بود.</p>
 
-<p>موضوعاتی که در این جلسه به آن‌ها پرداخته شد عبارتند از:</p>
-<h2>خط فرمان <em>آقای بیژن ابراهیمی</em></h2>
-<p>آموزش نحوه «یافتن زمان روشن سیستم در روز جاری» یا معادل آن «چه ساعتی در محل کار حضور یافتید؟». اسکریپتی برای تشخیص زمان روشن شدن سیستم:</p>
-<div class="highlight"><pre><span></span>$ <span class="nb">echo</span> -n <span class="s2">&quot;You were at wotk at &quot;</span> <span class="o">&amp;&amp;</span> cat /var/log/syslog <span class="p">|</span> grep -i --color <span class="s2">&quot;</span><span class="k">$(</span>date <span class="s2">&quot;+%b %d&quot;</span><span class="k">)</span><span class="s2">&quot;</span> <span class="p">|</span> head -n <span class="m">1</span> <span class="p">|</span> grep -o --color <span class="s2">&quot;</span><span class="k">$(</span>date <span class="s2">&quot;+%b %d&quot;</span><span class="k">)</span><span class="s2"> [0-9:]\+&quot;</span>
-You were at wotk at Apr <span class="m">24</span> 09:45:44
-</pre></div>
-
-
-<p><strong>معایب دستور فوق</strong>: دستور فوق صرفا زمان روشن شدن سیستم را مشخص میکند! برای مشخص شدن زمان ورود کاربری از دستور last میتوان استفاده کرد. این دستور زمان ورود کاربری تمام کاربران سیستم را نشان میدهد:</p>
-<div class="highlight"><pre><span></span>$ <span class="nb">echo</span> -n <span class="s2">&quot;You loged on today at &quot;</span> <span class="o">&amp;&amp;</span> last <span class="nv">$USER</span> <span class="p">|</span> grep --color <span class="s2">&quot;</span><span class="k">$(</span>date <span class="s2">&quot;+%a %b %d&quot;</span><span class="k">)</span><span class="s2">&quot;</span> <span class="p">|</span> tail -n <span class="m">1</span> <span class="p">|</span> grep --color -o <span class="s2">&quot;</span><span class="k">$(</span>date <span class="s2">&quot;+%a %b %d&quot;</span><span class="k">)</span><span class="s2"> [0-9:]\+&quot;</span>
-You loged on today at Tue Apr <span class="m">24</span> 09:48
-</pre></div>
-
-
-<ol>
-<li>
-<p>آشنایی با نرم‌افزارهای CAD در لینوکس و همچنین معرفی چند بازی با گرافیک سه بعدی توسط امیرحسین هنردوست. <a href="/theme/uploads/reports/session-97/cad.odt">دانلود</a> خلاصه‌ی ارایه</p>
-</li>
-<li>
-<p>نگاهی به زبان برنامه نویسی و نرم‌افزار <a href="http://gvr.sourceforge.net/index.php">GvR</a> برای یادگیری مفاهیم ابتدایی برنامه‌نویسی.</p>
-</li>
-<li>
-<p>معرفی اسکریپت آقای بیژن ابراهیمی به نام pwdgen برای ایجاد پسورد. <a href="https://gitorious.org/pwdgen/pwdgen-repo">لینک پروژه در گیتوریوس</a></p>
-</li>
-</ol>
-<p>این جلسه، برای اولین بار در محل شرکت معیار گستر توس، برگزار شد و قرار بر این شد که جلسات آینده، شنبه‌ی هر هفته در همین محل برگزار گردد. همچین صحبت‌هایی جهت برگزاری سمینار و جشن نصب در دانشگاه امام رضا صورت گرفت و قرار شد هماهنگی‌های این جشن در لیست پستی صورت پذیرد.</p>
-<p>این جلسه در ساعت ۱۹ خاتمه یافت.</p>
+    </p>
+    <div class="text-right">
+      <a href="/reports/session-9" class="viewfull">مشاهده گزارش کامل جلسه</a>
+    </div>
+    <hr/>
+  </div>
+<div class="pager">
+  <noscript>
+    <ul>
+      <li class="next disabled"><a>بعدی</a></li>
+		  <li class="previous">
+        <a href="http://www.mashhadlug.org/reports/index24.html">← Previous</a>
+      </li>
+    </ul>
+  </noscript>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+      $(document).on('click', '.reports .viewmore',function(e){
+        e.preventDefault();
+        var data_href = $(this).attr('data-href');
+        $.ajax({ type: "GET", url: data_href, async: false,
+                 success : function(text){
+                   text = $.parseHTML(text); // remove the script tag.
+                   $('.pager').replaceWith($(text).find('.reports').html());
+                   $('.timer').timeago();    // show relative timestamps
+                 }});
+      })
+    })
+  </script>
 </div>
           </div>
         </div>

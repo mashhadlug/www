@@ -180,7 +180,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align="right"&gt;۷ اردیبهشت‌ ۱۳۸۸&lt;/td&gt;
-&lt;td align="right"&gt; تور آشنایی با لینوکس در مراکز علمی تخصصی دانشگاه سجاد&lt;/td&gt;
+&lt;td align="right"&gt;تور آشنایی با لینوکس در مراکز علمی تخصصی دانشگاه سجاد&lt;/td&gt;
 &lt;td align="left"&gt;&lt;a href="/activities/activity-2009-04-first-linux-tour-sajad-uni/"&gt;گزارش&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -565,12 +565,12 @@
 
 
 &lt;p&gt;راه دوم استفاده و مقدار دهی دستی به پارامتر های مختصات و طول و عرض فضای مستطیلی واری است که از صفحه قرار است ضبط شود:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;‭$ recordmydesktop -x &lt;span class="m"&gt;0&lt;/span&gt; -y &lt;span class="m"&gt;0&lt;/span&gt; –width &lt;span class="m"&gt;1024&lt;/span&gt; –height &lt;span class="m"&gt;768&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;‭$ recordmydesktop -x &lt;span class="m"&gt;0&lt;/span&gt; -y &lt;span class="m"&gt;0&lt;/span&gt; –width &lt;span class="m"&gt;1024&lt;/span&gt; –height 768
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;توجه داشته باشید که این فضا ثابت بوده و در صورتی که مطمئن هستید تنها از این بخش از تصویر دسکتاپ خود برای ارائه نیاز دارید استفاده کنید. برای موارد خاص توصیه می‌کنیم از پارامتر follow-mouse استفاده کنید. با استفاده از این پاراکتر، فضایی به ابعداد مشخص شده توسط پارامتر‌های width و height اطراف موس همیشه در کادر ضبط تصویر، خواهند بود.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;‭$ recordmydesktop –follow-mouse –width &lt;span class="m"&gt;1024&lt;/span&gt; –height &lt;span class="m"&gt;768&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;‭$ recordmydesktop –follow-mouse –width &lt;span class="m"&gt;1024&lt;/span&gt; –height 768
 &lt;/pre&gt;&lt;/div&gt;
 
 
