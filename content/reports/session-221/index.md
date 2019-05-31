@@ -1,4 +1,4 @@
-title: گزارش جلسخ ۲۲۱ام گروه کاربران لینوکس مشهد
+title: گزارش جلسه ۲۲۱ام گروه کاربران لینوکس مشهد
 save_as: reports/session-221/index.html
 url: reports/session-221
 category: reports
