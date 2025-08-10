@@ -132,26 +132,26 @@
 
 <h2>جلسه سوم از مرور سرفصل‌های دوره ال‌پیک ۱ (LPIC 1) <em>رامین نجارباشی</em></h2>
 <p>در این جلسه جناب آقای رامین نجار باشی سومین جلسه از سری جلسات مرور سرفصل‌های ال‌پیک را ارائه کردند. این ارائه به Magic Number‌ها اختصاص داشت. Magic Number‌ها و یا امضای فایل (file signature) به سری بیت‌هایی گفته می‌شود که در ابتدا، انتهای و در برخی از موارد در ابتدا و انتهای فایل‌ها قرار می‌گیرند تا ازین طریق نوع و کارایی آنها شناسایی شود. به عنوان مثلا دو bit اول یک فایل با فرمت jpg با عدد هگز ‪FFD8‬ شروع و با عدد هگز ‪FFD9‬ خاتمه می‌یابد. سیستم‌های مبتنی بر یونیکس ازین قابلیت (بر خلاف سیستم‌عامل ویندوز) برای شناسایی نوع فایل استفاده می‌کنند بنابراین متکی به پسوند فایل نیستند. از دیگر کارایی‌های Magic Numberها در ابزارهای بازیابی فایل می‌باشد که ازین اعداد برای شناسایی و بازیابی فایل‌های از میان رفته استفاده می‌کنند. برای مشاهده نوع فایل در لینوکس می‌توانید از دستور <code>file</code> استفاده کنید:</p>
-<div class="highlight"><pre><span></span><code>$ file /tmp/picture.jpg 
-/tmp/picture.jpg: JPEG image data, JFIF standard <span class="m">1</span>.01, comment: <span class="s2">&quot;CREATOR: gd-jpeg v1.0 (using IJG JPEG v62), quality = 85&quot;</span>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>file<span class="w"> </span>/tmp/picture.jpg<span class="w"> </span>
+/tmp/picture.jpg:<span class="w"> </span>JPEG<span class="w"> </span>image<span class="w"> </span>data,<span class="w"> </span>JFIF<span class="w"> </span>standard<span class="w"> </span><span class="m">1</span>.01,<span class="w"> </span>comment:<span class="w"> </span><span class="s2">&quot;CREATOR: gd-jpeg v1.0 (using IJG JPEG v62), quality = 85&quot;</span>
 </code></pre></div>
 
 <p>در ادامه ارائه، با بررسی Magic Number در MBR آشنا شدیم. MBR رکوردی است شامل ۵۱۲ بیت ابتدایی هارد دیسک که حاوی اطلاعات لازم برای بوت شدن سیستم به سیستم‌عامل و همچنین محل نگهداری اطلاعات مربوط به تعداد و نوع پارتیشن‌های آن می‌باشد. برای دسترسی به داده‌های این بخش از دیسک سخت می‌توان از دستور زیر استفاده کرد.</p>
-<div class="highlight"><pre><span></span><code># <span class="nv">dd</span> <span class="k">if</span><span class="o">=/</span><span class="nv">dev</span><span class="o">/</span><span class="nv">sda</span> <span class="nv">of</span><span class="o">=</span><span class="nv">mbr</span> <span class="nv">bs</span><span class="o">=</span><span class="mi">512</span> <span class="nv">count</span><span class="o">=</span><span class="mi">1</span>
+<div class="highlight"><pre><span></span><code>#<span class="w"> </span><span class="nv">dd</span><span class="w"> </span><span class="k">if</span><span class="o">=/</span><span class="nv">dev</span><span class="o">/</span><span class="nv">sda</span><span class="w"> </span><span class="nv">of</span><span class="o">=</span><span class="nv">mbr</span><span class="w"> </span><span class="nv">bs</span><span class="o">=</span><span class="mi">512</span><span class="w"> </span><span class="nv">count</span><span class="o">=</span><span class="mi">1</span>
 </code></pre></div>
 
 <p>برای مشاهده اطلاعات MBR از یک Hex Editor (مورد علاقه خود) می‌توان استفاده نمود:</p>
-<div class="highlight"><pre><span></span><code>$ dd -t x1 mbr
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>dd<span class="w"> </span>-t<span class="w"> </span>x1<span class="w"> </span>mbr
 </code></pre></div>
 
 <p><img alt="MBR Structure" src="/theme/uploads/reports/session-149/session-149-mbr-structure.png"></p>
 <p>همانطور که در عکس فوق مشاهده می‌کنید،۴۴۰ بایت اول رکورد بوت شامل محدوده کُد می‌باشد. چهار بایت بعدی معرف شناسه دیسک، ۲ بایت بعدی عموما با 0x0000 نشانه گذاری می‌شود. ۶۴ بایت بعدی شامل اطلاعات مربوط به جدول پارتیشن‌ها و دوبایت آخر امضای رکورد بوت (MBR Signature) می‌باشد که با 0x55AA خاتمه می‌باید. به عنوان مثال برای خواندن شناسه دیسک از سکتور بوت می‌توان از دستور زیر استفاده کرد:</p>
-<div class="highlight"><pre><span></span><code># <span class="nv">dd</span> <span class="k">if</span><span class="o">=/</span><span class="nv">dev</span><span class="o">/</span><span class="nv">sda</span> <span class="nv">bs</span><span class="o">=</span><span class="mi">1</span> <span class="nv">skip</span><span class="o">=</span><span class="mi">440</span> <span class="nv">count</span><span class="o">=</span><span class="mi">4</span> <span class="mi">2</span><span class="o">&gt;/</span><span class="nv">dev</span><span class="o">/</span><span class="nv">null</span> <span class="o">|</span> <span class="nv">od</span> <span class="o">-</span><span class="nv">t</span> <span class="nv">x1</span>
+<div class="highlight"><pre><span></span><code>#<span class="w"> </span><span class="nv">dd</span><span class="w"> </span><span class="k">if</span><span class="o">=/</span><span class="nv">dev</span><span class="o">/</span><span class="nv">sda</span><span class="w"> </span><span class="nv">bs</span><span class="o">=</span><span class="mi">1</span><span class="w"> </span><span class="nv">skip</span><span class="o">=</span><span class="mi">440</span><span class="w"> </span><span class="nv">count</span><span class="o">=</span><span class="mi">4</span><span class="w"> </span><span class="mi">2</span><span class="o">&gt;/</span><span class="nv">dev</span><span class="o">/</span><span class="nv">null</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nv">od</span><span class="w"> </span><span class="o">-</span><span class="nv">t</span><span class="w"> </span><span class="nv">x1</span>
 </code></pre></div>
 
 <p>جدول پارتیشن  شامل چهار رکورد ۱۶ بایتی برای ۴ پارتیشن اصلی (Primary Partitions) می‌باشد. برای مشاهده رکورد‌های مربوط به اولین پارتیشن دیسک سخت خود می‌توانید دستور زیر را اجرا نمایید.</p>
-<div class="highlight"><pre><span></span><code># <span class="nv">dd</span> <span class="k">if</span><span class="o">=/</span><span class="nv">dev</span><span class="o">/</span><span class="nv">sdb</span> <span class="nv">bs</span><span class="o">=</span><span class="mi">1</span> <span class="nv">skip</span><span class="o">=</span><span class="mi">446</span> <span class="nv">count</span><span class="o">=</span><span class="mi">16</span> <span class="mi">2</span><span class="o">&gt;/</span><span class="nv">dev</span><span class="o">/</span><span class="nv">null</span> <span class="o">|</span> <span class="nv">od</span> <span class="o">-</span><span class="nv">t</span> <span class="nv">x1</span>
-<span class="mi">0000000</span> <span class="mi">80</span> <span class="mi">01</span> <span class="mi">01</span> <span class="mi">00</span> <span class="mi">83</span> <span class="nv">FE</span> <span class="mi">3</span><span class="nv">F</span> <span class="mi">01</span> <span class="mi">3</span><span class="nv">F</span> <span class="mi">00</span> <span class="mi">00</span> <span class="mi">00</span> <span class="mi">43</span> <span class="mi">7</span><span class="nv">D</span> <span class="mi">00</span> <span class="mi">00</span>
+<div class="highlight"><pre><span></span><code>#<span class="w"> </span><span class="nv">dd</span><span class="w"> </span><span class="k">if</span><span class="o">=/</span><span class="nv">dev</span><span class="o">/</span><span class="nv">sdb</span><span class="w"> </span><span class="nv">bs</span><span class="o">=</span><span class="mi">1</span><span class="w"> </span><span class="nv">skip</span><span class="o">=</span><span class="mi">446</span><span class="w"> </span><span class="nv">count</span><span class="o">=</span><span class="mi">16</span><span class="w"> </span><span class="mi">2</span><span class="o">&gt;/</span><span class="nv">dev</span><span class="o">/</span><span class="nv">null</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nv">od</span><span class="w"> </span><span class="o">-</span><span class="nv">t</span><span class="w"> </span><span class="nv">x1</span>
+<span class="mi">0000000</span><span class="w"> </span><span class="mi">80</span><span class="w"> </span><span class="mi">01</span><span class="w"> </span><span class="mi">01</span><span class="w"> </span><span class="mi">00</span><span class="w"> </span><span class="mi">83</span><span class="w"> </span><span class="nv">FE</span><span class="w"> </span><span class="mi">3</span><span class="nv">F</span><span class="w"> </span><span class="mi">01</span><span class="w"> </span><span class="mi">3</span><span class="nv">F</span><span class="w"> </span><span class="mi">00</span><span class="w"> </span><span class="mi">00</span><span class="w"> </span><span class="mi">00</span><span class="w"> </span><span class="mi">43</span><span class="w"> </span><span class="mi">7</span><span class="nv">D</span><span class="w"> </span><span class="mi">00</span><span class="w"> </span><span class="mi">00</span>
 </code></pre></div>
 
 <ul>
@@ -235,17 +235,27 @@
       </p>
       <ul class="other">
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://tehlug.org/">تهران‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://karajlug.org/">کرج لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.isfahanlug.org/">اصفهان‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://karajlug.org/">کرج‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/mazandllug">مازندلاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://isfahanlug.ir/">اصفهان‌لاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://shirazlug.ir/">شیرازلاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.zanjanlug.org/">زنجان‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.zanjanlug.ir/">زنجان‌لاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://qazvinlug.ir/">قزوین‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://sudoshz.ir/">شیرازلینوکس</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.gullug.org/">گیلان‌لاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://khuzestanlug.ir/">خوزستان‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://tabrizlug.ir/">تبریز‌لاگ </a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://t.me/Jahrom_LUG">جهرم‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/EstahbanLug">استهبان‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://fasalug.ir">فسالاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://tabrizlug.ir/">تبریز‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/shiraztux">شیرازتاکس</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://birlug.ir/">بیرجندلاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/dezlinuxChanel">دزلینوکس</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://urumlug.ir/">اروم‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/bndlugg">بندرلاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://klug.ir">کرمان‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new"  href="http://bulug.ir/">بوشهر‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new"  href="http://qomlug.ir/">قم‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://bulug.ir/">بوشهر‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://qomlug.ir/">قم‌لاگ</a></li>
       </ul>
     </div>
   </div>

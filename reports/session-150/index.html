@@ -137,52 +137,52 @@
 <h2>خط فرمان: حذف میلیون‌ها فایل در یک سیستم لینوکسی <em>مهدی عطائیان</em></h2>
 <p>در خط فرمان این هفته، آقای عطائیان سناریویی را مطرح کردند که در آن بواسطه وجود تعداد زیادی از فایل‌های (لزوما نه حجیم)، سیستم قادر به ذخیره کردن فایل جدید نمی‌باشد. در این موقعیت بهینه‌ترین راه برای حذف میلیون‌ها میلیون فایل از روی دیسک سخت‌ شما چه می‌باشد؟</p>
 <p>‫inode ساختمان داده‌ای است که در فایل‌سیستم لینوکس اطلاعاتی مانند فایل‌ها، دایرکتوری‌ها و سایر خصوصیات فایل‌سیستم را دخیره می‌کند. هر فایل‌سیستم تعداد محدودی inode و در نتیجه میزان مشخصی از فایل‌ها را می‌تواند نگه‌داری کند. چنانچه تعداد فایل‌های یک فایل‌سیستم از میزان مشخصی بیشتر شود، تعداد inodeهای مجاز آن فایل‌سیستم به اتمام می‌رسد و امکان ذخیره و ایجاد تعداد بیشتری فایل وجود ندارد. برای یافتن تعداد inode‌های مجاز از دستور زیر استفاده می‌کنیم.</p>
-<div class="highlight"><pre><span></span><code>$ df -i
-Filesystem       Inodes IUsed    IFree IUse% Mounted on
-rootfs         <span class="m">60506112</span> <span class="m">32619</span> <span class="m">60473493</span>    <span class="m">1</span>% /
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>df<span class="w"> </span>-i
+Filesystem<span class="w">       </span>Inodes<span class="w"> </span>IUsed<span class="w">    </span>IFree<span class="w"> </span>IUse%<span class="w"> </span>Mounted<span class="w"> </span>on
+rootfs<span class="w">         </span><span class="m">60506112</span><span class="w"> </span><span class="m">32619</span><span class="w"> </span><span class="m">60473493</span><span class="w">    </span><span class="m">1</span>%<span class="w"> </span>/
 </code></pre></div>
 
 <p>اطلاعات بیشتر inode را با دستور زیر می‌توان مشاهده کرد.</p>
-<div class="highlight"><pre><span></span><code># tune2fs -l /dev/sda1 | grep -i inode
-Filesystem features:      has_journal ext_attr resize_inode dir_index filetype needs_recovery sparse_super
-Inode count:              131072
-Free inodes:              131037
-Inodes per group:         2048
-Inode blocks per group:   256
-First inode:              11
-Inode size:              128
-Journal inode:            8
-Journal backup:           inode blocks
+<div class="highlight"><pre><span></span><code><span class="err">#</span><span class="w"> </span><span class="nx">tune2fs</span><span class="w"> </span><span class="o">-</span><span class="nx">l</span><span class="w"> </span><span class="o">/</span><span class="nx">dev</span><span class="o">/</span><span class="nx">sda1</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nx">grep</span><span class="w"> </span><span class="o">-</span><span class="nx">i</span><span class="w"> </span><span class="nx">inode</span>
+<span class="nx">Filesystem</span><span class="w"> </span><span class="nx">features</span><span class="p">:</span><span class="w">      </span><span class="nx">has_journal</span><span class="w"> </span><span class="nx">ext_attr</span><span class="w"> </span><span class="nx">resize_inode</span><span class="w"> </span><span class="nx">dir_index</span><span class="w"> </span><span class="nx">filetype</span><span class="w"> </span><span class="nx">needs_recovery</span><span class="w"> </span><span class="nx">sparse_super</span>
+<span class="nx">Inode</span><span class="w"> </span><span class="nx">count</span><span class="p">:</span><span class="w">              </span><span class="mi">131072</span>
+<span class="nx">Free</span><span class="w"> </span><span class="nx">inodes</span><span class="p">:</span><span class="w">              </span><span class="mi">131037</span>
+<span class="nx">Inodes</span><span class="w"> </span><span class="nx">per</span><span class="w"> </span><span class="nx">group</span><span class="p">:</span><span class="w">         </span><span class="mi">2048</span>
+<span class="nx">Inode</span><span class="w"> </span><span class="nx">blocks</span><span class="w"> </span><span class="nx">per</span><span class="w"> </span><span class="nx">group</span><span class="p">:</span><span class="w">   </span><span class="mi">256</span>
+<span class="nx">First</span><span class="w"> </span><span class="nx">inode</span><span class="p">:</span><span class="w">              </span><span class="mi">11</span>
+<span class="nx">Inode</span><span class="w"> </span><span class="nx">size</span><span class="p">:</span><span class="w">              </span><span class="mi">128</span>
+<span class="nx">Journal</span><span class="w"> </span><span class="nx">inode</span><span class="p">:</span><span class="w">            </span><span class="mi">8</span>
+<span class="nx">Journal</span><span class="w"> </span><span class="nx">backup</span><span class="p">:</span><span class="w">           </span><span class="nx">inode</span><span class="w"> </span><span class="nx">blocks</span>
 </code></pre></div>
 
 <p>این دستور حداکثر تعداد inode قابل اختصاص و inode‌های اختصاص یافته را نشان می‌دهد.</p>
 <p>چنانچه آی‌نودهای فایل سیستم پر شود تنها راه حل مشکل پاک کردن فایل‌ها و دایرکتوری‌ها می‌باشد. راه‌های متفاوتی برای پاک کردن فایل‌ها وجود دارد.
 ابتدا باید فایل‌ها را مشاهده کنیم که در خط فرمان با استفاده از دستور ls می‌توانیم این کار را انجام دهیم. اما اگر تعداد فایل‌های یک دایرکتوری از تعداد مشخصی بیشتر باشد اجرای دستور ls بسیار زمان‌بر خواهد بود. در یک دایرکتوری با ۵۱۰۰۰۰ فایل اجرای دستور ls‬ حدود ۳۱ ثانیه زمان خواهد برد.</p>
-<div class="highlight"><pre><span></span><code>$ <span class="nb">time</span> ls
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span><span class="nb">time</span><span class="w"> </span>ls
 0m31.325s
 </code></pre></div>
 
 <p>نکته: برای ایجاد این تعداد فایل در یک دایرکتوری، و تست دستورات این بخش می‌توانید از دستور زیر استفاده کنید.</p>
-<div class="highlight"><pre><span></span><code>$ <span class="nb">cd</span> /path/to/temporary/directory/
-$ <span class="k">for</span> i <span class="k">in</span> <span class="k">$(</span>seq <span class="m">1</span> <span class="m">510000</span><span class="k">)</span><span class="p">;</span> <span class="k">do</span> <span class="nb">echo</span> <span class="s2">&quot;&quot;</span> &gt;&gt; <span class="nv">$i</span>.txt<span class="p">;</span> <span class="k">done</span>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>/path/to/temporary/directory/
+$<span class="w"> </span><span class="k">for</span><span class="w"> </span>i<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="k">$(</span>seq<span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="m">510000</span><span class="k">)</span><span class="p">;</span><span class="w"> </span><span class="k">do</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span><span class="nv">$i</span>.txt<span class="p">;</span><span class="w"> </span><span class="k">done</span>
 </code></pre></div>
 
 <p>و از طرفی چنانچه بخواهیم سایر خصوصیات مانند زمان ایجاد و یا حجم فایل را مشاهده کنیم باید دستور ls را با پارامتر ‪-l‬ به کار ببریم. این دستور در دایرکتوری‌ای با ۵۱۰۰۰۰ فایل ۱ دقیقه و ۱۱ ثانیه زمان خواهد بود.</p>
-<div class="highlight"><pre><span></span><code>$ <span class="nb">time</span> ls -l
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span><span class="nb">time</span><span class="w"> </span>ls<span class="w"> </span>-l
 1m11.900s
 </code></pre></div>
 
 <p>بهترین راه برای مشاده فایل‌ها استفاده از دستور ls با پارامتر ‪-1‬ است. این دستور فایل‌های یک دایرکتوری با همان تعداد فایل را در حدود ۱۸ ثانیه لیست خواهد کرد.</p>
-<div class="highlight"><pre><span></span><code>$ <span class="nb">time</span> ls -1
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span><span class="nb">time</span><span class="w"> </span>ls<span class="w"> </span>-1
 0m18.900s
 </code></pre></div>
 
 <p>برای پاک کردن فایل‌ها از دستور rm به همراه پارامتر ‪-rf‬ استفاده می‌کنیم.</p>
-<div class="highlight"><pre><span></span><code>$ rm -rf /path/to/directory/*
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>rm<span class="w"> </span>-rf<span class="w"> </span>/path/to/directory/*
 </code></pre></div>
 
 <p>در لینوکس تعداد آرگومان‌هایی که می‌توان به عنوان پارامتر به هر دستور ارسال کرد محدود است. برای مشاهده این محدودیت در سیستم خود از دستور ریز استفاده می‌کنیم.</p>
-<div class="highlight"><pre><span></span><code>$ getconf ARG_MAX
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>getconf<span class="w"> </span>ARG_MAX
 <span class="m">2097152</span>
 </code></pre></div>
 
@@ -192,26 +192,26 @@ $ <span class="k">for</span> i <span class="k">in</span> <span class="k">$(</spa
 <li>
 <p><strong>استفاده از دستور find</strong>:</p>
 <p>اجرای دستور اول بیش از ۲۶ دقیقه و دستور دوم حدود ۷ دقیقه زمان خواهد برد.</p>
-<div class="highlight"><pre><span></span><code>$ <span class="nb">time</span> find . -type f -exec rm <span class="s1">&#39;{}&#39;</span> <span class="se">\;</span>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span><span class="nb">time</span><span class="w"> </span>find<span class="w"> </span>.<span class="w"> </span>-type<span class="w"> </span>f<span class="w"> </span>-exec<span class="w"> </span>rm<span class="w"> </span><span class="s1">&#39;{}&#39;</span><span class="w"> </span><span class="se">\;</span>
 
-$ find . -print0 <span class="p">|</span> xargs -0 rm
+$<span class="w"> </span>find<span class="w"> </span>.<span class="w"> </span>-print0<span class="w"> </span><span class="p">|</span><span class="w"> </span>xargs<span class="w"> </span>-0<span class="w"> </span>rm
 </code></pre></div>
 
 </li>
 <li>
 <p><strong>استفاده از دستور ls</strong>:</p>
 <p>این دستور ۱۹ ثانیه زمان خواهد برد.</p>
-<div class="highlight"><pre><span></span><code>$ ls -1 <span class="p">|</span> xargs rm -f
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>ls<span class="w"> </span>-1<span class="w"> </span><span class="p">|</span><span class="w"> </span>xargs<span class="w"> </span>rm<span class="w"> </span>-f
 </code></pre></div>
 
 </li>
 </ul>
 <p>با توجه به نتایج فوق، بهترین و سریع‌ترین راه پاک کردن تعداد زیادی فایل در یک دایرکتوری استفاده از دستور <code>ls -1 | xargs rm -f</code> است.</p>
 <p>گاهی اوقات تعداد غیر قابل تصوری فایل، می‌تواند اجرای دستور را با مشکل مواجه کند. به عنوان مثال فرض کنیم باید دو میلیاد فایل در یک دایرکتوری را حذف کنیم. از آنجا که مدیریت حجم چنین لیستی از خروجی ممکن است بسیار بیشتر از میزان حافظه قابل دسترس سیستم باشد، اجرای این دستور غیر ممکن جلوه می‌نماید. برای رفع این مشکل ابتدا دستور ls را اجرا می‌کنیم و خروجی دستور را در یک فایل ذخیره می‌کنیم. در مرحله بعد اطلاعات را از فایل می‌خوانیم و با استفاده از دستور xargs و فراخوانی دستور rm فایلها را پاک میکنیم.</p>
-<div class="highlight"><pre><span></span><code>$ ls -1 &gt; file.txt
-$ rm <span class="k">$(</span>&lt;file.txt<span class="k">)</span>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>ls<span class="w"> </span>-1<span class="w"> </span>&gt;<span class="w"> </span>file.txt
+$<span class="w"> </span>rm<span class="w"> </span><span class="k">$(</span>&lt;file.txt<span class="k">)</span>
 <span class="c1"># -- OR --</span>
-$ xargs rm &lt; file.txt
+$<span class="w"> </span>xargs<span class="w"> </span>rm<span class="w"> </span>&lt;<span class="w"> </span>file.txt
 </code></pre></div>
 
 <p>پانویس: هر چند حذف تعداد زیادی فایل در مدت زمانی کوتاه می‌تواند در نگاه اول بهینه به نظر برسد، ولی باید بیاد داشته باشیم که بهمین ترتیب نیز سیستم را درگیر پروسه سنگین حذف فایل‌هایی خواهیم کرد که <code>load average</code> سیستم را بالا خواهد برد که نهایتا «ممکن» است موجب اختلال در عملکرد دیگر سرویس‌ها شود. بنابراین اگر نیاز به انجام چنین کاری بر روی یک سرور production دارید، بهتر است از یکی از روش‌های کُندتر (مانند حلقه for-loop) استفاده کنید. پانویس برگرفته از <a href="http://www.pronego.com/helpdesk/knowledgebase.php?article=59">این مقاله</a> می‌باشد.</p>
@@ -276,17 +276,27 @@ $ xargs rm &lt; file.txt
       </p>
       <ul class="other">
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://tehlug.org/">تهران‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://karajlug.org/">کرج لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.isfahanlug.org/">اصفهان‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://karajlug.org/">کرج‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/mazandllug">مازندلاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://isfahanlug.ir/">اصفهان‌لاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://shirazlug.ir/">شیرازلاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.zanjanlug.org/">زنجان‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.zanjanlug.ir/">زنجان‌لاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://qazvinlug.ir/">قزوین‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://sudoshz.ir/">شیرازلینوکس</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.gullug.org/">گیلان‌لاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://khuzestanlug.ir/">خوزستان‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://tabrizlug.ir/">تبریز‌لاگ </a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://t.me/Jahrom_LUG">جهرم‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/EstahbanLug">استهبان‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://fasalug.ir">فسالاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://tabrizlug.ir/">تبریز‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/shiraztux">شیرازتاکس</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://birlug.ir/">بیرجندلاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/dezlinuxChanel">دزلینوکس</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://urumlug.ir/">اروم‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/bndlugg">بندرلاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://klug.ir">کرمان‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new"  href="http://bulug.ir/">بوشهر‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new"  href="http://qomlug.ir/">قم‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://bulug.ir/">بوشهر‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://qomlug.ir/">قم‌لاگ</a></li>
       </ul>
     </div>
   </div>

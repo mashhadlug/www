@@ -238,10 +238,10 @@ pacman -S task (arch)
 
 <p>اطلاعات بیشتر http://taskwarrior.org/download
 با تایپ کردن دستور task این ابزار اجرا شده ولیستی از وظایف را نمایش می‌دهد.</p>
-<div class="highlight"><pre><span></span><code>$ task
-ID Age P Description                      Urg
- <span class="m">1</span> 10s H Buy Milk                           <span class="m">6</span>
- <span class="m">2</span> 20s   Read a Book                        <span class="m">0</span>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>task
+ID<span class="w"> </span>Age<span class="w"> </span>P<span class="w"> </span>Description<span class="w">                      </span>Urg
+<span class="w"> </span><span class="m">1</span><span class="w"> </span>10s<span class="w"> </span>H<span class="w"> </span>Buy<span class="w"> </span>Milk<span class="w">                           </span><span class="m">6</span>
+<span class="w"> </span><span class="m">2</span><span class="w"> </span>20s<span class="w">   </span>Read<span class="w"> </span>a<span class="w"> </span>Book<span class="w">                        </span><span class="m">0</span>
 </code></pre></div>
 
 <p>برخی از دستورات این ابزار:
@@ -272,7 +272,7 @@ ID Age P Description                      Urg
 </code></pre></div>
 
 <p>ایجاد یک وظیفه جدید به صورت دوره‌ای(ابتدای هر ماه میلادیتا تاریخ مشخص شده):</p>
-<div class="highlight"><pre><span></span><code><span class="nv">task</span> <span class="nv">add</span> <span class="s2">&quot;</span><span class="s">Pay the rent</span><span class="s2">&quot;</span> <span class="nv">due</span>:<span class="mi">1</span><span class="nv">st</span> <span class="nv">recur</span>:<span class="nv">monthly</span> <span class="k">until</span>:<span class="mi">2015</span><span class="nv">_03_31</span>
+<div class="highlight"><pre><span></span><code>task add &quot;Pay the rent&quot; due:1st recur:monthly until:2015_03_31
 </code></pre></div>
 
 <p>جستجوی تمام وظیفه‌های مشخص شده با تگ مجازی Home:</p>
@@ -323,17 +323,27 @@ ID Age P Description                      Urg
       </p>
       <ul class="other">
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://tehlug.org/">تهران‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://karajlug.org/">کرج لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.isfahanlug.org/">اصفهان‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://karajlug.org/">کرج‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/mazandllug">مازندلاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://isfahanlug.ir/">اصفهان‌لاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://shirazlug.ir/">شیرازلاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.zanjanlug.org/">زنجان‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.zanjanlug.ir/">زنجان‌لاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://qazvinlug.ir/">قزوین‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://sudoshz.ir/">شیرازلینوکس</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.gullug.org/">گیلان‌لاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://khuzestanlug.ir/">خوزستان‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://tabrizlug.ir/">تبریز‌لاگ </a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://t.me/Jahrom_LUG">جهرم‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/EstahbanLug">استهبان‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://fasalug.ir">فسالاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://tabrizlug.ir/">تبریز‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/shiraztux">شیرازتاکس</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://birlug.ir/">بیرجندلاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/dezlinuxChanel">دزلینوکس</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://urumlug.ir/">اروم‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/bndlugg">بندرلاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://klug.ir">کرمان‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new"  href="http://bulug.ir/">بوشهر‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new"  href="http://qomlug.ir/">قم‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://bulug.ir/">بوشهر‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://qomlug.ir/">قم‌لاگ</a></li>
       </ul>
     </div>
   </div>

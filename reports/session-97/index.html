@@ -134,13 +134,13 @@
 <p>موضوعاتی که در این جلسه به آن‌ها پرداخته شد عبارتند از:</p>
 <h2>خط فرمان <em>آقای بیژن ابراهیمی</em></h2>
 <p>آموزش نحوه «یافتن زمان روشن سیستم در روز جاری» یا معادل آن «چه ساعتی در محل کار حضور یافتید؟». اسکریپتی برای تشخیص زمان روشن شدن سیستم:</p>
-<div class="highlight"><pre><span></span><code>$ <span class="nb">echo</span> -n <span class="s2">&quot;You were at wotk at &quot;</span> <span class="o">&amp;&amp;</span> cat /var/log/syslog <span class="p">|</span> grep -i --color <span class="s2">&quot;</span><span class="k">$(</span>date <span class="s2">&quot;+%b %d&quot;</span><span class="k">)</span><span class="s2">&quot;</span> <span class="p">|</span> head -n <span class="m">1</span> <span class="p">|</span> grep -o --color <span class="s2">&quot;</span><span class="k">$(</span>date <span class="s2">&quot;+%b %d&quot;</span><span class="k">)</span><span class="s2"> [0-9:]\+&quot;</span>
-You were at wotk at Apr <span class="m">24</span> <span class="m">09</span>:45:44
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span>-n<span class="w"> </span><span class="s2">&quot;You were at wotk at &quot;</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>cat<span class="w"> </span>/var/log/syslog<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span>--color<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>date<span class="w"> </span><span class="s2">&quot;+%b %d&quot;</span><span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-n<span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-o<span class="w"> </span>--color<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>date<span class="w"> </span><span class="s2">&quot;+%b %d&quot;</span><span class="k">)</span><span class="s2"> [0-9:]\+&quot;</span>
+You<span class="w"> </span>were<span class="w"> </span>at<span class="w"> </span>wotk<span class="w"> </span>at<span class="w"> </span>Apr<span class="w"> </span><span class="m">24</span><span class="w"> </span><span class="m">09</span>:45:44
 </code></pre></div>
 
 <p><strong>معایب دستور فوق</strong>: دستور فوق صرفا زمان روشن شدن سیستم را مشخص میکند! برای مشخص شدن زمان ورود کاربری از دستور last میتوان استفاده کرد. این دستور زمان ورود کاربری تمام کاربران سیستم را نشان میدهد:</p>
-<div class="highlight"><pre><span></span><code>$ <span class="nb">echo</span> -n <span class="s2">&quot;You loged on today at &quot;</span> <span class="o">&amp;&amp;</span> last <span class="nv">$USER</span> <span class="p">|</span> grep --color <span class="s2">&quot;</span><span class="k">$(</span>date <span class="s2">&quot;+%a %b %d&quot;</span><span class="k">)</span><span class="s2">&quot;</span> <span class="p">|</span> tail -n <span class="m">1</span> <span class="p">|</span> grep --color -o <span class="s2">&quot;</span><span class="k">$(</span>date <span class="s2">&quot;+%a %b %d&quot;</span><span class="k">)</span><span class="s2"> [0-9:]\+&quot;</span>
-You loged on today at Tue Apr <span class="m">24</span> <span class="m">09</span>:48
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span>-n<span class="w"> </span><span class="s2">&quot;You loged on today at &quot;</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>last<span class="w"> </span><span class="nv">$USER</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>--color<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>date<span class="w"> </span><span class="s2">&quot;+%a %b %d&quot;</span><span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>tail<span class="w"> </span>-n<span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>--color<span class="w"> </span>-o<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>date<span class="w"> </span><span class="s2">&quot;+%a %b %d&quot;</span><span class="k">)</span><span class="s2"> [0-9:]\+&quot;</span>
+You<span class="w"> </span>loged<span class="w"> </span>on<span class="w"> </span>today<span class="w"> </span>at<span class="w"> </span>Tue<span class="w"> </span>Apr<span class="w"> </span><span class="m">24</span><span class="w"> </span><span class="m">09</span>:48
 </code></pre></div>
 
 <ol>
@@ -195,17 +195,27 @@ You loged on today at Tue Apr <span class="m">24</span> <span class="m">09</span
       </p>
       <ul class="other">
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://tehlug.org/">تهران‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://karajlug.org/">کرج لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.isfahanlug.org/">اصفهان‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://karajlug.org/">کرج‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/mazandllug">مازندلاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://isfahanlug.ir/">اصفهان‌لاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://shirazlug.ir/">شیرازلاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.zanjanlug.org/">زنجان‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.zanjanlug.ir/">زنجان‌لاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://qazvinlug.ir/">قزوین‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://sudoshz.ir/">شیرازلینوکس</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.gullug.org/">گیلان‌لاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://khuzestanlug.ir/">خوزستان‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://tabrizlug.ir/">تبریز‌لاگ </a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://t.me/Jahrom_LUG">جهرم‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/EstahbanLug">استهبان‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://fasalug.ir">فسالاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://tabrizlug.ir/">تبریز‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/shiraztux">شیرازتاکس</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://birlug.ir/">بیرجندلاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/dezlinuxChanel">دزلینوکس</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://urumlug.ir/">اروم‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/bndlugg">بندرلاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://klug.ir">کرمان‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new"  href="http://bulug.ir/">بوشهر‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new"  href="http://qomlug.ir/">قم‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://bulug.ir/">بوشهر‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://qomlug.ir/">قم‌لاگ</a></li>
       </ul>
     </div>
   </div>

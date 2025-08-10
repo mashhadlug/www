@@ -158,17 +158,17 @@
 </ul>
 <p>به طور خلاصه، اول باید یک پرونده Tomb با حجم دلخواه بسازید (به همین میزان حجم میتونید داخل این پرونده، پرونده‌های مختلف خودتون رو ذخیره کنید). بعد یک کلید می‌سازید و برای کلید هم یک رمزعبور تعیین می‌کنید. و در آخر این کلید رو به پرونده Tomb متصل می‌کنید تا از این به بعد این پرونده فقط از طریق این کلید و اون رمزعبور باز خواهد شد.</p>
 <p>برای ساخت پرونده‌ی Tomb از دستور <code>dig</code>، و از کلید <code>-a</code> هم برای مشخص کردن حجم پرونده استفاده می‌کنیم (حجم به مگابایت):</p>
-<div class="highlight"><pre><span></span><code>$ tomb dig -s <span class="m">128</span> secret.tomb
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>tomb<span class="w"> </span>dig<span class="w"> </span>-s<span class="w"> </span><span class="m">128</span><span class="w"> </span>secret.tomb
 </code></pre></div>
 
 <p>این یک پرونده Tomb میسازه به اسم <code>secret.tomb</code> با حجم ۱۲۸ مگابایت.</p>
 <p>حالا یک کلید میسازیم:</p>
-<div class="highlight"><pre><span></span><code>$ tomb forge secret.tomb.key
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>tomb<span class="w"> </span>forge<span class="w"> </span>secret.tomb.key
 </code></pre></div>
 
 <p>با این دستور یک کلید میسازید و در نهایت هم از شما یک رمزعبور میخواد که باید به دلخواه وارد کنید.</p>
 <p>کلید رو به پرونده متصل میکنیم:</p>
-<div class="highlight"><pre><span></span><code>$ tomb lock secret.tomb -k secret.tomb.key
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>tomb<span class="w"> </span>lock<span class="w"> </span>secret.tomb<span class="w"> </span>-k<span class="w"> </span>secret.tomb.key
 </code></pre></div>
 
 <p>حالا برای باز کردن پرونده از دستور <code>open</code> استفاده می‌کنیم. برای باز کردن پرونده باید پرونده GPG رو هم با کلید <code>-k</code> به فرمان بدیم:</p>
@@ -220,17 +220,27 @@
       </p>
       <ul class="other">
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://tehlug.org/">تهران‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://karajlug.org/">کرج لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.isfahanlug.org/">اصفهان‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://karajlug.org/">کرج‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/mazandllug">مازندلاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://isfahanlug.ir/">اصفهان‌لاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://shirazlug.ir/">شیرازلاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.zanjanlug.org/">زنجان‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.zanjanlug.ir/">زنجان‌لاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://qazvinlug.ir/">قزوین‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://sudoshz.ir/">شیرازلینوکس</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.gullug.org/">گیلان‌لاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://khuzestanlug.ir/">خوزستان‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://tabrizlug.ir/">تبریز‌لاگ </a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://t.me/Jahrom_LUG">جهرم‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/EstahbanLug">استهبان‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://fasalug.ir">فسالاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://tabrizlug.ir/">تبریز‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/shiraztux">شیرازتاکس</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://birlug.ir/">بیرجندلاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/dezlinuxChanel">دزلینوکس</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://urumlug.ir/">اروم‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/bndlugg">بندرلاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://klug.ir">کرمان‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new"  href="http://bulug.ir/">بوشهر‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new"  href="http://qomlug.ir/">قم‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://bulug.ir/">بوشهر‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://qomlug.ir/">قم‌لاگ</a></li>
       </ul>
     </div>
   </div>

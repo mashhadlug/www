@@ -135,7 +135,7 @@
 این معماری بیشتر مناسب پروسس‌هایی است که وابسته به یک کاربر یا تسک باشند در نتیجه اجرای پروسس در یک هسته و با یک رم اختصاصی سرعت اجرا را بیشتر می‌کند.
 در سیستم‌عامل گنو/لینوکس از ابزار numactl برای کنترل سیاست‌های نومای پروسس‌ها استفاده می‌کنیم.</p>
 <p>برای بررسی وضعیت سخت‌افزار NUMA از دستور زیر استفاده می‌کنیم. با دستور زیر می‌توانیم مشخصات پروسسور را مشاهده کنیم. </p>
-<div class="highlight"><pre><span></span><code>$ numactl --hardware
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>numactl<span class="w"> </span>--hardware
 </code></pre></div>
 
 <p>چنانچه در خروجی دستور تنها ۱ نود مشاهده شد به این معنی است که معماری پروسسور ما نمی‌تواند از numa پشتیبانی کند.</p>
@@ -150,26 +150,26 @@ node   0
 </code></pre></div>
 
 <p>اگر در خروجی بیش از یک نود وجود داشت به این معنی است که پروسسور از numa پشتبیانی می‌کند. </p>
-<div class="highlight"><pre><span></span><code>$ numactl --hardware 
-available: <span class="m">2</span> nodes <span class="o">(</span><span class="m">0</span>-1<span class="o">)</span>
-node <span class="m">0</span> cpus: <span class="m">0</span> <span class="m">1</span> <span class="m">2</span> <span class="m">3</span> <span class="m">8</span> <span class="m">9</span> <span class="m">10</span> <span class="m">11</span>
-node <span class="m">0</span> size: <span class="m">16374</span> MB
-node <span class="m">0</span> free: <span class="m">10935</span> MB
-node <span class="m">1</span> cpus: <span class="m">4</span> <span class="m">5</span> <span class="m">6</span> <span class="m">7</span> <span class="m">12</span> <span class="m">13</span> <span class="m">14</span> <span class="m">15</span>
-node <span class="m">1</span> size: <span class="m">16384</span> MB
-node <span class="m">1</span> free: <span class="m">15298</span> MB
-node distances:
-node   <span class="m">0</span>   <span class="m">1</span> 
-  <span class="m">0</span>:  <span class="m">10</span>  <span class="m">20</span> 
-  <span class="m">1</span>:  <span class="m">20</span>  <span class="m">10</span>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>numactl<span class="w"> </span>--hardware<span class="w"> </span>
+available:<span class="w"> </span><span class="m">2</span><span class="w"> </span>nodes<span class="w"> </span><span class="o">(</span><span class="m">0</span>-1<span class="o">)</span>
+node<span class="w"> </span><span class="m">0</span><span class="w"> </span>cpus:<span class="w"> </span><span class="m">0</span><span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="m">2</span><span class="w"> </span><span class="m">3</span><span class="w"> </span><span class="m">8</span><span class="w"> </span><span class="m">9</span><span class="w"> </span><span class="m">10</span><span class="w"> </span><span class="m">11</span>
+node<span class="w"> </span><span class="m">0</span><span class="w"> </span>size:<span class="w"> </span><span class="m">16374</span><span class="w"> </span>MB
+node<span class="w"> </span><span class="m">0</span><span class="w"> </span>free:<span class="w"> </span><span class="m">10935</span><span class="w"> </span>MB
+node<span class="w"> </span><span class="m">1</span><span class="w"> </span>cpus:<span class="w"> </span><span class="m">4</span><span class="w"> </span><span class="m">5</span><span class="w"> </span><span class="m">6</span><span class="w"> </span><span class="m">7</span><span class="w"> </span><span class="m">12</span><span class="w"> </span><span class="m">13</span><span class="w"> </span><span class="m">14</span><span class="w"> </span><span class="m">15</span>
+node<span class="w"> </span><span class="m">1</span><span class="w"> </span>size:<span class="w"> </span><span class="m">16384</span><span class="w"> </span>MB
+node<span class="w"> </span><span class="m">1</span><span class="w"> </span>free:<span class="w"> </span><span class="m">15298</span><span class="w"> </span>MB
+node<span class="w"> </span>distances:
+node<span class="w">   </span><span class="m">0</span><span class="w">   </span><span class="m">1</span><span class="w"> </span>
+<span class="w">  </span><span class="m">0</span>:<span class="w">  </span><span class="m">10</span><span class="w">  </span><span class="m">20</span><span class="w"> </span>
+<span class="w">  </span><span class="m">1</span>:<span class="w">  </span><span class="m">20</span><span class="w">  </span><span class="m">10</span>
 </code></pre></div>
 
 <p>در خروجی بالا دو NODE داریم (که با شماره ۰ و ۱ شناخته می‌شوند) در nod شماره ۰ سی‌پی‌یو‌های ۰ و ۱ و ۲ و ۳ و ۸ و ۹ و ۱۰ و ۱۱ قرار دارد. رم اختصاص یافته به نود صفر ۱۶۳۷۴ مگابایت است که از این رم ۱۰۹۳۵ مگا بایت آن آزاد است. اطلاعات نود ۱ نیز به همین شکل تفسیر می‌شود. </p>
 <p>همچنین در جدول node distance سرعت دسترسی هر نود به مموری‌ها مشخص شده است. در این مثال هر نود با سرعت ۱۰ به حافظه اختصاصی خود متصل می‌شود اما نودها با حافظه دیگر نودها با سرعت ۲۰ ارتباط برقرار می‌کند. </p>
 <p>نکته: وضعیت numa را با استفاده از اطلاعات موجود در مسیر /sys نیز می‌توان به دست آورد. </p>
-<div class="highlight"><pre><span></span><code># ls /sys/devices/system/node/
+<div class="highlight"><pre><span></span><code><span class="gh">#</span> ls /sys/devices/system/node/
 node0/ node1/ 
-# ls /sys/devices/system/node/node0
+<span class="gh">#</span> ls /sys/devices/system/node/node0
 compact    memory1    memory112  memory126  memory18  memory39  memory52  memory66  memory8   memory93
 cpu0       memory10   memory113  memory127  memory19  memory4   memory53  memory67  memory80  memory94
 cpu1       memory100  memory114  memory128  memory2   memory40  memory54  memory68  memory81  memory95
@@ -188,16 +188,16 @@ memory0    memory111  memory125  memory17   memory38  memory51  memory65  memory
 </code></pre></div>
 
 <p>برای مشاهده وضعیت NUMA از دستور زیر استفاده می‌کنیم.</p>
-<div class="highlight"><pre><span></span><code>$ numactl --show
-policy: default
-preferred node: current
-physcpubind: <span class="m">0</span> <span class="m">1</span> <span class="m">2</span> <span class="m">3</span> 
-cpubind: <span class="m">0</span> 
-nodebind: <span class="m">0</span>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>numactl<span class="w"> </span>--show
+policy:<span class="w"> </span>default
+preferred<span class="w"> </span>node:<span class="w"> </span>current
+physcpubind:<span class="w"> </span><span class="m">0</span><span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="m">2</span><span class="w"> </span><span class="m">3</span><span class="w"> </span>
+cpubind:<span class="w"> </span><span class="m">0</span><span class="w"> </span>
+nodebind:<span class="w"> </span><span class="m">0</span>
 </code></pre></div>
 
 <p>دستور numastat برای مشاهده اطلاعات حافظه استفاده می‌شود.</p>
-<div class="highlight"><pre><span></span><code># numastat  
+<div class="highlight"><pre><span></span><code><span class="gh">#</span> numastat  
                            node0           node1
 numa_hit                 4134896         1809856
 numa_miss                      0               0
@@ -208,11 +208,11 @@ other_node                   131           13911
 </code></pre></div>
 
 <p>با دستور زیر می‌توانیم یک پروسس را در یک نود  و حافظه اجرا کنیم. </p>
-<div class="highlight"><pre><span></span><code>$ numactl --membind<span class="o">=</span><span class="m">7</span> --cpunodebind<span class="o">=</span><span class="m">7</span> mongo
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>numactl<span class="w"> </span>--membind<span class="o">=</span><span class="m">7</span><span class="w"> </span>--cpunodebind<span class="o">=</span><span class="m">7</span><span class="w"> </span>mongo
 </code></pre></div>
 
 <p>با دستور زیر می‌توانیم اجرای صحیح پروسس‌ها بر اساس سیاست numa را بررسی کنیم. </p>
-<div class="highlight"><pre><span></span><code>$ <span class="k">for</span> i <span class="k">in</span> <span class="sb">`</span>ps -ef <span class="p">|</span> awk <span class="s1">&#39;{print $2}&#39;</span><span class="sb">`</span><span class="p">;</span> <span class="k">do</span> taskset -c -p <span class="nv">$i</span><span class="p">;</span> <span class="k">done</span>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span><span class="k">for</span><span class="w"> </span>i<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="sb">`</span>ps<span class="w"> </span>-ef<span class="w"> </span><span class="p">|</span><span class="w"> </span>awk<span class="w"> </span><span class="s1">&#39;{print $2}&#39;</span><span class="sb">`</span><span class="p">;</span><span class="w"> </span><span class="k">do</span><span class="w"> </span>taskset<span class="w"> </span>-c<span class="w"> </span>-p<span class="w"> </span><span class="nv">$i</span><span class="p">;</span><span class="w"> </span><span class="k">done</span>
 </code></pre></div>
 
 <p>سیاست‌های numa چهار نوع است:</p>
@@ -224,40 +224,40 @@ Preferred
 </code></pre></div>
 
 <p><strong>مثال ۱</strong>:</p>
-<div class="highlight"><pre><span></span><code>$ numactl --interleave<span class="o">=</span>all program -opts args
-$ numactl --cpubind<span class="o">=</span><span class="m">0</span> --membind<span class="o">=</span><span class="m">0</span>,1 program -opts args
-$ numactl --preferred<span class="o">=</span><span class="m">1</span>
-$ numactl --localalloc /dev/shm/file
-$ numactl --show
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>numactl<span class="w"> </span>--interleave<span class="o">=</span>all<span class="w"> </span>program<span class="w"> </span>-opts<span class="w"> </span>args
+$<span class="w"> </span>numactl<span class="w"> </span>--cpubind<span class="o">=</span><span class="m">0</span><span class="w"> </span>--membind<span class="o">=</span><span class="m">0</span>,1<span class="w"> </span>program<span class="w"> </span>-opts<span class="w"> </span>args
+$<span class="w"> </span>numactl<span class="w"> </span>--preferred<span class="o">=</span><span class="m">1</span>
+$<span class="w"> </span>numactl<span class="w"> </span>--localalloc<span class="w"> </span>/dev/shm/file
+$<span class="w"> </span>numactl<span class="w"> </span>--show
 </code></pre></div>
 
 <p><strong>مثال ۲</strong>:</p>
-<div class="highlight"><pre><span></span><code>$ numastat
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>numastat
 /proc/sys/devices/system/node/*/meminfo
-cpuset cgroup
-cpuset.cpus and cpuset.mems tunables
+cpuset<span class="w"> </span>cgroup
+cpuset.cpus<span class="w"> </span>and<span class="w"> </span>cpuset.mems<span class="w"> </span>tunables
 </code></pre></div>
 
 <p><strong>مثال ۳</strong>:</p>
-<div class="highlight"><pre><span></span><code>$ sudo gcc -o program numac.c -lnuma    
-$ cat nano numa.c 
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>sudo<span class="w"> </span>gcc<span class="w"> </span>-o<span class="w"> </span>program<span class="w"> </span>numac.c<span class="w"> </span>-lnuma<span class="w">    </span>
+$<span class="w"> </span>cat<span class="w"> </span>nano<span class="w"> </span>numa.c<span class="w"> </span>
 <span class="c1">#include &lt;numa.h&gt;</span>
 <span class="c1">#include &lt;stdio.h&gt;</span>
 
-int main<span class="o">(</span>int argc, char **argv<span class="o">)</span> <span class="o">{</span>
-   <span class="k">if</span> <span class="o">(</span>numa_available<span class="o">()</span> &lt; <span class="m">0</span><span class="o">)</span> <span class="o">{</span>
-      printf<span class="o">(</span><span class="s2">&quot;numa_* functions unavailable\n&quot;</span><span class="o">)</span><span class="p">;</span>
-      <span class="k">return</span> <span class="m">1</span><span class="p">;</span>
-   <span class="o">}</span>
-   printf<span class="o">(</span><span class="s2">&quot;numa_available: %d \n\r&quot;</span>, numa_available<span class="o">())</span><span class="p">;</span>
-   printf<span class="o">(</span><span class="s2">&quot;numa_num_possible_nodes: %d \n\r&quot;</span>, numa_num_possible_nodes   <span class="o">())</span><span class="p">;</span>
-   printf<span class="o">(</span><span class="s2">&quot;numa_max_possible_node: %d \n\r&quot;</span>, numa_max_possible_node <span class="o">())</span><span class="p">;</span>
-   printf<span class="o">(</span><span class="s2">&quot;numa_num_configured_nodes: %d \n\r&quot;</span>, numa_num_configured_nodes<span class="o">())</span><span class="p">;</span>
-   printf<span class="o">(</span><span class="s2">&quot;numa_num_configured_cpus: %d \n\r&quot;</span>, numa_num_configured_cpus<span class="o">())</span><span class="p">;</span>
-   //   int myInt<span class="p">;</span>
-   //   printf<span class="o">(</span><span class="s2">&quot;numa num: &quot;</span><span class="o">)</span><span class="p">;</span>
-   //   scanf<span class="o">(</span><span class="s2">&quot;%d&quot;</span>, <span class="p">&amp;</span>myInt<span class="o">)</span><span class="p">;</span>
-   //   printf<span class="o">(</span><span class="s2">&quot;numa_node_size: %d \n\r&quot;</span>, numa_node_size<span class="o">(</span>myInt, *free<span class="o">)</span>
+int<span class="w"> </span>main<span class="o">(</span>int<span class="w"> </span>argc,<span class="w"> </span>char<span class="w"> </span>**argv<span class="o">)</span><span class="w"> </span><span class="o">{</span>
+<span class="w">   </span><span class="k">if</span><span class="w"> </span><span class="o">(</span>numa_available<span class="o">()</span><span class="w"> </span>&lt;<span class="w"> </span><span class="m">0</span><span class="o">)</span><span class="w"> </span><span class="o">{</span>
+<span class="w">      </span>printf<span class="o">(</span><span class="s2">&quot;numa_* functions unavailable\n&quot;</span><span class="o">)</span><span class="p">;</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="m">1</span><span class="p">;</span>
+<span class="w">   </span><span class="o">}</span>
+<span class="w">   </span>printf<span class="o">(</span><span class="s2">&quot;numa_available: %d \n\r&quot;</span>,<span class="w"> </span>numa_available<span class="o">())</span><span class="p">;</span>
+<span class="w">   </span>printf<span class="o">(</span><span class="s2">&quot;numa_num_possible_nodes: %d \n\r&quot;</span>,<span class="w"> </span>numa_num_possible_nodes<span class="w">   </span><span class="o">())</span><span class="p">;</span>
+<span class="w">   </span>printf<span class="o">(</span><span class="s2">&quot;numa_max_possible_node: %d \n\r&quot;</span>,<span class="w"> </span>numa_max_possible_node<span class="w"> </span><span class="o">())</span><span class="p">;</span>
+<span class="w">   </span>printf<span class="o">(</span><span class="s2">&quot;numa_num_configured_nodes: %d \n\r&quot;</span>,<span class="w"> </span>numa_num_configured_nodes<span class="o">())</span><span class="p">;</span>
+<span class="w">   </span>printf<span class="o">(</span><span class="s2">&quot;numa_num_configured_cpus: %d \n\r&quot;</span>,<span class="w"> </span>numa_num_configured_cpus<span class="o">())</span><span class="p">;</span>
+<span class="w">   </span>//<span class="w">   </span>int<span class="w"> </span>myInt<span class="p">;</span>
+<span class="w">   </span>//<span class="w">   </span>printf<span class="o">(</span><span class="s2">&quot;numa num: &quot;</span><span class="o">)</span><span class="p">;</span>
+<span class="w">   </span>//<span class="w">   </span>scanf<span class="o">(</span><span class="s2">&quot;%d&quot;</span>,<span class="w"> </span><span class="p">&amp;</span>myInt<span class="o">)</span><span class="p">;</span>
+<span class="w">   </span>//<span class="w">   </span>printf<span class="o">(</span><span class="s2">&quot;numa_node_size: %d \n\r&quot;</span>,<span class="w"> </span>numa_node_size<span class="o">(</span>myInt,<span class="w"> </span>*free<span class="o">)</span>
 <span class="o">}</span>
 </code></pre></div>
 
@@ -327,17 +327,27 @@ int main<span class="o">(</span>int argc, char **argv<span class="o">)</span> <s
       </p>
       <ul class="other">
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://tehlug.org/">تهران‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://karajlug.org/">کرج لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.isfahanlug.org/">اصفهان‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://karajlug.org/">کرج‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/mazandllug">مازندلاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://isfahanlug.ir/">اصفهان‌لاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://shirazlug.ir/">شیرازلاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.zanjanlug.org/">زنجان‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.zanjanlug.ir/">زنجان‌لاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://qazvinlug.ir/">قزوین‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://sudoshz.ir/">شیرازلینوکس</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://www.gullug.org/">گیلان‌لاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://khuzestanlug.ir/">خوزستان‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://tabrizlug.ir/">تبریز‌لاگ </a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://t.me/Jahrom_LUG">جهرم‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/EstahbanLug">استهبان‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://fasalug.ir">فسالاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://tabrizlug.ir/">تبریز‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/shiraztux">شیرازتاکس</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://birlug.ir/">بیرجندلاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/dezlinuxChanel">دزلینوکس</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://urumlug.ir/">اروم‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="https://t.me/bndlugg">بندرلاگ</a></li>
         <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://klug.ir">کرمان‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new"  href="http://bulug.ir/">بوشهر‌لاگ</a></li>
-        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new"  href="http://qomlug.ir/">قم‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://bulug.ir/">بوشهر‌لاگ</a></li>
+        <li class="col-md-6 col-sm-6 col-xs-6"><a target="_new" href="http://qomlug.ir/">قم‌لاگ</a></li>
       </ul>
     </div>
   </div>
